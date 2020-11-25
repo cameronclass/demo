@@ -1,0 +1,30 @@
+.red{
+  color: $red;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.title-line{
+  font-size: 16px;
+  color: $red;
+  position: relative;
+  font-family: $font;
+
+  &::after{
+    content: "";
+    background-color: $red;
+    display: inline-block;
+    width: 105px;
+    height: 1px;
+    position: absolute;
+    right: -110px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

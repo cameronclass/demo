@@ -1,0 +1,28 @@
+html, body{
+  font-family: $font;
+}
+
+img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+h1{
+  font-size: 42px;
+}
+
+p{
+  font-family: $font-mont;
+}
+
+h2{
+  font-size: 32px;
+}
+button{
+  border: none;
+  background-color: transparent;
+
+  &:focus{
+    outline: none;
+  }
+}

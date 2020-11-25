@@ -1,0 +1,150 @@
+/* Первый Экран */
+.first-offer {
+  background-image: url(../img/home-first-bg.png);
+  width: 100%;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+
+  &__container {
+    height: 100%;
+  }
+
+  &__block {
+  }
+
+  &__title {
+    margin-bottom: 20px;
+  }
+  &__text {
+    font-size: 18px;
+  }
+  &__btn {
+    margin-top: 20px;
+  }
+}
+
+/* Услуги */
+.home-services {
+  padding-bottom: 40px;
+  &__block {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title {
+    width: 28%;
+    
+    p{
+      font-family: $font-mont;
+    }
+
+    &_slider {
+      display: flex;
+      position: relative;
+      left: -300px;
+      margin-top: 30px;
+
+      img {
+        border-radius: 4px;
+        margin-left: 10px;
+      }
+    }
+  }
+  &__list {
+    width: 68%;
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 15px;
+
+      li {
+        a {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+          padding: 30px 15px;
+          background-color: $light-grey;
+          border-radius: 4px;
+          text-align: center;
+          color: black;
+          font-family: $font-mont;
+          font-weight: 500;
+          transition: 250ms ease;
+          height: 168px;
+
+          &:hover {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            background-color: $red;
+
+            span {
+              color: white;
+
+              img {
+                filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(169deg) brightness(103%) contrast(101%);
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &_title {
+      margin: 15px 0 0;
+    }
+
+    &_number {
+      color: #b1b1b1;
+      font-weight: bold;
+      font-family: $font;
+      font-size: 24px;
+
+      img {
+        filter: invert(70%) sepia(24%) saturate(8%) hue-rotate(345deg) brightness(96%) contrast(93%);
+      }
+    }
+  }
+}
+
+/* Эксперт */
+.home-expert{
+  &__block{
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  &__content{
+    h2{
+      margin-top: 20px;
+      line-height: 1.3;
+    }
+    p{
+      margin: 0;
+    }
+  }
+  &__offer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $light-grey2;
+    padding: 16px;
+
+    span{
+      margin-right: 20px;
+    }
+
+    p{
+      max-width: 180px;
+      margin-right: 25px;
+      line-height: 1.3;
+    }
+
+  }
+}

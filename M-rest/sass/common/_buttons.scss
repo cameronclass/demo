@@ -1,0 +1,19 @@
+.main-btn{
+  padding: 12px;
+  background-color: $red;
+  border-radius: 6px;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  transition: 250ms ease;
+
+  &:hover{
+    background-color: darken($red, 15);
+  }
+
+  &__small{
+    font-size: 14px;
+    padding: 8px 18px;
+  }
+}
