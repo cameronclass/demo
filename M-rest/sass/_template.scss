@@ -1,28 +1,29 @@
-html, body{
+html,
+body {
   font-family: $font;
 }
 
-img{
+img {
   width: 100%;
   height: auto;
   display: block;
 }
-h1{
+h1 {
   font-size: 42px;
 }
 
-p{
+p {
   font-family: $font-mont;
 }
 
-h2{
+h2 {
   font-size: 32px;
 }
-button{
+button {
   border: none;
   background-color: transparent;
 
-  &:focus{
+  &:focus {
     outline: none;
   }
 }

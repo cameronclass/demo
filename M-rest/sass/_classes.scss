@@ -1,22 +1,22 @@
-.red{
+.red {
   color: $red;
 }
 
-.uppercase{
+.uppercase {
   text-transform: uppercase;
 }
 
-.bold{
+.bold {
   font-weight: bold;
 }
 
-.title-line{
+.title-line {
   font-size: 16px;
   color: $red;
   position: relative;
   font-family: $font;
 
-  &::after{
+  &::after {
     content: "";
     background-color: $red;
     display: inline-block;
