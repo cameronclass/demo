@@ -37,42 +37,6 @@
 </head>
 
 <body>
-  <!-- Preloader -->
-  <!-- <div id="page-preloader">
-    <div class="cssload-wraper">
-      <div class="cssload-dots"></div>
-    </div>
-  </div> -->
-  <!-- Header -->
-  <!-- <header class="container-fluid header">
-    <div class="container">
-      <div class="header__block">
-        <div class="header__logo">
-          <a href="#">
-            <img src="img/logo.svg" alt="Изображения">
-          </a>
-        </div>
-        <div class="header__menu">
-          <nav>
-            <ul>
-              <li><a href="#">ГЛАВНАЯ</a></li>
-              <li><a href="#">УСЛУГИ</a></li>
-              <li><a href="#">ПРОЕКТЫ</a></li>
-              <li><a href="#">БЛОГ</a></li>
-              <li><a href="#">КОНТАКТЫ</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="header__contact">
-          <a href="#">
-            <span>+7-926-523-0100</span>
-            <span>заказать звонок</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </header> -->
-  <!-- Main -->
   <main>
     <!-- Первый Экран -->
     <section class="container-fluid first-offer">
@@ -93,8 +57,8 @@
         <div class="home-services__block">
           <div class="home-services__title">
             <span class="title-line">Перечень услуг</span>
-            <h2>Что мы умеем?</h2>
-            <p>Полный спектр услуг по открытию и поддержке бизнеса в сфере гостеприимства</p>
+            <h2 class="home-title">Что мы умеем?</h2>
+            <p class="home-title__text">Полный спектр услуг по открытию и поддержке бизнеса в сфере гостеприимства</p>
             <button class="main-btn first-offer__btn">
               <span>Обсудить проект</span>
               <span class="i-right ml-3"></span>
@@ -186,7 +150,7 @@
       </div>
     </section>
     <!-- Эксперты -->
-    <div class="container-fluid home-expert">
+    <section class="container-fluid home-expert">
       <div class="container">
         <div class="row">
           <div class="col-lg-7">
@@ -196,10 +160,10 @@
             <div class="home-expert__block">
               <div class="home-expert__content">
                 <span class="title-line uppercase">Перечень услуг</span>
-                <h2><span class="red">Экспертный аудит</span> предприятий в сфере услуг</h2>
-                <p>Поможем выявить все ошибки и недостатки в ведении бизнеса, и финансовых отчетностях, а также промахи в работе объекта предпринимательской деятельности, негативно сказывающиеся на его престижности и доходности.</p>
+                <h2 class="home-title"><span class="red">Экспертный аудит</span> предприятий в сфере услуг</h2>
+                <p class="home-title__text">Поможем выявить все ошибки и недостатки в ведении бизнеса, и финансовых отчетностях, а также промахи в работе объекта предпринимательской деятельности, негативно сказывающиеся на его престижности и доходности.</p>
                 <div class="home-expert__offer">
-                  <span class="i-like"></span>
+                  <div class="i-like mr-3"></div>
                   <p>Мы поможем решить Вашу задачу</p>
                   <button class="main-btn main-btn__small">
                     <span>Обсудить проект</span>
@@ -210,7 +174,148 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
+    <!-- Операционный консалтинг -->
+    <section class="container-fluid home-operate-cons">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 d-flex align-items-center">
+            <div class="home-operate-cons__block">
+              <span class="title-line">Перечень услуг</span>
+              <h2 class="home-title"><span class="red">Операционный консалтинг</span> от экспертов рынка HoReCa</h2>
+              <p class="home-title__text">Наша задача – помочь вам избежать множества ошибок при открытии проекта, влекущих за собой потерю времени, средств, и зачастую приводящих к закрытию проекта уже в первый год</p>
+              <button class="main-btn first-offer__btn">
+                <span>Обсудить проект</span>
+                <span class="i-right ml-3"></span>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="home-operate-cons__img">
+              <img src="img/others/cons-operate.jpg" alt="Изображения">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Какие проблемы мы решаем? -->
+    <section class="container-fluid home-problems">
+      <div class="container">
+        <span class="title-line uppercase">Перечень услуг</span>
+        <h2 class="home-title">Какие проблемы мы решаем?</h2>
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <div class="home-problems__card">
+              <div class="home-problems__card_number">01</div>
+              <div class="home-problems__card_text"><span class="red">Комплектация объекта</span> сферы услуг «под ключ» </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="home-problems__card">
+              <div class="home-problems__card_number">02</div>
+              <div class="home-problems__card_text"><span class="red">Перспективные концепции</span> предприятий сферы услуг на рынках России и СНГ </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="home-problems__card">
+              <div class="home-problems__card_number">03</div>
+              <div class="home-problems__card_text">Поэтапный <span class="red">план открытия</span> предприятий общепита, базы отдыха, банного комплекса, спа комплекса</div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="home-problems__card">
+              <div class="home-problems__card_number">03</div>
+              <div class="home-problems__card_text"><span class="red">Комплектация объекта</span> сферы услуг «под ключ» </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="home-problems__card">
+              <div class="home-problems__card_number">01</div>
+              <div class="home-problems__card_text"><span class="red">Комплектация объекта</span> сферы услуг «под ключ» </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="home-problems__card">
+              <div class="home-problems__card_number">02</div>
+              <div class="home-problems__card_text"><span class="red">Перспективные концепции</span> предприятий сферы услуг на рынках России и СНГ </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="home-problems__card">
+              <div class="home-problems__card_number">03</div>
+              <div class="home-problems__card_text">Поэтапный <span class="red">план открытия</span> предприятий общепита, базы отдыха, банного комплекса, спа комплекса</div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="home-problems__card">
+              <div class="home-problems__card_number">03</div>
+              <div class="home-problems__card_text"><span class="red">Комплектация объекта</span> сферы услуг «под ключ» </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="home-problems__card">
+              <div class="home-problems__card_number">01</div>
+              <div class="home-problems__card_text"><span class="red">Комплектация объекта</span> сферы услуг «под ключ» </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="home-problems__card">
+              <div class="home-problems__card_number">02</div>
+              <div class="home-problems__card_text"><span class="red">Перспективные концепции</span> предприятий сферы услуг на рынках России и СНГ </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Дизайн проекты -->
+    <section class="container-fluid home-design">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <span class="title-line">Дизайн-проекты</span>
+            <h2 class="home-title">Создаём <span class="red">современные дизайн проекты</span> загородных баз отдыха, банных комплексов, Спа комплексов, отелей</h2>
+            <p class="home-title__text">Удачный дизайн интерьера предприятий сферы услуг в тандеме с выигрышным местоположением и правильным подбором актуального формата заведения служит залогом его безусловной успешности и посещаемости. Для большей части посетителей удобное месторасположение и дизайн интерьера заведения не менее важны, чем то, зачем они туда пришли.</p>
+            <button class="main-btn">
+              <span>Обсудить проект</span>
+              <span class="i-right ml-3"></span>
+            </button>
+          </div>
+          <div class="col-lg-5">
+            <img class="home-design__dots" src="img/others/dots-bg.svg" alt="">
+            <div class="home-design__img">
+              <img src="img/others/design-1.jpg" alt="Изображения">
+              <img src="img/others/design-2.jpg" alt="Изображения">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Комплексное проектирование -->
+    <section class="container-fluid home-complex">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="home-complex__img">
+              <img src="img/others/complex-plan.jpg" alt="Изображения">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <span class="title-line uppercase">ВЫГОДА НА ВСЕ ВЕКА</span>
+            <h2 class="home-title"><span class="red">Комплексное проектирование</span> предприятий в сфере услуг </h2>
+            <p class="home-title__text">Грамотно спроектированное предприятие в сфере услуг – это не только современный дизайн и тщательно подобранное оснащение, но и ключевая составляющая вашего успешного бизнеса. В работы по проектированию ресторанов, кафе, банных комплексов, Спа комплексов и отелей входят технологический, инженерный, архитектурный проекты, а также дизайн-проект.</p>
+            <h2 class="home-title">Этапы работы</h2>
+            <ul class="home-complex__steps">
+              <li>Разработка концепции</li>
+              <li>Технологическое проектирование</li>
+              <li>Проектирование инженерных систем </li>
+              <li>Комплексное оснащение</li>
+              <li>Монтаж инженерных систем</li>
+              <li>Дизайн интерьера</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
   <!-- Footer -->
   <footer></footer>

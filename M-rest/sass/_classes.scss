@@ -23,8 +23,18 @@
     width: 105px;
     height: 1px;
     position: absolute;
-    right: -110px;
+    right: -120px;
     top: 50%;
     transform: translateY(-50%);
+  }
+}
+
+.home-title {
+  margin-top: 20px;
+  line-height: 1.25;
+
+  &__text{
+    margin-top: 20px;
+    margin-bottom: 25px;
   }
 }
