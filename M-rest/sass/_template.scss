@@ -28,3 +28,52 @@ button {
     outline: none;
   }
 }
+
+input {
+  &:focus {
+    outline: none;
+  }
+}
+
+.main-form {
+  background-color: $red;
+  border-radius: 6px;
+
+  &__input {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -30px;
+    input {
+      width: 29%;
+      background-color: #fff;
+      color: black;
+      font-size: 22px;
+      text-align: center;
+      border-radius: 6px;
+      border: 1px solid $red;
+      padding: 10px;
+    }
+    button{
+      width: 29%;
+      color: white;
+      background-color: #5D5D5D;
+      border-radius: 6px;
+      border: 1px solid #5D5D5D;
+      padding: 10px;
+      transition: 250ms ease;
+
+      &:hover{
+        background-color: black;
+      }
+    }
+  }
+
+  &__text{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    position: relative;
+    top: -15px;
+  }
+}

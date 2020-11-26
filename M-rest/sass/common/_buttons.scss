@@ -1,20 +1,44 @@
-.main-btn{
+.main-btn {
   padding: 12px;
   background-color: $red;
   border-radius: 6px;
   color: white;
   display: flex;
   align-items: center;
+  justify-content: center;
   font-weight: 600;
   transition: 250ms ease;
   font-size: 22px;
 
-  &:hover{
+  &:hover {
     background-color: darken($red, 15);
   }
 
-  &__small{
+  &__small {
     font-size: 14px;
     padding: 8px 18px;
+  }
+
+  &__white {
+    color: black;
+    background-color: #fff;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 10px 50px;
+    font-size: 20px;
+    font-weight: 500;
+
+    .i-right {
+      filter: invert(1);
+    }
+
+    &:hover {
+      color: white;
+      text-decoration: none;
+
+      .i-right {
+        filter: invert(0);
+      }
+    }
   }
 }
