@@ -367,6 +367,21 @@
 /* Главная страница форма */
 .home-main-form {
   margin-bottom: 80px;
+
+  &__title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+  }
+
+  &__text {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 25px auto 70px;
+    width: 100%;
+    max-width: 730px;
+  }
 }
 
 /* Технологическое проектирование */
@@ -410,7 +425,36 @@
 }
 
 /* Выполенные проекты: */
-.home-finished{
-  padding: 40px 0;
+.home-finished {
+  padding: 50px 0;
   background-color: $light-grey2;
+}
+
+/* Последние посты */
+.home-last-posts {
+  padding: 70px 0;
+
+  &__list {
+    margin: 30px 0 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+
+    li {
+      a {
+        display: block;
+        position: relative;
+        color: white;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 1.25;
+
+        span {
+          position: absolute;
+          bottom: 0;
+          padding: 20px;
+        }
+      }
+    }
+  }
 }

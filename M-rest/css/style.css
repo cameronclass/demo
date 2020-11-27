@@ -138,6 +138,8 @@ input:focus { outline: none; }
 
 /* Главная страница форма */
 .home-main-form { margin-bottom: 80px; }
+.home-main-form__title { text-align: center; font-weight: 600; font-size: 36px; }
+.home-main-form__text { text-align: center; font-weight: 600; font-size: 20px; margin: 25px auto 70px; width: 100%; max-width: 730px; }
 
 /* Технологическое проектирование */
 .home-tech-project { margin-bottom: 40px; }
@@ -149,7 +151,13 @@ input:focus { outline: none; }
 .home-smart-start__title-text { color: #ffc9c9; font-size: 20px; margin-top: 20px; margin-bottom: 30px; width: 100%; max-width: 330px; }
 
 /* Выполенные проекты: */
-.home-finished { padding: 40px 0; background-color: #f8f8f8; }
+.home-finished { padding: 50px 0; background-color: #f8f8f8; }
+
+/* Последние посты */
+.home-last-posts { padding: 70px 0; }
+.home-last-posts__list { margin: 30px 0 0; padding: 0; display: -webkit-box; display: -ms-flexbox; display: flex; list-style: none; }
+.home-last-posts__list li a { display: block; position: relative; color: white; font-weight: 600; font-size: 28px; line-height: 1.25; }
+.home-last-posts__list li a span { position: absolute; bottom: 0; padding: 20px; }
 
 /* Sliders */
 .i-right { background-image: url(../img/icons/arrow-right.svg); background-repeat: no-repeat; background-size: 100% 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: 24px; height: 10px; }
