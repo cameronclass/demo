@@ -41,4 +41,19 @@
       }
     }
   }
+
+  &__bordered {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 25px;
+
+    &:hover {
+      color: black;
+      background-color: #fff;
+      .i-right {
+        filter: invert(1);
+      }
+    }
+  }
 }

@@ -121,23 +121,47 @@
 
   &__img {
     border-radius: 6px;
-    overflow: hidden;
+    position: relative;
 
-    img{
+    img {
       border-radius: 6px;
     }
 
-    &_small{
-      position: relative;
-      img{
+    &_small {
+      img {
         height: 335px;
         object-fit: cover;
       }
 
-      a{
+      a {
         position: absolute;
         bottom: 0;
         left: 0;
+      }
+    }
+
+    &_dots {
+      position: absolute;
+      right: -120px;
+      top: 120px;
+      width: 322px;
+    }
+
+    &_2 {
+      display: flex;
+      position: relative;
+      left: -440px;
+      img {
+        margin-left: 30px;
+      }
+
+      &_right {
+        display: flex;
+        position: relative;
+
+        img {
+          margin-left: 30px;
+        }
       }
     }
   }
@@ -171,6 +195,16 @@
       margin-right: 25px;
       line-height: 1.3;
       font-weight: 500;
+    }
+
+    &_column {
+      flex-direction: column;
+      p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 0;
+        text-align: center;
+      }
     }
   }
 }
@@ -356,4 +390,27 @@
       line-height: 1.3;
     }
   }
+}
+
+/* Грамотный Старт */
+.home-smart-start {
+  background-color: $red;
+  color: white;
+  padding: 40px 0;
+  margin-bottom: 80px;
+
+  &__title-text {
+    color: #ffc9c9;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 330px;
+  }
+}
+
+/* Выполенные проекты: */
+.home-finished{
+  padding: 40px 0;
+  background-color: $light-grey2;
 }
