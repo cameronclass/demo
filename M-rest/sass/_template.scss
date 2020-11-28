@@ -35,6 +35,14 @@ input {
   }
 }
 
+.container{
+  box-sizing: border-box;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
 .main-form {
   background-color: $red;
   border-radius: 6px;
