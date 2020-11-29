@@ -1,17 +1,25 @@
-.main-btn {
+.home-main-btn {
   padding: 12px;
   background-color: $red;
   border-radius: 6px;
   color: white;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   font-weight: 600;
   transition: 250ms ease;
   font-size: 22px;
+  text-align: center;
+  border: none;
 
   &:hover {
     background-color: darken($red, 15);
+    color: white !important;
+    text-decoration: none;
+  }
+
+  @include mobile {
+    width: 100%;
   }
 
   &__small {
@@ -30,6 +38,11 @@
 
     .i-right {
       filter: invert(1);
+    }
+
+    @include mobile {
+      padding: 10px 20px;
+      border-radius: 0;
     }
 
     &:hover {
@@ -56,8 +69,8 @@
       }
     }
 
-    &_black{
-      border: 1px solid #C1C1C1;
+    &_black {
+      border: 1px solid #c1c1c1;
     }
   }
 }

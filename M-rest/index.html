@@ -28,7 +28,6 @@
   <!-- Apple Touch Icon -->
   <link rel="apple-touch-icon" href="/custom-icon.png">
   <!-- Styles CSS -->
-  <link rel="stylesheet" href="css/libs.css">
   <link rel="stylesheet" href="css/style.css">
   <!-- Fonts and Icons-->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -37,32 +36,62 @@
 </head>
 
 <body>
-  <main class="overflow-hidden">
+  <header class="container-fluid header">
+      <div class="home-container">
+        <div class="header__block">
+          <div class="header__logo">
+            <a href="#">
+              <img src="img/logo.svg" alt="Изображения">
+            </a>
+          </div>
+          <div class="header__menu">
+            <nav>
+              <ul>
+                <li><a href="#">ГЛАВНАЯ</a></li>
+                <li><a href="#">УСЛУГИ</a></li>
+                <li><a href="#">ПРОЕКТЫ</a></li>
+                <li><a href="#">БЛОГ</a></li>
+                <li><a href="#">КОНТАКТЫ</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__contact">
+            <a href="#">
+              <span>+7-926-523-0100</span>
+              <span>заказать звонок</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+  <main class="overflow-hidden home-page">
     <!-- Первый Экран -->
     <section class="container-fluid first-offer">
-      <div class="container d-flex align-items-center first-offer__container">
+      <div class="home-container d-flex align-items-center first-offer__container">
         <div class="first-offer__block">
           <h1 class="first-offer__title"><span class="red">Открываем базы отдыха и спа-курорты</span> под ключ с окупаемостью от 26 до 50 месяцев </h1>
           <p class="first-offer__text">Высококвалифицированные услуги в области туристического бизнеса и Спа услуг — от разработки концепции и проектирования до авторского надзора и управления готовым проектом. </p>
-          <button class="main-btn first-offer__btn">
+          <a href="#" class="home-main-btn first-offer__btn">
             <span>Обсудить проект</span>
             <span class="i-right ml-3"></span>
-          </button>
+          </a>
         </div>
       </div>
     </section>
     <!-- Наши услуги -->
     <section class="container-fluid home-services">
-      <div class="container">
+      <div class="home-container">
         <div class="home-services__block">
           <div class="home-services__title">
-            <span class="title-line">Перечень услуг</span>
-            <h2 class="home-title">Что мы умеем?</h2>
-            <p class="home-title__text">Полный спектр услуг по открытию и поддержке бизнеса в сфере гостеприимства</p>
-            <button class="main-btn first-offer__btn">
-              <span>Обсудить проект</span>
-              <span class="i-right ml-3"></span>
-            </button>
+            <div>
+              <span class="title-line">Перечень услуг</span>
+              <h2 class="home-title">Что мы умеем?</h2>
+              <p class="home-title__text">Полный спектр услуг по открытию и поддержке бизнеса в сфере гостеприимства</p>
+              <a href="#" class="home-main-btn first-offer__btn">
+                <span>Обсудить проект</span>
+                <span class="i-right ml-3"></span>
+              </a>
+            </div>
             <div class="home-services__title_slider">
               <img src="img/services/2.jpg" alt="">
               <img src="img/services/1.jpg" alt="">
@@ -151,23 +180,23 @@
     </section>
     <!-- Эксперты -->
     <section class="container-fluid home-expert">
-      <div class="container">
+      <div class="home-container">
         <div class="row">
-          <div class="col-xl-7 col-lg-6 col-md-6">
+          <div class="col-xl-7 col-lg-6 order-2 order-lg-1">
             <div class="home-expert__img"><img src="img/others/expert.jpg" alt=""></div>
           </div>
-          <div class="col-xl-5 col-lg-6">
+          <div class="col-xl-5 col-lg-6 order-1 order-lg-2">
             <div class="home-expert__block">
               <div class="home-expert__content">
                 <span class="title-line uppercase">Перечень услуг</span>
                 <h2 class="home-title"><span class="red">Экспертный аудит</span> предприятий в сфере услуг</h2>
                 <p class="home-title__text">Поможем выявить все ошибки и недостатки в ведении бизнеса, и финансовых отчетностях, а также промахи в работе объекта предпринимательской деятельности, негативно сказывающиеся на его престижности и доходности.</p>
                 <div class="home-expert__offer">
-                  <div class="i-like mr-3"></div>
+                  <div class="i-like mr-0 mb-3 mb-md-0 mr-md-3"></div>
                   <p>Мы поможем решить Вашу задачу</p>
-                  <button class="main-btn main-btn__small">
+                  <a href="#" class="home-main-btn home-main-btn__small">
                     <span>Обсудить проект</span>
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -177,17 +206,17 @@
     </section>
     <!-- Операционный консалтинг -->
     <section class="container-fluid home-operate-cons">
-      <div class="container">
+      <div class="home-container">
         <div class="row">
           <div class="col-xl-7 col-lg-9 d-flex align-items-center">
             <div class="home-operate-cons__block">
               <span class="title-line">Перечень услуг</span>
               <h2 class="home-title"><span class="red">Операционный консалтинг</span> от экспертов рынка HoReCa</h2>
               <p class="home-title__text">Наша задача – помочь вам избежать множества ошибок при открытии проекта, влекущих за собой потерю времени, средств, и зачастую приводящих к закрытию проекта уже в первый год</p>
-              <button class="main-btn first-offer__btn">
+              <a href="#" class="home-main-btn first-offer__btn">
                 <span>Обсудить проект</span>
                 <span class="i-right ml-3"></span>
-              </button>
+              </a>
             </div>
           </div>
           <div class="col-xl-5 col-lg-3">
@@ -200,65 +229,65 @@
     </section>
     <!-- Какие проблемы мы решаем? -->
     <section class="container-fluid home-problems">
-      <div class="container">
+      <div class="home-container">
         <span class="title-line uppercase">Перечень услуг</span>
         <h2 class="home-title">Какие проблемы мы решаем?</h2>
         <div class="row">
-          <div class="col-xl-4 col-lg-6 col-sm-12 mb-4">
+          <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
             <div class="home-problems__card">
               <div class="home-problems__card_number">01</div>
               <div class="home-problems__card_text"><span class="red">Комплектация объекта</span> сферы услуг «под ключ» </div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-6 col-sm-12 mb-4">
+          <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
             <div class="home-problems__card">
               <div class="home-problems__card_number">02</div>
               <div class="home-problems__card_text"><span class="red">Перспективные концепции</span> предприятий сферы услуг на рынках России и СНГ </div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-6 col-sm-12 mb-4">
+          <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
             <div class="home-problems__card">
               <div class="home-problems__card_number">03</div>
               <div class="home-problems__card_text">Поэтапный <span class="red">план открытия</span> предприятий общепита, базы отдыха, банного комплекса, спа комплекса</div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-6 col-sm-12 mb-4">
+          <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
             <div class="home-problems__card">
               <div class="home-problems__card_number">03</div>
               <div class="home-problems__card_text"><span class="red">Комплектация объекта</span> сферы услуг «под ключ» </div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-6 col-sm-12 mb-4">
+          <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
             <div class="home-problems__card">
               <div class="home-problems__card_number">01</div>
               <div class="home-problems__card_text"><span class="red">Комплектация объекта</span> сферы услуг «под ключ» </div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-6 col-sm-12 mb-4">
+          <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
             <div class="home-problems__card">
               <div class="home-problems__card_number">02</div>
               <div class="home-problems__card_text"><span class="red">Перспективные концепции</span> предприятий сферы услуг на рынках России и СНГ </div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-6 col-sm-12 mb-4">
+          <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
             <div class="home-problems__card">
               <div class="home-problems__card_number">03</div>
               <div class="home-problems__card_text">Поэтапный <span class="red">план открытия</span> предприятий общепита, базы отдыха, банного комплекса, спа комплекса</div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-6 col-sm-12 mb-4">
+          <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
             <div class="home-problems__card">
               <div class="home-problems__card_number">03</div>
               <div class="home-problems__card_text"><span class="red">Комплектация объекта</span> сферы услуг «под ключ» </div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-6 col-sm-12 mb-4">
+          <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
             <div class="home-problems__card">
               <div class="home-problems__card_number">01</div>
               <div class="home-problems__card_text"><span class="red">Комплектация объекта</span> сферы услуг «под ключ» </div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-6 col-sm-12 mb-4">
+          <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
             <div class="home-problems__card">
               <div class="home-problems__card_number">02</div>
               <div class="home-problems__card_text"><span class="red">Перспективные концепции</span> предприятий сферы услуг на рынках России и СНГ </div>
@@ -269,16 +298,16 @@
     </section>
     <!-- Дизайн проекты -->
     <section class="container-fluid home-design">
-      <div class="container">
+      <div class="home-container">
         <div class="row">
           <div class="col-xl-7 col-lg-9">
             <span class="title-line">Дизайн-проекты</span>
             <h2 class="home-title">Создаём <span class="red">современные дизайн проекты</span> загородных баз отдыха, банных комплексов, Спа комплексов, отелей</h2>
             <p class="home-title__text">Удачный дизайн интерьера предприятий сферы услуг в тандеме с выигрышным местоположением и правильным подбором актуального формата заведения служит залогом его безусловной успешности и посещаемости. Для большей части посетителей удобное месторасположение и дизайн интерьера заведения не менее важны, чем то, зачем они туда пришли.</p>
-            <button class="main-btn">
+            <a href="#" class="home-main-btn">
               <span>Обсудить проект</span>
               <span class="i-right ml-3"></span>
-            </button>
+            </a>
           </div>
           <div class="col-xl-5 col-lg-3">
             <img class="home-design__dots" src="img/others/dots-bg.svg" alt="">
@@ -292,14 +321,14 @@
     </section>
     <!-- Комплексное проектирование -->
     <section class="container-fluid home-complex">
-      <div class="container">
+      <div class="home-container">
         <div class="row">
-          <div class="col-xl-6 col-lg-4">
+          <div class="col-xl-6 col-lg-4 order-2 order-lg-1">
             <div class="home-complex__img">
               <img src="img/others/complex-plan.jpg" alt="Изображения">
             </div>
           </div>
-          <div class="col-xl-6 col-lg-8">
+          <div class="col-xl-6 col-lg-8 order-1 order-lg-1">
             <span class="title-line uppercase">ВЫГОДА НА ВСЕ ВЕКА</span>
             <h2 class="home-title"><span class="red">Комплексное проектирование</span> предприятий в сфере услуг </h2>
             <p class="home-title__text">Грамотно спроектированное предприятие в сфере услуг – это не только современный дизайн и тщательно подобранное оснащение, но и ключевая составляющая вашего успешного бизнеса. В работы по проектированию ресторанов, кафе, банных комплексов, Спа комплексов и отелей входят технологический, инженерный, архитектурный проекты, а также дизайн-проект.</p>
@@ -312,17 +341,17 @@
               <li>Монтаж инженерных систем</li>
               <li>Дизайн интерьера</li>
             </ul>
-            <button class="main-btn first-offer__btn w-100">
+            <a href="#" class="home-main-btn first-offer__btn w-100">
               <span>Обсудить проект</span>
               <span class="i-right ml-3"></span>
-            </button>
+            </a>
           </div>
         </div>
       </div>
     </section>
     <!-- Форма заявки -->
     <section class="container-fluid home-main-form">
-      <div class="container">
+      <div class="home-container">
         <form action="#" class="main-form">
           <div class="main-form__input">
             <input type="text" placeholder="Ваше имя">
@@ -338,11 +367,11 @@
     </section>
     <!-- Технологическое проектирование -->
     <section class="container-fluid home-tech-project">
-      <div class="container">
+      <div class="home-container">
         <span class="title-line uppercase">ВЫГОДА НА ВСЕ ВЕКА</span>
         <h2 class="home-title">Технологическое проектирование <br> включает в себя:</h2>
         <div class="row mt-5">
-          <div class="col-lg-4 mb-4">
+          <div class="col-lg-4 col-md-6 mb-4">
             <div class="home-tech-project__card">
               <div class="home-tech-project__card_img">
                 <img src="img/others/tech1.png" alt="Изображения">
@@ -350,7 +379,7 @@
               <div class="home-tech-project__card_text"> Планировочные решения </div>
             </div>
           </div>
-          <div class="col-lg-4 mb-4">
+          <div class="col-lg-4 col-md-6 mb-4">
             <div class="home-tech-project__card">
               <div class="home-tech-project__card_img">
                 <img src="img/others/tech2.png" alt="Изображения">
@@ -358,7 +387,7 @@
               <div class="home-tech-project__card_text"> Схему технологической расстановкки оборудования </div>
             </div>
           </div>
-          <div class="col-lg-4 mb-4">
+          <div class="col-lg-4 col-md-6 mb-4">
             <div class="home-tech-project__card">
               <div class="home-tech-project__card_img">
                 <img src="img/others/tech3.png" alt="Изображения">
@@ -366,7 +395,7 @@
               <div class="home-tech-project__card_text"> Планировочные решения </div>
             </div>
           </div>
-          <div class="col-lg-4 mb-4">
+          <div class="col-lg-4 col-md-6 mb-4">
             <div class="home-tech-project__card">
               <div class="home-tech-project__card_img">
                 <img src="img/others/tech4.png" alt="Изображения">
@@ -374,7 +403,7 @@
               <div class="home-tech-project__card_text"> Планировочные решения </div>
             </div>
           </div>
-          <div class="col-lg-4 mb-4">
+          <div class="col-lg-4 col-md-6 mb-4">
             <div class="home-tech-project__card">
               <div class="home-tech-project__card_img">
                 <img src="img/others/tech5.png" alt="Изображения">
@@ -382,7 +411,7 @@
               <div class="home-tech-project__card_text"> Планировочные решения </div>
             </div>
           </div>
-          <div class="col-lg-4 mb-4">
+          <div class="col-lg-4 col-md-6 mb-4">
             <div class="home-tech-project__card">
               <div class="home-tech-project__card_img">
                 <img src="img/others/tech6.png" alt="Изображения">
@@ -395,14 +424,14 @@
     </section>
     <!-- Комплектация объекта «под ключ» -->
     <section class="container-fluid home-operate-cons">
-      <div class="container">
+      <div class="home-container">
         <div class="row">
-          <div class="col-xl-5 col-lg-3">
+          <div class="col-xl-5 col-lg-3 order-2 order-lg-1">
             <div class="home-operate-cons__img home-operate-cons__img_left">
               <img src="img/others/cons-operate.jpg" alt="Изображения">
             </div>
           </div>
-          <div class="col-xl-7 col-lg-9 d-flex align-items-center">
+          <div class="col-xl-7 col-lg-9 order-1 order-lg-2 d-flex align-items-center">
             <div class="home-operate-cons__block home-operate-cons__block_right">
               <span class="title-line">Перечень услуг</span>
               <h2 class="home-title">Комплектация объекта «под ключ» </h2>
@@ -414,7 +443,7 @@
     </section>
     <!-- Продвижение и маркетинг -->
     <section class="container-fluid home-expert">
-      <div class="container">
+      <div class="home-container">
         <div class="row">
           <div class="col-xl-5 col-lg-6">
             <div class="home-expert__block">
@@ -428,7 +457,7 @@
           <div class="col-xl-7 col-lg-6">
             <div class="home-expert__img home-expert__img_small">
               <img src="img/others/expert.jpg" alt="">
-              <a href="#" class="main-btn main-btn__white">
+              <a href="#" class="home-main-btn home-main-btn__white">
                 <span>Подробнее о проекте</span>
                 <span class="i-right ml-3"></span>
               </a>
@@ -439,25 +468,25 @@
     </section>
     <!-- Успешный Start Up -->
     <section class="container-fluid home-expert">
-      <div class="container">
+      <div class="home-container">
         <div class="row">
-          <div class="col-xl-7 col-lg-6">
+          <div class="col-xl-7 col-lg-6 order-2 order-lg-1">
             <div class="home-expert__img home-expert__img_big-laptop">
               <img src="img/others/expert.jpg" alt="">
               <img src="img/others/dots-bg.svg" class="home-expert__img_dots" alt="">
             </div>
           </div>
-          <div class="col-xl-5 col-lg-6">
+          <div class="col-xl-5 col-lg-6 order-1 order-lg-2">
             <div class="home-expert__block">
               <div class="home-expert__content">
                 <span class="title-line">Перечень услуг</span>
                 <h2 class="home-title">Успешный Start Up вашего заведения и управление готовым проектом</h2>
                 <p class="home-title__text">Команда Minaev Restaurants оказывает услуги по запуску в коммерческую эксплуатацию (START UP) и операционное управление ресторанов, загородных баз отдыха, отелей, банно-оздоровительных и cпа комплексов.</p>
                 <p class="home-title__subtext home-title__subtext_w75">Оставьте заявку и наш менеджер свяжется с вами через 15 минут.</p>
-                <button class="main-btn first-offer__btn w-100">
+                <a href="#" class="home-main-btn first-offer__btn w-100">
                   <span>Обсудить проект</span>
                   <span class="i-right ml-3"></span>
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -466,18 +495,18 @@
     </section>
     <!-- Грамотный старт -->
     <section class="container-fluid home-smart-start">
-      <div class="container">
+      <div class="home-container">
         <div class="row">
           <div class="col-xl-4 col-lg-5">
             <span class="title-line title-line__white">Перечень услуг</span>
             <h2 class="home-title">Грамотный старт</h2>
             <p class="home-smart-start__title-text">Разработка концепции заведений сферы услуг</p>
-            <button class="main-btn main-btn__bordered">
+            <a href="#" class="home-main-btn home-main-btn__bordered">
               <span class="i-right mr-3"></span>
               <span>Обсудить проект</span>
-            </button>
+            </a>
           </div>
-          <div class="col-xl-8 col-lg-7">
+          <div class="col-xl-8 col-lg-7 mt-4 mt-lg-0">
             <p>Разработка концепции заведения дает полноценную картину о последовательности предстоящих действий по вложению инвестиций и открытию бизнеса, а также о перспективе развития заведения и способах его продвижения, о предполагаемой целевой аудитории и эффективной программе привлечения посетителей, о политике подбора персонала и координации его работы. </p>
             <p>Рынок HoReCa сложен и конкурентен, грамотно разработать концепцию – значит минимизировать возможные ошибки, снизить риски, завоевать интерес своей целевой аудитории и значительно повысить шансы на успех проекта</p>
           </div>
@@ -486,24 +515,24 @@
     </section>
     <!-- Разработка запоминающегося фирменного стиля -->
     <section class="container-fluid home-expert">
-      <div class="container">
+      <div class="home-container">
         <div class="row">
-          <div class="col-xl-7 col-lg-5">
+          <div class="col-xl-7 col-lg-5 order-2 order-lg-1">
             <div class="home-expert__img home-expert__img_2">
               <img src="img/others/style2.jpg" alt="">
               <img src="img/others/style1.jpg" alt="">
             </div>
           </div>
-          <div class="col-xl-5 col-lg-7">
+          <div class="col-xl-5 col-lg-7 order-1 order-lg-2">
             <div class="home-expert__block">
               <div class="home-expert__content">
                 <span class="title-line">Фирменный стиль</span>
                 <h2 class="home-title">Разработка запоминающегося фирменного стиля</h2>
                 <p class="home-title__text">Разработка дизайн-концепции фирменного стиля вашего ресторана, загородной базы отдыха, баннооздоровительного и спа комплекса, отеля. <br><br> Создадим для вас логотип, фирменные цвета, стилеобразующие элементы, бренд бук. Разработаем меню ресторана.</p>
-                <button class="main-btn first-offer__btn w-100">
+                <a href="#" class="home-main-btn first-offer__btn w-100">
                   <span>Обсудить проект</span>
                   <span class="i-right ml-3"></span>
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -512,20 +541,20 @@
     </section>
     <!-- Команда Minaev Restaurants предлагает -->
     <section class="container-fluid home-expert">
-      <div class="container">
+      <div class="home-container">
         <div class="row">
-          <div class="col-xl-10 col-lg-9">
+          <div class="col-xl-10 col-lg-9 col-md-8">
             <span class="title-line uppercase">ЭКСПЕРТЫ HORECA</span>
             <h2 class="home-title">Команда Minaev Restaurants предлагает расширение номерного фонда для гостиниц, пансионатов, туристических комплексов</h2>
             <p class="home-title__subtext">За счет применения современных технологий расширения номерного фонда специалисты нашей компании готовы реализовать в сжатые сроки строительство гостевых номеров, обеспечивающих комфорт полноценного отеля</p>
           </div>
-          <div class="col-xl-10 col-lg-3">
+          <div class="col-xl-2 col-lg-3 col-md-4">
             <div class="home-expert__offer home-expert__offer_column">
               <div class="i-like"></div>
               <p>Мы поможем решить Вашу задачу</p>
-              <button class="main-btn main-btn__small">
+              <a href="#" class="home-main-btn home-main-btn__small">
                 <span>Решить задачу</span>
-              </button>
+              </a>
             </div>
           </div>
           <div class="col-xl-12 col-lg-12 mt-3">
@@ -538,7 +567,7 @@
     </section>
     <!-- ЭКСПЕРТЫ HORECA -->
     <section class="container-fluid home-expert">
-      <div class="container">
+      <div class="home-container">
         <div class="row">
           <div class="col-xl-5 col-lg-7">
             <div class="home-expert__block">
@@ -546,10 +575,10 @@
                 <span class="title-line">Реконструкцкия пляжных зон</span>
                 <h2 class="home-title">Мы предлагаем реконструкцию пляжных зон под современные требования рынка</h2>
                 <p class="home-title__subtext">Наша компания разрабатывает концепции закрытых пляжных территорий, обеспечивающих персональный комфорт гостей отеля.</p>
-                <button class="main-btn first-offer__btn w-100">
+                <a href="#" class="home-main-btn first-offer__btn w-100">
                   <span>Обсудить проект</span>
                   <span class="i-right ml-3"></span>
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -564,11 +593,11 @@
     </section>
     <!-- Выполенные проекты: -->
     <section class="container-fluid home-finished">
-      <div class="container">
+      <div class="home-container">
         <div class="swiper-container swiper-container-upside">
           <div class="swiper-wrapper">
             <div class="swiper-slide home-finished__inside">
-              <div class="container">
+              <div class="home-container">
                 <div class="row">
                   <div class="col-xl-6 col-lg-12">
                     <div class="slider slider-for">
@@ -670,7 +699,119 @@
                         </li>
                       </ul>
                       <div class="home-finished__block_btn">
-                        <a href="#" class="main-btn main-btn__bordered_black">
+                        <a href="#" class="home-main-btn home-main-btn__bordered_black">
+                          <span>Подробнее</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide home-finished__inside">
+              <div class="home-container">
+                <div class="row">
+                  <div class="col-xl-6 col-lg-12">
+                    <div class="slider slider-for">
+                      <div>
+                        <img src="img/others/cons-operate.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="img/others/cons-operate.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="img/others/cons-operate.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="img/others/cons-operate.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="img/others/cons-operate.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="img/others/cons-operate.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="img/others/cons-operate.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="img/others/cons-operate.jpg" alt="">
+                      </div>
+                    </div>
+                    <div class="slider slider-nav">
+                      <div>
+                        <img src="img/others/cons-operate.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="img/others/cons-operate.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="img/others/cons-operate.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="img/others/cons-operate.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="img/others/cons-operate.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="img/others/cons-operate.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="img/others/cons-operate.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="img/others/cons-operate.jpg" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-9">
+                    <div class="home-finished__block">
+                      <h2 class="home-title">Выполенные проекты:</h2>
+                      <p class="home-finished__text">Команда Minaev Restaurants разработала концепцию и реализует проект ресторанно-банного комплекса в Казахстане, г. Нурсултан. </p>
+                      <ul class="home-finished__block_rating">
+                        <li>
+                          <span class="rating-red">1,02 Га</span>
+                          <span>Площадь участка</span>
+                        </li>
+                        <li>
+                          <span class="rating-red">3591 м2</span>
+                          <span>Площадь строений</span>
+                        </li>
+                        <li>
+                          <span class="rating-red">до 320 чел.</span>
+                          <span>Вместимость</span>
+                        </li>
+                      </ul>
+                      <h3>Состав работ:</h3>
+                      <div class="home-finished__dots">
+                        <ul>
+                          <li>Консалтинг на этапе реализации проекта; </li>
+                          <li>Разработка технических заданий на проектирование;</li>
+                          <li>Подбор подрядчиков на производство срубов;</li>
+                          <li>Сопровождение строительства;</li>
+                          <li>Строительство парных и внутренних двориков;</li>
+                          <li>Оснащение проекта;</li>
+                          <li>Набор и обучение персонала;</li>
+                          <li>Запуск проекта</li>
+                        </ul>
+                      </div>
+                      <ul class="home-finished__block_rating">
+                        <li>
+                          <span class="rating-red">1,02 Га</span>
+                          <span>Площадь участка</span>
+                        </li>
+                        <li>
+                          <span class="rating-red">3591 м2</span>
+                          <span>Площадь строений</span>
+                        </li>
+                        <li>
+                          <span class="rating-red">до 320 чел.</span>
+                          <span>Вместимость</span>
+                        </li>
+                      </ul>
+                      <div class="home-finished__block_btn">
+                        <a href="#" class="home-main-btn home-main-btn__bordered_black">
                           <span>Подробнее</span>
                         </a>
                       </div>
@@ -696,7 +837,7 @@
     </section>
     <!-- Последние записи блога Mrest -->
     <section class="container-fluid home-last-posts">
-      <div class="container">
+      <div class="home-container">
         <span class="title-line uppercase">ДЕЛИМСЯ ОПЫТОМ</span>
         <h2 class="home-title">Последние записи блога <span class="red">M</span>rest</h2>
         <ul class="home-last-posts__list">
@@ -723,7 +864,7 @@
     </section>
     <!-- Форма заявки -->
     <section class="container-fluid home-main-form">
-      <div class="container">
+      <div class="home-container">
         <h2 class="home-main-form__title">Появились вопросы? С удовольствием ответим на них!</h2>
         <p class="home-main-form__text">Задайте специалисту любый вопросы, связанные с открытием или ведением ресторанного бизнеса</p>
         <form action="#" class="main-form">
@@ -739,7 +880,8 @@
         </form>
       </div>
     </section>
-  </main>
+  </main> 
+
   <!-- Footer -->
   <footer></footer>
   <!-- Scripts -->

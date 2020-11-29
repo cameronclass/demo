@@ -3,24 +3,34 @@ body {
   font-family: $font;
 }
 
-img {
+.home-page img {
   width: 100%;
   height: auto;
   display: block;
+  max-width: inherit;
 }
-h1 {
+.home-page h1 {
   font-size: 42px;
+
+  @include tablet {
+    font-size: 30px;
+    line-height: 1.25;
+  }
 }
 
-p {
+.home-page p {
   font-family: $font-mont;
   font-weight: 500;
 }
 
-h2 {
+.home-page h2 {
   font-size: 32px;
+
+  @include mobile {
+    font-size: 28px;
+  }
 }
-button {
+.home-page button {
   border: none;
   background-color: transparent;
 
@@ -29,17 +39,19 @@ button {
   }
 }
 
-input {
+.home-page input {
   &:focus {
     outline: none;
   }
 }
 
-.container{
+.home-container {
   box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.container-fluid{
+.container-fluid {
   padding: 0;
 }
 
@@ -47,11 +59,20 @@ input {
   background-color: $red;
   border-radius: 6px;
 
+  @include mobile {
+    padding: 50px 0 30px;
+  }
+
   &__input {
     display: flex;
     justify-content: space-evenly;
     position: relative;
     top: -30px;
+
+    @include mobile {
+      top: 0;
+      flex-wrap: wrap;
+    }
     input {
       width: 29%;
       background-color: #fff;
@@ -61,27 +82,76 @@ input {
       border-radius: 6px;
       border: 1px solid $red;
       padding: 10px;
+
+      @include mobile {
+        width: 100%;
+        margin-bottom: 20px;
+      }
     }
-    button{
+    button {
       width: 29%;
       color: white;
-      background-color: #5D5D5D;
+      background-color: #5d5d5d;
       border-radius: 6px;
-      border: 1px solid #5D5D5D;
+      border: 1px solid #5d5d5d;
       padding: 10px;
       transition: 250ms ease;
 
-      &:hover{
+      &:hover {
         background-color: black;
+      }
+
+      @include mobile {
+        width: 100%;
       }
     }
   }
 
-  &__text{
+  &__text {
     color: white;
     text-align: center;
     font-size: 22px;
     position: relative;
     top: -15px;
+
+    @include mobile {
+      top: 0;
+      margin-top: 15px;
+    }
+  }
+}
+
+input[type="date"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="url"],
+select,
+textarea {
+  outline: none !important;
+  margin: 0 !important;
+  max-width: 29% !important;
+  display: inline-block !important;
+  margin-bottom: 0 !important;
+  box-sizing: border-box !important;
+  -webkit-appearance: none !important;
+
+  width: 29% !important;
+  background-color: #fff !important;
+  color: black !important;
+  font-size: 20px !important;
+  text-align: center !important;
+  border-radius: 6px !important;
+  border: 1px solid $red !important;
+  padding: 10px !important;
+  font-weight: 600;
+  font-family: $font;
+
+  @include mobile {
+    width: 100% !important;
+    margin-bottom: 20px !important;
   }
 }

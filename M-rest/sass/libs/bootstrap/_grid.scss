@@ -4,7 +4,7 @@
 
 @if $enable-grid-classes {
   // Single container class with breakpoint max-widths
-  .container {
+  .home-container {
     @include make-container();
     @include make-container-max-widths();
   }
@@ -43,7 +43,6 @@
     }
   }
 }
-
 
 // Row
 //
