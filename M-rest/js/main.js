@@ -7,14 +7,14 @@
 }); */
 
 $(function () {
-  $(".slider-for").slick({
+  $(".home-page .slider-for").slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
     fade: true,
     asNavFor: ".slider-nav",
   });
-  $(".slider-nav").slick({
+  $(".home-page .slider-nav").slick({
     slidesToShow: 4,
     slidesToScroll: 1,
     asNavFor: ".slider-for",

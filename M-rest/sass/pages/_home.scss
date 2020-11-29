@@ -14,7 +14,7 @@
     padding-bottom: 100px;
   }
 
-  @include tablet {
+  @include netbook {
     padding-top: 50px;
     padding-bottom: 50px;
     margin-bottom: 60px;
@@ -39,7 +39,7 @@
   &__text {
     font-size: 18px;
 
-    @include tablet {
+    @include netbook {
       line-height: 1.25;
     }
   }
@@ -56,7 +56,7 @@
 .home-services {
   margin-bottom: 80px;
 
-  @include tablet {
+  @include netbook {
     margin-bottom: 40px;
   }
 
@@ -73,7 +73,7 @@
       width: 38%;
     }
 
-    @include tablet {
+    @include netbook {
       width: 100%;
       display: flex;
       align-items: center;
@@ -109,7 +109,7 @@
         }
       }
 
-      @include tablet {
+      @include netbook {
         left: 0;
 
         img {
@@ -126,7 +126,7 @@
       width: 60%;
     }
 
-    @include tablet {
+    @include netbook {
       width: 100%;
     }
 
@@ -201,7 +201,7 @@
 .home-expert {
   margin-bottom: 80px;
 
-  @include tablet {
+  @include netbook {
     margin-bottom: 40px;
   }
 
@@ -215,7 +215,7 @@
       object-fit: cover;
     }
 
-    @include tablet {
+    @include netbook {
       margin-top: 30px;
     }
 
@@ -275,7 +275,7 @@
         margin-left: 30px;
       }
 
-      @include tablet {
+      @include netbook {
         width: 100%;
         left: 0;
 
@@ -297,7 +297,7 @@
           width: 500px;
         }
 
-        @include tablet {
+        @include netbook {
           img {
             margin-left: 0;
             margin-right: 30px;
@@ -316,7 +316,7 @@
     display: flex;
     align-items: center;
 
-    @include tablet {
+    @include netbook {
       margin-top: 30px;
       margin-bottom: 30px;
     }
@@ -373,7 +373,7 @@
 .home-operate-cons {
   margin-bottom: 80px;
 
-  @include tablet {
+  @include netbook {
     margin-bottom: 40px;
   }
 
@@ -389,7 +389,7 @@
       border-radius: 6px;
     }
 
-    @include tablet {
+    @include netbook {
       left: 0;
       margin-top: 20px;
 
@@ -411,7 +411,7 @@
         left: -260px;
       }
 
-      @include tablet {
+      @include netbook {
         left: 0;
       }
     }
@@ -446,7 +446,7 @@
 .home-problems {
   margin-bottom: 80px;
 
-  @include tablet {
+  @include netbook {
     margin-bottom: 40px;
   }
 
@@ -509,7 +509,7 @@
   margin-bottom: 80px;
   position: relative;
 
-  @include tablet {
+  @include netbook {
     margin-bottom: 40px;
   }
 
@@ -541,7 +541,7 @@
       width: 1000px;
     }
 
-    @include tablet {
+    @include netbook {
       margin-top: 30px;
     }
 
@@ -559,7 +559,7 @@
 .home-complex {
   margin-bottom: 120px;
 
-  @include tablet {
+  @include netbook {
     margin-bottom: 100px;
   }
 
@@ -606,7 +606,7 @@
       left: -270px;
     }
 
-    @include tablet {
+    @include netbook {
       left: 0;
       width: 100%;
       max-width: 500px;
@@ -619,7 +619,7 @@
 .home-main-form {
   margin-bottom: 80px;
 
-  @include tablet {
+  @include netbook {
     margin-bottom: 40px;
   }
 
@@ -683,7 +683,7 @@
   position: relative;
   z-index: 2;
 
-  @include tablet {
+  @include netbook {
     margin-bottom: 40px;
   }
 
@@ -699,7 +699,7 @@
     width: 100%;
     max-width: 330px;
 
-    @include tablet {
+    @include netbook {
       max-width: 100%;
     }
   }
@@ -709,6 +709,10 @@
 .home-finished {
   padding: 50px 0;
   background-color: $light-grey2;
+
+  div{
+    height: auto !important;
+  }
 
   .home-title {
     margin-top: 0;
@@ -859,7 +863,7 @@
       bottom: 100px;
     }
 
-    @include tablet {
+    @include netbook {
       display: none;
     }
   }
@@ -962,7 +966,7 @@
       }
     }
 
-    @include tablet {
+    @include netbook {
       flex-wrap: wrap;
 
       li {

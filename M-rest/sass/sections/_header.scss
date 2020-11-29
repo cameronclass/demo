@@ -80,3 +80,22 @@
   &__block {
   }
 }
+
+#logo{
+  height: 100px !important
+}
+
+.menu_wrapper{
+  display: flex;
+}
+
+.sticky-white #Top_bar.is-sticky, .sticky-white #Top_bar.is-sticky #menu{
+  background-color: #fff !important;
+}
+
+#Top_bar .top_bar_right_wrapper{
+  top: 10px !important;
+}
+#Top_bar.is-sticky .top_bar_right{
+  top: -14px !important;
+}
