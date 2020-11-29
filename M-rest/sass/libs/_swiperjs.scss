@@ -587,10 +587,18 @@ button.swiper-pagination-bullet {
   /* the slides */
   .slick-slide {
     margin: 0 8px;
+
+    @include mobile{
+      margin: 0 5px;
+    }
   }
   /* the parent */
   .slick-list {
     margin: 0 -8px;
+
+    @include mobile{
+      margin: 0 -5px;
+    }
   }
   [dir="rtl"] .slick-slide {
     float: right;
@@ -631,7 +639,7 @@ button.swiper-pagination-bullet {
     position: absolute;
     top: 50%;
 
-    display: block;
+    display: none;
 
     width: 20px;
     height: 20px;
@@ -710,9 +718,17 @@ button.swiper-pagination-bullet {
   .slider-nav {
     margin-top: 18px;
 
+    @include mobile{
+      margin-top: 10px;
+    }
+
     img {
       height: 105px;
       object-fit: cover;
+
+      @include mobile{
+        height: 60px;
+      }
     }
   }
 
@@ -720,6 +736,10 @@ button.swiper-pagination-bullet {
     img {
       height: 480px;
       object-fit: cover;
+
+      @include mobile{
+        height: 250px;
+      }
     }
   }
 }

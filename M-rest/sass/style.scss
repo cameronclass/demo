@@ -1,3 +1,8 @@
+/* Helpers */
+@import "variables";
+@import "helpers/mixins";
+@import "helpers/media-query";
+
 // Normalize and Bs-Grid
 @import "libs/bootstrap/bootstrap-reboot.scss";
 @import "libs/bootstrap/bootstrap-grid.scss";

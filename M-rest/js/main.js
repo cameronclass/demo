@@ -19,6 +19,7 @@ $(function () {
     slidesToScroll: 1,
     asNavFor: ".slider-for",
     focusOnSelect: true,
+    arrows: false,
   });
 });
 
@@ -49,4 +50,9 @@ var galleryTop = new Swiper(".gallery-top", {
   thumbs: {
     swiper: galleryThumbs,
   },
+});
+
+
+jQuery(function ($) {
+  $(".phone").mask("+7 (999) 999-9999");
 });

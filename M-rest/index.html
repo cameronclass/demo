@@ -37,33 +37,35 @@
 
 <body>
   <header class="container-fluid header">
-      <div class="home-container">
-        <div class="header__block">
-          <div class="header__logo">
-            <a href="#">
-              <img src="img/logo.svg" alt="Изображения">
-            </a>
-          </div>
-          <div class="header__menu">
-            <nav>
-              <ul>
-                <li><a href="#">ГЛАВНАЯ</a></li>
-                <li><a href="#">УСЛУГИ</a></li>
-                <li><a href="#">ПРОЕКТЫ</a></li>
-                <li><a href="#">БЛОГ</a></li>
-                <li><a href="#">КОНТАКТЫ</a></li>
-              </ul>
-            </nav>
-          </div>
-          <div class="header__contact">
-            <a href="#">
-              <span>+7-926-523-0100</span>
-              <span>заказать звонок</span>
-            </a>
-          </div>
+    <div class="home-container">
+      <div class="header__block">
+        <div class="header__logo">
+          <a href="#">
+            <img src="img/logo.svg" alt="Изображения">
+          </a>
+        </div>
+        <div class="header__menu">
+          <nav>
+            <ul>
+              <li><a href="#">ГЛАВНАЯ</a></li>
+              <li><a href="#">УСЛУГИ</a></li>
+              <li><a href="#">ПРОЕКТЫ</a></li>
+              <li><a href="#">БЛОГ</a></li>
+              <li><a href="#">КОНТАКТЫ</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__contact">
+          <a href="#">
+            <span class="header__contact_number">+7-926-523-0100</span>
+          </a>
+          <a href="#">
+            <span class="header__contact_text">заказать звонок</span>
+          </a>
         </div>
       </div>
-    </header>
+    </div>
+  </header>
   <main class="overflow-hidden home-page">
     <!-- Первый Экран -->
     <section class="container-fluid first-offer">
@@ -355,7 +357,7 @@
         <form action="#" class="main-form">
           <div class="main-form__input">
             <input type="text" placeholder="Ваше имя">
-            <input type="tel" placeholder="Телефон">
+            <input class="phone" type="tel" placeholder="Телефон">
             <button type="submit">Оставить заявку</button>
           </div>
           <div class="main-form__text">
@@ -863,14 +865,16 @@
       </div>
     </section>
     <!-- Форма заявки -->
+    <div class="home-container home-main-form-title">
+      <h2 class="home-main-form-title__title">Появились вопросы? С удовольствием ответим на них!</h2>
+      <p class="home-main-form-title__text">Задайте специалисту любый вопросы, связанные с открытием или ведением ресторанного бизнеса</p>
+    </div>
     <section class="container-fluid home-main-form">
       <div class="home-container">
-        <h2 class="home-main-form__title">Появились вопросы? С удовольствием ответим на них!</h2>
-        <p class="home-main-form__text">Задайте специалисту любый вопросы, связанные с открытием или ведением ресторанного бизнеса</p>
         <form action="#" class="main-form">
           <div class="main-form__input">
             <input type="text" placeholder="Ваше имя">
-            <input type="tel" placeholder="Телефон">
+            <input class="phone" type="tel" placeholder="Телефон">
             <button type="submit">Оставить заявку</button>
           </div>
           <div class="main-form__text">
@@ -880,8 +884,7 @@
         </form>
       </div>
     </section>
-  </main> 
-
+  </main>
   <!-- Footer -->
   <footer></footer>
   <!-- Scripts -->

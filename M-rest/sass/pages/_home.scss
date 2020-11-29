@@ -5,13 +5,12 @@
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 500px;
-  padding-top: 0px;
-  padding-bottom: 50px;
+  height: auto;
+  padding-top: 140px;
+  padding-bottom: 140px;
   margin-bottom: 80px;
 
   @include laptop {
-    padding-top: 100px;
     padding-bottom: 100px;
   }
 
@@ -303,6 +302,10 @@
             margin-left: 0;
             margin-right: 30px;
           }
+        }
+
+        @include mobile {
+          width: 100%;
         }
       }
     }
@@ -624,25 +627,27 @@
     background-color: $red;
   }
 
-  &__title {
-    text-align: center;
-    font-weight: 600;
-    font-size: 36px;
-    margin: auto;
+  &-title {
+    &__title {
+      text-align: center;
+      font-weight: 600;
+      font-size: 36px;
+      margin: auto;
 
-    @include laptop {
-      max-width: 600px;
-      width: 100%;
+      @include laptop {
+        max-width: 600px;
+        width: 100%;
+      }
     }
-  }
 
-  &__text {
-    text-align: center;
-    font-weight: 600;
-    font-size: 20px;
-    margin: 25px auto 70px;
-    width: 100%;
-    max-width: 730px;
+    &__text {
+      text-align: center;
+      font-weight: 600;
+      font-size: 20px;
+      margin: 25px auto 70px;
+      width: 100%;
+      max-width: 730px;
+    }
   }
 }
 
@@ -726,10 +731,14 @@
     @include laptop {
       margin-top: 30px;
     }
+
+    @include mobile {
+      padding-bottom: 150px;
+    }
+
     &_rating {
       display: flex;
       justify-content: space-between;
-      flex-wrap: wrap;
       margin: 20px 0;
       padding: 0;
       list-style: none;
@@ -746,12 +755,20 @@
         text-align: center;
         font-family: $font-mont;
 
+        @include mobile {
+          font-size: 13px;
+        }
+
         .rating-red {
           color: $red;
           font-size: 20px;
           font-weight: bold;
           font-family: $font-mont;
           margin-bottom: 6px;
+
+          @include mobile {
+            font-size: 17px;
+          }
         }
       }
     }
@@ -760,6 +777,12 @@
       display: flex;
       position: absolute;
       bottom: 0;
+      left: 0;
+
+      @include mobile {
+        bottom: 70px;
+        width: 100%;
+      }
 
       .home-main-btn__bordered_black {
         color: black;
@@ -769,6 +792,11 @@
         &:hover {
           text-decoration: none;
           color: black;
+        }
+
+        @include mobile{
+          width: 90%;
+          margin: auto;
         }
       }
     }
@@ -805,6 +833,11 @@
       right: 0;
       bottom: 0;
       z-index: 2;
+
+      @include mobile {
+        right: inherit;
+        /* transform: translateX(10px); */
+      }
     }
   }
 
@@ -845,9 +878,20 @@
         transform: rotate(180deg);
       }
     }
+
+    @include mobile {
+      padding: 20px 60px;
+    }
   }
+
   .swiper-button-disabled {
     opacity: 0.7;
+  }
+
+  .swiper-slide{
+    .home-container{
+      padding: 0;
+    }
   }
 }
 
@@ -923,6 +967,12 @@
 
       li {
         width: 50%;
+      }
+    }
+
+    @include mobile {
+      li {
+        width: 100%;
       }
     }
   }
