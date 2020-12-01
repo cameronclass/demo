@@ -592,6 +592,81 @@
         background-color: #ffacac;
       } */
 
+      &:first-child {
+        &::before {
+          content: "";
+          position: absolute;
+          display: inline-block;
+          background-image: url(../img/icons/steps.svg);
+          background-repeat: repeat;
+          width: 480px;
+          height: 8px;
+          z-index: -1;
+        }
+      }
+
+      &:nth-child(3) {
+        &::before {
+          content: "";
+          position: absolute;
+          left: 30%;
+          bottom: 0px;
+          display: inline-block;
+          background-image: url(../img/icons/steps.svg);
+          background-repeat: no-repeat;
+          transform: rotate(90deg) translateY(-50%);
+          width: 75px;
+          height: 8px;
+          z-index: -1;
+        }
+      }
+      &:nth-child(4) {
+        &::after {
+          content: "";
+          position: absolute;
+          display: inline-block;
+          background-image: url(../img/icons/steps.svg);
+          background-repeat: repeat;
+          width: 480px;
+          height: 8px;
+          z-index: -1;
+        }
+      }
+      @include mobile {
+        &:nth-child(2), &:nth-child(4) {
+          &::before {
+            content: "";
+            position: absolute;
+            left: 30%;
+            bottom: 0px;
+            display: inline-block;
+            background-image: url(../img/icons/steps.svg);
+            background-repeat: no-repeat;
+            transform: rotate(90deg) translateY(-50%);
+            width: 75px;
+            height: 8px;
+            z-index: -1;
+          }
+        }
+        &:nth-child(3) {
+          &::before {
+            display: none;
+          }
+        }
+        &:nth-child(5) {
+          &::before {
+            content: "";
+            position: absolute;
+            display: inline-block;
+            background-image: url(../img/icons/steps.svg);
+            background-repeat: repeat;
+            width: 480px;
+            height: 8px;
+            z-index: -1;
+          }
+        }
+      }
+
       @include mobile {
         width: 48%;
       }
@@ -710,7 +785,7 @@
   padding: 50px 0;
   background-color: $light-grey2;
 
-  div{
+  div {
     height: auto !important;
   }
 
@@ -798,7 +873,7 @@
           color: black;
         }
 
-        @include mobile{
+        @include mobile {
           width: 90%;
           margin: auto;
         }
@@ -892,8 +967,8 @@
     opacity: 0.7;
   }
 
-  .swiper-slide{
-    .home-container{
+  .swiper-slide {
+    .home-container {
       padding: 0;
     }
   }
