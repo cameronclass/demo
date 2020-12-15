@@ -3,6 +3,7 @@
   background: rgb(19, 71, 165);
   background: linear-gradient(180deg, rgba(19, 71, 165, 1) 0%, rgba(23, 54, 111, 1) 100%);
   padding: 150px 0;
+  position: relative;
 
   @include mobile {
     padding: 80px 0;
@@ -18,19 +19,15 @@
     margin: 0;
     padding: 0;
 
-    li {
+    li a {
       padding: 14px;
-      background-color: $yellow;
+      background-color: #ff9f19;
       border-radius: 4px;
       color: white;
       position: relative;
       text-align: center;
       top: 3px;
       font-size: 15px;
-
-      @include mobile {
-        font-size: 13px;
-      }
     }
   }
 }
@@ -76,11 +73,11 @@
   }
 }
 
-.about-card{
+.about-card {
   padding: 20px;
   text-align: center;
   font-weight: bold;
-  img{
+  img {
     width: 50%;
     height: 250px;
     object-fit: contain;
@@ -88,8 +85,78 @@
   }
 }
 
-
-.modal{
+.modal {
   width: 90%;
   max-width: 500px;
+}
+
+.tabs {
+  background-color: transparent;
+  height: auto;
+}
+
+.form-section__bgimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(0px) brightness(0.7);
+}
+
+.form-section__main-title {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0px 30px #000000;
+  margin-bottom: 10px;
+}
+
+.form-section__main-subtitle {
+  font-size: 26px;
+  font-weight: bold;
+  color: #a7dcff;
+  text-shadow: 0 0px 30px #000000;
+}
+
+.tabs .tab {
+  text-transform: inherit;
+  line-height: inherit;
+}
+
+.tabs .indicator {
+  background-color: #7e9096;
+}
+
+.tabs .tab a {
+  color: white;
+  padding: 14px 20px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+}
+
+.tabs .tab a:hover {
+  color: white;
+  background-color: #ff9f19;
+}
+
+.tabs .tab a.active {
+  background-color: white;
+  color: black;
+}
+
+.tabs .tab a.active:hover {
+  background-color: white;
+  color: black;
+}
+
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+  background-color: white;
+}
+.tabs .tab a.active .icon-grey-white {
+  filter: none;
 }
