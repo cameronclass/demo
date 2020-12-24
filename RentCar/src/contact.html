@@ -1,0 +1,201 @@
+---
+layout: default
+title: Главная страница
+---
+
+<main class="container-fluid px-0 main-header-padding">
+  <!-- Form Section -->
+  <section class="container-fluid form-section form-choose">
+    <img src="assets/images/bg-img.jpg" class="form-section__bgimg" alt="">
+    <div class="container">
+      <form action="index.html">
+        <div class="row">
+          <div class="col-xl-4 col-lg-6 col-sm-12 col-12">
+            <ul class="form-section__list d-flex tabs">
+              <li class="d-flex justify-content-center align-items-center tab">
+                <a href="#daily">
+                  <span class="i-date icon icon-grey-white"></span>
+                  <span>Дневная аренда</span>
+                </a>
+              </li>
+              <li class="d-flex justify-content-center align-items-center tab">
+                <a href="#monthly">
+                  <span class="i-date icon icon-grey-white"></span>
+                  <span>Месячная аренда</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- Gunluk -->
+          <div id="daily" class="col-sm-12">
+            <div class="row">
+              <div class="col-xl-4 col-lg-5 col-md-12 mb-4">
+                <div class="input-field day-picker location-picker">
+                  <select class="position-relative">
+                    <option value="" disabled selected><span class="i-date icon icon-input"></span>Откуда? </option>
+                    <option value="1">Antalya Havalimanı</option>
+                    <option value="2">Antalya Merkez</option>
+                    <option value="3">Antalya Otogar</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-5 col-md-8 mb-4">
+                <div class="row">
+                  <div class="col-sm-7 mb-sm-0 mb-2">
+                    <div class="input-field d-flex align-items-center position-relative">
+                      <span class="i-date icon icon-input"></span>
+                      <input id="start" type="text" class="datepicker input-text input-text-icon" placeholder="Дата">
+                    </div>
+                  </div>
+                  <div class="col-sm-5">
+                    <div class="input-field d-flex align-items-center position-relative">
+                      <span class="i-date icon icon-input"></span>
+                      <input type="text" readonly class="timepicker input-text input-text-icon" placeholder="Время">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-2 col-md-4 col-sm-12 mb-4">
+                <div class="input-field day-picker">
+                  <select class="position-relative">
+                    <option value="" disabled selected><span class="i-date icon icon-input"></span>День</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-4 mb-4">
+                <a href="#" class="btn btn-yellow btn-find waves-effect waves-light">Найти</a>
+              </div>
+            </div>
+          </div>
+          <div id="monthly" class="col-sm-12">
+            <div class="row">
+              <div class="col-xl-4 col-lg-5 col-md-12 mb-4">
+                <div class="input-field day-picker location-picker">
+                  <select class="position-relative">
+                    <option value="" disabled selected><span class="i-date icon icon-input"></span>Откуда? </option>
+                    <option value="1">Antalya Havalimanı</option>
+                    <option value="2">Antalya Merkez</option>
+                    <option value="3">Antalya Otogar</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-5 col-md-8 mb-4">
+                <div class="row">
+                  <div class="col-sm-7 mb-sm-0 mb-2">
+                    <div class="input-field d-flex align-items-center position-relative">
+                      <span class="i-date icon icon-input"></span>
+                      <input id="start" type="text" class="datepicker input-text input-text-icon" placeholder="Дата">
+                    </div>
+                  </div>
+                  <div class="col-sm-5">
+                    <div class="input-field d-flex align-items-center position-relative">
+                      <span class="i-date icon icon-input"></span>
+                      <input type="text" readonly class="timepicker input-text input-text-icon" placeholder="Время">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-2 col-md-4 col-sm-12 mb-4">
+                <div class="input-field day-picker">
+                  <select class="position-relative">
+                    <option value="" disabled selected><span class="i-date icon icon-input"></span>Месяц</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-4 mb-4">
+                <a href="#" class="btn btn-yellow btn-find waves-effect waves-light">Найти</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  <section class="container my-5 contact-page">
+    <h2>Контакты</h2>
+    <div class="row mt-3">
+      <div class="col-lg-5 col-md-6 col-12">
+        <div class="d-flex align-items-center mb-3">
+          <div style="width: 25px; min-width: 25px;height: 24px; font-size: 13px">
+            <img src="/assets/images/address.svg" alt="">
+          </div>
+          <div class="ml-3">{{$address}}</div>
+        </div>
+        <div class="d-flex align-items-center mb-3">
+          <span class="i-call-center icon"></span>
+          <a href="tel:" class="ml-2">{{$phone}}</a>
+        </div>
+        <div class="d-flex align-items-center mb-5">
+          <div style="width: 24px;height: 24px"><img src="/assets/images/email.svg" alt=""></div>
+          <a href="mailto:" class="ml-3">{{$email}}</a>
+        </div>
+        <form action="#" id="form-contact" class="form" method="post"> @csrf <div class="form-group">
+            <input placeholder="@lang('general.name') @lang('general.surname')" name="name" type="text" class="form-control" id="name" aria-describedby="Name and Surname">
+          </div>
+          <div class="form-group">
+            <input placeholder="@lang('general.phone_number')" name="phone" type="number" class="form-control" id="tel" aria-describedby="@lang('general.phone_number')">
+          </div>
+          <div class="form-group">
+            <input placeholder="@lang('general.email')" name="email" type="text" class="form-control" id="Email" aria-describedby="Email">
+          </div>
+          <div class="form-group">
+            <textarea placeholder="@lang('general.message')" name="message" class="materialize-textarea" id="message-text" rows="3"></textarea>
+          </div>
+          <div class="form-group form-check mt-3 mb-4">
+            <input type="checkbox" class="form-check-input" id="policy" checked="">
+            <label class="form-check-label" for="policy">@lang('general.terms_of_use_privacy', ['prviacyRoute' => '#', 'personalProtectionRoute' => '#'])</label>
+          </div>
+          <button type="submit" class="btn btn-primary px-5 float-right">@lang('general.send')</button>
+          <div class="success-res">
+            <span></span>
+          </div>
+        </form>
+      </div>
+      <div class="col-lg-7 col-md-6 col-12">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d204203.91479233315!2d30.578020565177265!3d36.897855327118855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c39aaeddadadc1%3A0x95c69f73f9e32e33!2z0JDQvdGC0LDQu9GM0Y8sINCQ0L3RgtCw0LvQuNGP!5e0!3m2!1sru!2str!4v1607363299136!5m2!1sru!2str" width="100%" height="550" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+      </div>
+    </div>
+  </section>
+</main>
