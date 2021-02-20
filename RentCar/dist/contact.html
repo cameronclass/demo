@@ -66,7 +66,9 @@
     <header class="container-fluid header">
         <div class="container d-flex justify-content-end position-relative">
             <div class="header__logo">
-                <img src="assets/images/logo.png" alt="">
+                <a href="index.html">
+                    <img src="assets/images/logo.png" alt="">
+                </a>
             </div>
             <div class="header__menu">
                 <ul class="header__menu_navigation">
@@ -158,13 +160,13 @@
                                 <li class="d-flex justify-content-center align-items-center tab">
                                     <a href="#daily">
                                         <span class="i-date icon icon-grey-white"></span>
-                                        <span>Дневная аренда</span>
+                                        <span>Günlük kiralama</span>
                                     </a>
                                 </li>
                                 <li class="d-flex justify-content-center align-items-center tab">
                                     <a href="#monthly">
                                         <span class="i-date icon icon-grey-white"></span>
-                                        <span>Месячная аренда</span>
+                                        <span>Aylık kiralama</span>
                                     </a>
                                 </li>
                             </ul>
@@ -175,7 +177,7 @@
                                 <div class="col-xl-4 col-lg-5 col-md-12 mb-4">
                                     <div class="input-field day-picker location-picker">
                                         <select class="position-relative">
-                                            <option value="" disabled selected><span class="i-date icon icon-input"></span>Откуда? </option>
+                                            <option value="" disabled selected><span class="i-date icon icon-input"></span>Nereden </option>
                                             <option value="1">Antalya Havalimanı</option>
                                             <option value="2">Antalya Merkez</option>
                                             <option value="3">Antalya Otogar</option>
@@ -187,13 +189,13 @@
                                         <div class="col-sm-7 mb-sm-0 mb-2">
                                             <div class="input-field d-flex align-items-center position-relative">
                                                 <span class="i-date icon icon-input"></span>
-                                                <input id="start" type="text" class="datepicker input-text input-text-icon" placeholder="Дата">
+                                                <input id="start" type="text" class="datepicker input-text input-text-icon" placeholder="Tarih">
                                             </div>
                                         </div>
                                         <div class="col-sm-5">
                                             <div class="input-field d-flex align-items-center position-relative">
                                                 <span class="i-date icon icon-input"></span>
-                                                <input type="text" readonly class="timepicker input-text input-text-icon" placeholder="Время">
+                                                <input type="text" readonly class="timepicker input-text input-text-icon" placeholder="Saat">
                                             </div>
                                         </div>
                                     </div>
@@ -201,7 +203,7 @@
                                 <div class="col-xl-2 col-lg-2 col-md-4 col-sm-12 mb-4">
                                     <div class="input-field day-picker">
                                         <select class="position-relative">
-                                            <option value="" disabled selected><span class="i-date icon icon-input"></span>День</option>
+                                            <option value="" disabled selected><span class="i-date icon icon-input"></span>Gün</option>
                                             <option value="1">1</option>
                                             <option value="2">2</option>
                                             <option value="3">3</option>
@@ -236,7 +238,7 @@
                                     </div>
                                 </div>
                                 <div class="col-xl-2 col-lg-3 col-md-4 mb-4">
-                                    <a href="#" class="btn btn-yellow btn-find waves-effect waves-light">Найти</a>
+                                    <a href="choose-car.html" class="btn btn-yellow btn-find waves-effect waves-light">Ara</a>
                                 </div>
                             </div>
                         </div>
@@ -245,7 +247,7 @@
                                 <div class="col-xl-4 col-lg-5 col-md-12 mb-4">
                                     <div class="input-field day-picker location-picker">
                                         <select class="position-relative">
-                                            <option value="" disabled selected><span class="i-date icon icon-input"></span>Откуда? </option>
+                                            <option value="" disabled selected><span class="i-date icon icon-input"></span>Nereden </option>
                                             <option value="1">Antalya Havalimanı</option>
                                             <option value="2">Antalya Merkez</option>
                                             <option value="3">Antalya Otogar</option>
@@ -257,13 +259,13 @@
                                         <div class="col-sm-7 mb-sm-0 mb-2">
                                             <div class="input-field d-flex align-items-center position-relative">
                                                 <span class="i-date icon icon-input"></span>
-                                                <input id="start" type="text" class="datepicker input-text input-text-icon" placeholder="Дата">
+                                                <input id="start" type="text" class="datepicker input-text input-text-icon" placeholder="Tarih">
                                             </div>
                                         </div>
                                         <div class="col-sm-5">
                                             <div class="input-field d-flex align-items-center position-relative">
                                                 <span class="i-date icon icon-input"></span>
-                                                <input type="text" readonly class="timepicker input-text input-text-icon" placeholder="Время">
+                                                <input type="text" readonly class="timepicker input-text input-text-icon" placeholder="Saat">
                                             </div>
                                         </div>
                                     </div>
@@ -271,7 +273,7 @@
                                 <div class="col-xl-2 col-lg-2 col-md-4 col-sm-12 mb-4">
                                     <div class="input-field day-picker">
                                         <select class="position-relative">
-                                            <option value="" disabled selected><span class="i-date icon icon-input"></span>Месяц</option>
+                                            <option value="" disabled selected><span class="i-date icon icon-input"></span>Ay</option>
                                             <option value="1">1</option>
                                             <option value="2">2</option>
                                             <option value="3">3</option>
@@ -288,7 +290,7 @@
                                     </div>
                                 </div>
                                 <div class="col-xl-2 col-lg-3 col-md-4 mb-4">
-                                    <a href="#" class="btn btn-yellow btn-find waves-effect waves-light">Найти</a>
+                                    <a href="choose-car.html" class="btn btn-yellow btn-find waves-effect waves-light">Ara</a>
                                 </div>
                             </div>
                         </div>
@@ -346,6 +348,18 @@
     <!-- Footer -->
     <footer class="footer container-fluid">
         <div class="container footer-container">
+            <div class="row border-bottom">
+                <div class="col-12">
+                    <ul class="list-destination">
+                        <li><a href="#">Kemer Araç Kirama</a></li>
+                        <li><a href="#">Kemer Araç Kirama</a></li>
+                        <li><a href="#">Kemer Araç Kirama</a></li>
+                        <li><a href="#">Kemer Araç Kirama</a></li>
+                        <li><a href="#">Kemer Araç Kirama</a></li>
+                    </ul>
+                </div>
+
+            </div>
             <div class="row">
                 <div class="col-lg-6">
                     <div class="footer__about">

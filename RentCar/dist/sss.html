@@ -66,7 +66,9 @@
     <header class="container-fluid header">
         <div class="container d-flex justify-content-end position-relative">
             <div class="header__logo">
-                <img src="assets/images/logo.png" alt="">
+                <a href="index.html">
+                    <img src="assets/images/logo.png" alt="">
+                </a>
             </div>
             <div class="header__menu">
                 <ul class="header__menu_navigation">
@@ -150,38 +152,36 @@
     <main class="container-fluid px-0 main-header-padding">
         <!-- Form Section -->
         <section class="container-fluid form-section form-choose">
+            <img src="assets/images/bg-img.jpg" class="form-section__bgimg" alt="">
             <div class="container">
                 <form action="index.html">
-
                     <div class="row">
-                        <div class="col-xl-2 col-lg-3 col-sm-6 col-8">
-                            <ul class="form-section__list">
-                                <li class="d-flex justify-content-center align-items-center">
-                                    <span class="i-date icon icon-grey-white"></span>
-                                    <span>Günlük Kiralama</span>
+                        <div class="col-xl-4 col-lg-6 col-sm-12 col-12">
+                            <ul class="form-section__list d-flex tabs">
+                                <li class="d-flex justify-content-center align-items-center tab">
+                                    <a href="#daily">
+                                        <span class="i-date icon icon-grey-white"></span>
+                                        <span>Günlük kiralama</span>
+                                    </a>
+                                </li>
+                                <li class="d-flex justify-content-center align-items-center tab">
+                                    <a href="#monthly">
+                                        <span class="i-date icon icon-grey-white"></span>
+                                        <span>Aylık kiralama</span>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
-
                         <!-- Gunluk -->
-                        <div id="gunluk" class="col-sm-12">
+                        <div id="daily" class="col-sm-12">
                             <div class="row">
                                 <div class="col-xl-4 col-lg-5 col-md-12 mb-4">
-                                    <!-- <div class="input-field d-flex align-items-center position-relative">
-                                    <span class="i-location icon icon-input"></span>
-                                    <input type="text" class="autocomplete input-text input-text-icon input-top-left-radius"
-                                      placeholder="Nereden Alacaksınız?">
-                                  </div> -->
                                     <div class="input-field day-picker location-picker">
                                         <select class="position-relative">
-                                            <option value="" disabled selected><span class="i-date icon icon-input"></span>Nereden Alacaksınız?</option>
+                                            <option value="" disabled selected><span class="i-date icon icon-input"></span>Nereden </option>
                                             <option value="1">Antalya Havalimanı</option>
                                             <option value="2">Antalya Merkez</option>
                                             <option value="3">Antalya Otogar</option>
-                                            <option value="4">Lara</option>
-                                            <option value="5">Konyaalti</option>
-                                            <option value="6">Ofis</option>
-
                                         </select>
                                     </div>
                                 </div>
@@ -190,13 +190,13 @@
                                         <div class="col-sm-7 mb-sm-0 mb-2">
                                             <div class="input-field d-flex align-items-center position-relative">
                                                 <span class="i-date icon icon-input"></span>
-                                                <input id="start" type="text" class="datepicker input-text input-text-icon" placeholder="Alış Tarihi">
+                                                <input id="start" type="text" class="datepicker input-text input-text-icon" placeholder="Tarih">
                                             </div>
                                         </div>
                                         <div class="col-sm-5">
                                             <div class="input-field d-flex align-items-center position-relative">
                                                 <span class="i-date icon icon-input"></span>
-                                                <input type="text" readonly class="timepicker input-text input-text-icon" placeholder="Alış Saati">
+                                                <input type="text" readonly class="timepicker input-text input-text-icon" placeholder="Saat">
                                             </div>
                                         </div>
                                     </div>
@@ -239,16 +239,66 @@
                                     </div>
                                 </div>
                                 <div class="col-xl-2 col-lg-3 col-md-4 mb-4">
-                                    <a href="#" class="btn btn-yellow btn-find waves-effect waves-light">En iyi fiyata bul</a>
+                                    <a href="choose-car.html" class="btn btn-yellow btn-find waves-effect waves-light">Ara</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="monthly" class="col-sm-12">
+                            <div class="row">
+                                <div class="col-xl-4 col-lg-5 col-md-12 mb-4">
+                                    <div class="input-field day-picker location-picker">
+                                        <select class="position-relative">
+                                            <option value="" disabled selected><span class="i-date icon icon-input"></span>Nereden </option>
+                                            <option value="1">Antalya Havalimanı</option>
+                                            <option value="2">Antalya Merkez</option>
+                                            <option value="3">Antalya Otogar</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-5 col-md-8 mb-4">
+                                    <div class="row">
+                                        <div class="col-sm-7 mb-sm-0 mb-2">
+                                            <div class="input-field d-flex align-items-center position-relative">
+                                                <span class="i-date icon icon-input"></span>
+                                                <input id="start" type="text" class="datepicker input-text input-text-icon" placeholder="Tarih">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-5">
+                                            <div class="input-field d-flex align-items-center position-relative">
+                                                <span class="i-date icon icon-input"></span>
+                                                <input type="text" readonly class="timepicker input-text input-text-icon" placeholder="Saat">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-2 col-lg-2 col-md-4 col-sm-12 mb-4">
+                                    <div class="input-field day-picker">
+                                        <select class="position-relative">
+                                            <option value="" disabled selected><span class="i-date icon icon-input"></span>Ay</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-xl-2 col-lg-3 col-md-4 mb-4">
+                                    <a href="choose-car.html" class="btn btn-yellow btn-find waves-effect waves-light">Ara</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </form>
             </div>
-        </section>
-        <!-- Cars Section -->
+        </section> <!-- Cars Section -->
         <section class="container-fluid cars">
             <div class="container">
                 <h2 class="h2 mb-4">Sık Sorulan Sorular</h2>
@@ -272,6 +322,18 @@
     <!-- Footer -->
     <footer class="footer container-fluid">
         <div class="container footer-container">
+            <div class="row border-bottom">
+                <div class="col-12">
+                    <ul class="list-destination">
+                        <li><a href="#">Kemer Araç Kirama</a></li>
+                        <li><a href="#">Kemer Araç Kirama</a></li>
+                        <li><a href="#">Kemer Araç Kirama</a></li>
+                        <li><a href="#">Kemer Araç Kirama</a></li>
+                        <li><a href="#">Kemer Araç Kirama</a></li>
+                    </ul>
+                </div>
+
+            </div>
             <div class="row">
                 <div class="col-lg-6">
                     <div class="footer__about">
