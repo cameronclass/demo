@@ -1,0 +1,1065 @@
+@font-face {
+  font-family: 'Gilroy Bolder';
+  src: url('../fonts/Gilroy-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy Normal';
+  src: url('../fonts/Gilroy-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy Bold';
+  src: url('../fonts/Gilroy-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@media only screen and (min-width: 990px) and (max-width: 1023px) {
+  .right-about .videos-small a {
+    height: 85px;
+  }
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width: 1024px) and (max-width: 1100px) {
+  .header {
+    height: 730px !important;
+  }
+  h2 {
+    font-size: 28px !important;
+  }
+  .header-bottom {
+    padding: 30px !important;
+  }
+  .logo-text,
+  .myself-education .right-myself {
+    display: none !important;
+  }
+  .logo {
+    width: 25% !important;
+  }
+  .header-call {
+    width: 40% !important;
+    padding: 0 15px;
+  }
+  .call-button {
+    width: 35% !important;
+    justify-content: center !important;
+  }
+  .header .header-bottom ul {
+    flex-wrap: wrap !important;
+    height: auto !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .header .header-bottom ul li {
+    width: 100% !important;
+  }
+  .spros .right-spros {
+    padding: 20px 0 0 0 !important;
+  }
+  .howmuch-earn .col-lg-8 div {
+    left: -400px !important;
+    bottom: -100px;
+  }
+  .header .header-bottom h2 {
+    margin: 30px 0;
+  }
+  .left-myself {
+    max-width: 100% !important;
+    flex: none;
+  }
+  .what-get .what-get-list {
+    padding: 0 !important;
+  }
+  .right-about .videos-small a {
+    height: 85px !important;
+  }
+  .about {
+    padding: 30px 0;
+    flex-wrap: wrap;
+  }
+  .about div {
+    width: 100% !important;
+  }
+  .about img {
+    margin-bottom: 30px;
+  }
+  .key img {
+    display: none !important;
+  }
+  .key h2 {
+    text-align: center !important;
+    padding: 0 !important;
+  }
+  .key h3 {
+    font-size: 21px !important;
+    text-align: center !important;
+    line-height: 1.5;
+    padding-right: 0 !important;
+  }
+  .key p {
+    padding: 0 !important;
+    text-align: center;
+    font-size: 20px;
+  }
+  .key .card-key {
+    margin: 0 !important;
+    padding: 15px;
+  }
+  .key .card-key h4 {
+    font-size: 20px;
+  }
+  .key .card-key button {
+    padding: 5px;
+    font-size: 20px;
+  }
+  .contacts {
+    width: 50% !important;
+    margin: 40px 0;
+  }
+  .compare h2,
+  .compare-2 h2 {
+    width: 100% !important;
+    padding: 30px 0 0 0 !important;
+  }
+  .compare h3,
+  .compare-2 h3 {
+    padding: 0 !important;
+    font-size: 24px !important;
+  }
+  .compare .table-yellow,
+  .compare-2 .table-yellow,
+  .compare .uk-table thead tr th div,
+  .compare-2 .uk-table thead tr th div {
+    font-size: 18px !important;
+    padding: 100px 0 0 0;
+    height: 160px;
+  }
+  .compare td,
+  .compare-2 td {
+    font-size: 18px !important;
+  }
+  .compare .col-md-8,
+  .compare-2 .col-md-8 {
+    margin-top: 30px;
+    font-size: 18px !important;
+    padding: 0 10px !important;
+  }
+  .compare .col-md-4,
+  .compare-2 .col-md-4 {
+    margin-top: 20px;
+  }
+  .compare .col-md-4 button,
+  .compare-2 .col-md-4 button {
+    width: 98% !important;
+    padding: 8px 15px !important;
+  }
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  h2 {
+    font-size: 28px !important;
+  }
+  .header {
+    height: 800px !important;
+  }
+  .header-bottom {
+    padding: 30px !important;
+  }
+  .logo-text,
+  .myself-education .right-myself {
+    display: none !important;
+  }
+  .logo {
+    width: 25% !important;
+  }
+  .header-call {
+    width: 40% !important;
+    padding: 0 15px;
+  }
+  .call-button {
+    width: 35% !important;
+  }
+  .header .header-bottom ul {
+    flex-wrap: wrap !important;
+    height: auto !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .header .header-bottom ul li {
+    width: 100% !important;
+  }
+  .bg-yellow-form,
+  .download-form,
+  .uk-modal-dialog {
+    width: 700px !important;
+  }
+  .uk-modal-dialog .bg-yellow-form,
+  .uk-modal-dialog .download-form {
+    position: relative !important;
+    width: 105% !important;
+    top: 0 !important;
+  }
+  .spros .right-spros {
+    padding: 20px 0 0 0 !important;
+  }
+  .howmuch-earn .col-lg-8 div {
+    left: -400px !important;
+    bottom: -100px;
+  }
+  .howmuch-earn .col-lg-4 .oborot-main {
+    position: inherit !important;
+    left: inherit !important;
+  }
+  .what-get .what-get-list {
+    padding: 0 !important;
+  }
+  .about {
+    padding: 30px 0;
+    flex-wrap: wrap;
+  }
+  .about div {
+    width: 100% !important;
+  }
+  .about img {
+    margin-bottom: 30px;
+  }
+  .key img {
+    display: none !important;
+  }
+  .key h2 {
+    text-align: center !important;
+    padding: 0 !important;
+  }
+  .key h3 {
+    font-size: 21px !important;
+    text-align: center !important;
+    line-height: 1.5;
+    padding-right: 0 !important;
+  }
+  .key p {
+    padding: 0 !important;
+    text-align: center;
+    font-size: 20px;
+  }
+  .key .card-key {
+    margin: 0 !important;
+    padding: 15px;
+  }
+  .key .card-key h4 {
+    font-size: 20px;
+  }
+  .key .card-key button {
+    padding: 5px;
+    font-size: 20px;
+  }
+  .contacts {
+    width: 50% !important;
+    margin: 40px 0;
+  }
+  .compare h2,
+  .compare-2 h2 {
+    width: 100% !important;
+    padding: 30px 0 0 0 !important;
+  }
+  .compare h3,
+  .compare-2 h3 {
+    padding: 0 !important;
+    font-size: 24px !important;
+  }
+  .compare .table-yellow,
+  .compare-2 .table-yellow,
+  .compare .uk-table thead tr th div,
+  .compare-2 .uk-table thead tr th div {
+    font-size: 18px !important;
+    padding: 30px 0 0 0;
+    height: 80px;
+  }
+  .compare td,
+  .compare-2 td {
+    font-size: 18px !important;
+  }
+  .compare .col-md-8,
+  .compare-2 .col-md-8 {
+    margin-top: 30px;
+    font-size: 18px !important;
+    padding: 0 10px !important;
+  }
+  .compare .col-md-4,
+  .compare-2 .col-md-4 {
+    margin-top: 20px;
+  }
+  .compare .col-md-4 button,
+  .compare-2 .col-md-4 button {
+    width: 98% !important;
+    padding: 8px 15px !important;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 767px) and (orientation: landscape) {
+  body {
+    overflow-x: hidden !important;
+  }
+  h2 {
+    font-size: 26px !important;
+    margin: 10px 0;
+  }
+  .header {
+    height: 900px !important;
+  }
+  .header-top {
+    flex-wrap: wrap;
+  }
+  .header-top .logo {
+    width: 70% !important;
+  }
+  .header-top .logo img {
+    width: 100% !important;
+  }
+  .header-top .logo-text {
+    width: 100% !important;
+    padding: 5px 30px !important;
+    text-align: center;
+    display: none !important;
+  }
+  .header-top .header-call {
+    width: 30% !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-top .header-call div {
+    display: none !important;
+  }
+  .header-top .call-button {
+    width: 100% !important;
+    text-align: center;
+    justify-content: center !important;
+    display: none !important;
+  }
+  .header-top .call-button button {
+    width: 100% !important;
+    padding: 7px !important;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  .header-bottom {
+    padding: 20px !important;
+  }
+  .header-bottom h2 {
+    font-size: 28px !important;
+    text-align: justify;
+    margin: 20px 0 !important;
+  }
+  .header-bottom ul {
+    flex-wrap: wrap !important;
+    height: auto !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .header-bottom ul li {
+    width: 100% !important;
+  }
+  .header-bottom p {
+    width: 100% !important;
+  }
+  .header-bottom button {
+    padding: 15px !important;
+    width: 100%;
+  }
+  .uk-modal-dialog .bg-yellow-form,
+  .uk-modal-dialog .download-form {
+    position: relative !important;
+    width: 115% !important;
+    height: auto !important	;
+    top: 0px !important;
+    right: 35px !important;
+  }
+  .uk-modal-dialog {
+    height: auto !important;
+  }
+  .uk-modal-dialog .bg-yellow-form .please-modal-text,
+  .uk-modal-dialog .download-form .please-modal-text {
+    font-size: 18px !important;
+  }
+  .review .swiper-container .slider-img .video-main-inside {
+    left: 40% !important;
+    top: 40% !important;
+  }
+  div.d-uk-width {
+    width: 90% !important;
+  }
+  .container {
+    padding: 0 15px !important;
+  }
+  .left-about {
+    padding: 20px 0 !important;
+  }
+  .left-about h2 {
+    font-size: 26px !important;
+    margin-bottom: 0;
+  }
+  .left-about h3 {
+    margin-top: 10px !important;
+  }
+  .left-about button {
+    width: 100% !important;
+  }
+  .right-about {
+    padding: 0 0 25px 0 !important;
+  }
+  .right-about .video-img-main .video-main-inside {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .right-about .videos-small a {
+    height: 60px !important;
+  }
+  .right-about .videos-small .video-main-inside {
+    width: 33px !important;
+    height: 33px !important;
+  }
+  .spros .left-spros h2 {
+    font-size: 26px !important;
+  }
+  .spros .right-spros {
+    padding: 35px 0 10px 0 !important;
+  }
+  .spros .right-spros h3 {
+    font-size: 26px !important;
+  }
+  .howmuch-earn .col-lg-8 {
+    border: none !important;
+    padding: 30px 0 0 0 !important;
+  }
+  .howmuch-earn .col-lg-8 h2 {
+    font-size: 26px !important;
+  }
+  .howmuch-earn .col-lg-8 div {
+    display: none !important;
+  }
+  .howmuch-earn .col-lg-4 .oborot-main {
+    position: inherit !important;
+    left: 0 !important;
+  }
+  .howmuch-earn .col-lg-4 .oborot-main .oborot {
+    padding: 10px 0 !important;
+  }
+  .howmuch-earn .col-lg-4 .oborot-main .oborot-number {
+    font-size: 70px !important;
+    width: 35% !important;
+    text-align: left !important;
+  }
+  .howmuch-earn .col-lg-4 .oborot-main .oborot-text {
+    width: 60% !important;
+    font-size: 26px !important;
+  }
+  .myself-education {
+    border: none !important;
+  }
+  .myself-education h2 {
+    font-size: 26px !important;
+  }
+  .myself-education .right-myself {
+    display: none !important;
+  }
+  .myself-education .left-myself ul li {
+    width: 48% !important;
+  }
+  .myself-education .left-myself ul li p {
+    font-size: 16px !important;
+    text-align: center !important;
+  }
+  .steps {
+    padding: 40px 0 10px 0 !important;
+  }
+  .steps h2 {
+    font-size: 26px !important;
+  }
+  .steps .col-md-4:nth-child(2) {
+    display: none !important;
+  }
+  .steps .col-md-4:last-child {
+    display: none !important;
+  }
+  .steps .order-first {
+    -ms-flex-order: -1;
+    order: -1;
+  }
+  .steps .order-last {
+    -ms-flex-order: 13;
+    order: 13;
+  }
+  .steps button {
+    padding: 15px !important;
+    width: 100% !important;
+  }
+  .what-get .what-get-list {
+    padding: 0 !important;
+  }
+  .what-get .what-get-list .what-get-card {
+    margin-bottom: 15px;
+  }
+  .services .row {
+    top: 0 !important;
+    padding-top: 15px;
+  }
+  .services .row .col-md-4 {
+    margin-bottom: 12px !important;
+    color: white !important;
+  }
+  .services .row .col-md-4 span {
+    text-align: center !important;
+    position: relative;
+    bottom: 20px;
+  }
+  .review {
+    padding: 10px 0 !important;
+  }
+  .review .swiper-container .slider-img img {
+    top: 13px !important;
+    left: 13px !important;
+  }
+  .d-slider-text {
+    padding: 10px 55px !important;
+  }
+  .d-slider-text h3 {
+    font-size: 26px !important;
+    margin-top: 20px;
+    padding: 0 15px;
+  }
+  .swiper-button-prev {
+    left: 10px !important;
+  }
+  .swiper-button-next {
+    right: 10px !important;
+  }
+  .table-section {
+    padding: 0px 15px !important;
+  }
+  .table-section thead tr th:first-child {
+    width: auto !important;
+    text-align: left;
+    font-size: 13px !important;
+    padding: 1px !important;
+  }
+  .table-section thead tr th {
+    padding: 8px 0px !important;
+    font-size: 13px !important;
+  }
+  .table-section thead tr th span {
+    font-size: 11px !important;
+  }
+  .table-section thead tr th:nth-child(3) {
+    padding-top: 20px !important;
+  }
+  .table-section td {
+    padding: 10px 0 10px 5px !important;
+  }
+  .table-section td img {
+    width: 15px;
+    height: 15px;
+  }
+  .table-section td:first-child {
+    width: auto !important;
+    text-align: left;
+    font-family: 'Gilroy Bold' !important;
+    font-size: 14px !important;
+  }
+  .table-section .last-tr td {
+    font-size: 13px !important;
+  }
+  .individual {
+    padding: 30px 0 !important;
+  }
+  .individual h2 {
+    padding: 0 0 20px 0 !important;
+  }
+  .individual button {
+    padding: 5px 10px !important;
+    width: 100%;
+  }
+  .compare h2,
+  .compare-2 h2 {
+    width: 100% !important;
+    padding: 30px 0 0 0 !important;
+  }
+  .compare h3,
+  .compare-2 h3 {
+    padding: 0 !important;
+    font-size: 20px !important;
+  }
+  .compare .table-yellow,
+  .compare-2 .table-yellow,
+  .compare .uk-table thead tr th div,
+  .compare-2 .uk-table thead tr th div {
+    font-size: 13px !important;
+    padding: 30px 0 0 0;
+    height: 80px;
+  }
+  .compare td,
+  .compare-2 td {
+    font-size: 13px !important;
+  }
+  .compare .col-md-8,
+  .compare-2 .col-md-8 {
+    margin-top: 30px;
+    font-size: 18px !important;
+    padding: 0 10px !important;
+  }
+  .compare .col-md-4,
+  .compare-2 .col-md-4 {
+    margin-top: 20px;
+  }
+  .compare .col-md-4 button,
+  .compare-2 .col-md-4 button {
+    width: 98% !important;
+    padding: 8px 15px !important;
+  }
+  .compare-2 h2 {
+    padding: 0 !important;
+  }
+  .about {
+    padding: 30px 0;
+    flex-wrap: wrap;
+  }
+  .about h2 {
+    margin-top: 25px;
+  }
+  .about p {
+    margin-bottom: 24px;
+  }
+  .about div {
+    width: 100% !important;
+  }
+  .about img {
+    margin-bottom: 30px;
+  }
+  .about div:first-child {
+    padding: 0 !important;
+  }
+  .key img {
+    display: none !important;
+  }
+  .key h2 {
+    text-align: center !important;
+    padding: 0 !important;
+  }
+  .key h3 {
+    font-size: 21px !important;
+    text-align: center !important;
+    line-height: 1.5;
+    padding-right: 0 !important;
+  }
+  .key p {
+    padding: 0 !important;
+    text-align: center;
+    font-size: 20px;
+  }
+  .key .card-key {
+    margin: 0 !important;
+    padding: 15px;
+  }
+  .key .card-key h4 {
+    font-size: 20px;
+  }
+  .key .card-key button {
+    padding: 5px;
+    font-size: 20px;
+  }
+  .contacts {
+    width: 100% !important;
+    margin: 40px 0;
+  }
+  .footer .container {
+    flex-wrap: wrap;
+  }
+}
+/* Telephones (portrait and landscape) ----------- */
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  h2 {
+    font-size: 26px !important;
+    margin: 10px 0;
+  }
+  .header {
+    height: 900px !important;
+  }
+  .header-top {
+    flex-wrap: wrap;
+  }
+  .header-top .logo {
+    width: 70% !important;
+  }
+  .header-top .logo img {
+    width: 100% !important;
+  }
+  .header-top .logo-text {
+    width: 100% !important;
+    padding: 5px 30px !important;
+    text-align: center;
+    display: none !important;
+  }
+  .header-top .header-call {
+    width: 30% !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-top .header-call div {
+    display: none !important;
+  }
+  .header-top .call-button {
+    width: 100% !important;
+    text-align: center;
+    justify-content: center !important;
+    display: none !important;
+  }
+  .header-top .call-button button {
+    width: 100% !important;
+    padding: 7px !important;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  .header-bottom {
+    padding: 20px !important;
+  }
+  .header-bottom h2 {
+    font-size: 28px !important;
+    text-align: justify;
+    margin: 20px 0 !important;
+  }
+  .header-bottom ul {
+    flex-wrap: wrap !important;
+    height: auto !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .header-bottom ul li {
+    width: 100% !important;
+  }
+  .header-bottom p {
+    width: 100% !important;
+  }
+  .header-bottom button {
+    padding: 15px !important;
+    width: 100%;
+  }
+  .uk-modal-dialog .bg-yellow-form,
+  .uk-modal-dialog .download-form {
+    position: relative !important;
+    width: 115% !important;
+    height: auto !important	;
+    top: 0px !important;
+    right: 35px !important;
+  }
+  .uk-modal-dialog {
+    height: auto !important;
+  }
+  .uk-modal-dialog .bg-yellow-form .please-modal-text,
+  .uk-modal-dialog .download-form .please-modal-text {
+    font-size: 18px !important;
+  }
+  .review .swiper-container .slider-img .video-main-inside {
+    left: 40% !important;
+    top: 40% !important;
+  }
+  div.d-uk-width {
+    width: 90% !important;
+  }
+  .container {
+    padding: 0 15px !important;
+  }
+  .left-about {
+    padding: 20px 0 !important;
+  }
+  .left-about h2 {
+    font-size: 26px !important;
+    margin-bottom: 0;
+  }
+  .left-about h3 {
+    margin-top: 10px !important;
+  }
+  .left-about button {
+    width: 100% !important;
+  }
+  .right-about {
+    padding: 0 0 25px 0 !important;
+  }
+  .right-about .video-img-main .video-main-inside {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .right-about .videos-small a {
+    height: 60px !important;
+  }
+  .right-about .videos-small .video-main-inside {
+    width: 33px !important;
+    height: 33px !important;
+  }
+  .spros .left-spros h2 {
+    font-size: 26px !important;
+  }
+  .spros .right-spros {
+    padding: 35px 0 10px 0 !important;
+  }
+  .spros .right-spros h3 {
+    font-size: 26px !important;
+  }
+  .howmuch-earn .col-lg-8 {
+    border: none !important;
+    padding: 30px 0 0 0 !important;
+  }
+  .howmuch-earn .col-lg-8 h2 {
+    font-size: 26px !important;
+  }
+  .howmuch-earn .col-lg-8 div {
+    display: none !important;
+  }
+  .howmuch-earn .col-lg-4 .oborot-main {
+    position: inherit !important;
+    left: 0 !important;
+  }
+  .howmuch-earn .col-lg-4 .oborot-main .oborot {
+    padding: 10px 0 !important;
+  }
+  .howmuch-earn .col-lg-4 .oborot-main .oborot-number {
+    font-size: 70px !important;
+    width: 35% !important;
+    text-align: left !important;
+  }
+  .howmuch-earn .col-lg-4 .oborot-main .oborot-text {
+    width: 60% !important;
+    font-size: 26px !important;
+  }
+  .myself-education {
+    border: none !important;
+  }
+  .myself-education h2 {
+    font-size: 26px !important;
+  }
+  .myself-education .right-myself {
+    display: none !important;
+  }
+  .myself-education .left-myself ul li {
+    width: 48% !important;
+  }
+  .myself-education .left-myself ul li p {
+    font-size: 16px !important;
+    text-align: center !important;
+  }
+  .steps {
+    padding: 40px 0 10px 0 !important;
+  }
+  .steps h2 {
+    font-size: 26px !important;
+  }
+  .steps .col-md-4:nth-child(2) {
+    display: none !important;
+  }
+  .steps .col-md-4:last-child {
+    display: none !important;
+  }
+  .steps .order-first {
+    -ms-flex-order: -1;
+    order: -1;
+  }
+  .steps .order-last {
+    -ms-flex-order: 13;
+    order: 13;
+  }
+  .steps button {
+    padding: 15px !important;
+    width: 100% !important;
+  }
+  .what-get .what-get-list {
+    padding: 0 !important;
+  }
+  .what-get .what-get-list .what-get-card {
+    margin-bottom: 15px;
+  }
+  .services .row {
+    top: 0 !important;
+    padding-top: 15px;
+  }
+  .services .row .col-md-4 {
+    margin-bottom: 12px !important;
+    color: white !important;
+  }
+  .services .row .col-md-4 span {
+    text-align: center !important;
+    position: relative;
+    bottom: 20px;
+  }
+  .review {
+    padding: 10px 0 !important;
+  }
+  .review .swiper-container .slider-img img {
+    top: 13px !important;
+    left: 13px !important;
+  }
+  .d-slider-text {
+    padding: 10px 55px !important;
+  }
+  .d-slider-text h3 {
+    font-size: 26px !important;
+    margin-top: 20px;
+    padding: 0 15px;
+  }
+  .swiper-button-prev {
+    left: 10px !important;
+  }
+  .swiper-button-next {
+    right: 10px !important;
+  }
+  .table-section {
+    padding: 0px 15px !important;
+  }
+  .table-section thead tr th:first-child {
+    width: auto !important;
+    text-align: left;
+    font-size: 13px !important;
+    padding: 1px !important;
+  }
+  .table-section thead tr th {
+    padding: 8px 0px !important;
+    font-size: 13px !important;
+  }
+  .table-section thead tr th span {
+    font-size: 11px !important;
+  }
+  .table-section thead tr th:nth-child(3) {
+    padding-top: 20px !important;
+  }
+  .table-section td {
+    padding: 10px 0 10px 5px !important;
+  }
+  .table-section td img {
+    width: 15px;
+    height: 15px;
+  }
+  .table-section td:first-child {
+    width: auto !important;
+    text-align: left;
+    font-family: 'Gilroy Bold' !important;
+    font-size: 14px !important;
+  }
+  .table-section .last-tr td {
+    font-size: 13px !important;
+  }
+  .individual {
+    padding: 30px 0 !important;
+  }
+  .individual h2 {
+    padding: 0 0 20px 0 !important;
+  }
+  .individual button {
+    padding: 5px 10px !important;
+    width: 100%;
+  }
+  .compare h2,
+  .compare-2 h2 {
+    width: 100% !important;
+    padding: 30px 0 0 0 !important;
+  }
+  .compare h3,
+  .compare-2 h3 {
+    padding: 0 !important;
+    font-size: 20px !important;
+  }
+  .compare .table-yellow,
+  .compare-2 .table-yellow,
+  .compare .uk-table thead tr th div,
+  .compare-2 .uk-table thead tr th div {
+    font-size: 13px !important;
+    padding: 30px 0 0 0;
+    height: 80px;
+  }
+  .compare td,
+  .compare-2 td {
+    font-size: 13px !important;
+  }
+  .compare .col-md-8,
+  .compare-2 .col-md-8 {
+    margin-top: 30px;
+    font-size: 18px !important;
+    padding: 0 10px !important;
+  }
+  .compare .col-md-4,
+  .compare-2 .col-md-4 {
+    margin-top: 20px;
+  }
+  .compare .col-md-4 button,
+  .compare-2 .col-md-4 button {
+    width: 98% !important;
+    padding: 8px 15px !important;
+  }
+  .compare-2 h2 {
+    padding: 0 !important;
+  }
+  .about {
+    padding: 30px 0;
+    flex-wrap: wrap;
+  }
+  .about h2 {
+    margin-top: 25px;
+  }
+  .about p {
+    margin-bottom: 24px;
+  }
+  .about div {
+    width: 100% !important;
+  }
+  .about img {
+    margin-bottom: 30px;
+  }
+  .about div:first-child {
+    padding: 0 !important;
+  }
+  .key img {
+    display: none !important;
+  }
+  .key h2 {
+    text-align: center !important;
+    padding: 0 !important;
+  }
+  .key h3 {
+    font-size: 21px !important;
+    text-align: center !important;
+    line-height: 1.5;
+    padding-right: 0 !important;
+  }
+  .key p {
+    padding: 0 !important;
+    text-align: center;
+    font-size: 20px;
+  }
+  .key .card-key {
+    margin: 0 !important;
+    padding: 15px;
+  }
+  .key .card-key h4 {
+    font-size: 20px;
+  }
+  .key .card-key button {
+    padding: 5px;
+    font-size: 20px;
+  }
+  .contacts {
+    width: 100% !important;
+    margin: 40px 0;
+  }
+  .footer .container {
+    flex-wrap: wrap;
+  }
+}
