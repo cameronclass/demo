@@ -1,0 +1,1026 @@
+/* Phones portrait and smaller */
+@media (max-width: 639px) {}
+
+/* Tablet portrait and smaller */
+@media (max-width: 959px) {}
+
+/* Desktop and bigger */
+@media (min-width: 960px) {}
+
+/* Laptop and bigger */
+@media (min-width: 1200px) {}
+
+
+
+@media (max-width: 320px) {
+  .services li p {
+      font-size: 14px;}
+}
+
+/* Bootstrap */
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-width : 960px) and (max-width : 1025px) {
+
+    /* STYLES GO HERE */
+    h2 {
+        font-size: 28px;
+    }
+    .logo img{
+        width: 36px;
+        height: 36px;
+    }
+    main{
+    /*    margin-top: 66px;*/
+    }
+
+    .container {
+        width: 970px;
+        margin: 0 auto;
+    }
+
+    .navigation {
+        width: 415px;
+    }
+
+    .navigation ul li a, .dropbtn {
+        font-size: 14px !important;
+    }
+
+    .logo {
+        width: 290px;
+    }
+
+    .logo p {
+        font-size: 16px;
+        line-height: 1.1;
+        padding-left: 10px;
+    }
+    .dropdown{
+        position: absolute;
+        display: none;
+        width: 0;
+        padding: 0;
+        margin: 0;
+    }
+    .telephone{
+        width: 225px;
+    }
+    .navbar{
+        display: block;
+    }
+    .bg-home{
+        margin-top: 0;
+    }
+    .navigation ul{
+        padding: 0;
+    }
+
+    .logo p span {
+        font-size: 13px;
+    }
+
+    .region {
+        width: 100px;
+    }
+
+    .navbar ul li {
+        margin: 20px 0;
+    }
+
+    .navbar ul li a {
+        font-size: 16px;
+    }
+
+    .section-1 .home-title h1 {
+        font-size: 32px;
+    }
+
+    .form-div .form h2 {
+        font-size: 24px;
+    }
+
+    .form-div {
+        width: 29%;
+    }
+
+    .section-1 .home-title {
+        width: 36%;
+    }
+
+    .section-1 .header-image {
+        width: 33%;
+    }
+
+    .section-2 li {
+        width: 31%;
+        padding: 15px 0;
+    }
+
+    .section-3 .why-choose li {
+        width: 220px;
+
+    }
+
+    .section-3 .why-choose li .why-text p {
+        font-size: 13px;
+    }
+
+    .section-3 .why-choose li img {
+        width: 85px;
+        height: 85px;
+    }
+
+    .slick-slide {
+        margin: 0 15px;
+    }
+
+    .slick-list {
+        margin: 0 15px;
+    }
+
+    .slick-next:before {
+        right: 10px;
+    }
+
+    .slick-prev:before {
+        left: 10px;
+    }
+
+    .services li h3 {
+        font-size: 19px;
+    }
+
+    .services li p {
+        font-size: 14px;
+    }
+
+    .call-main-div .call-information {
+        width: 50%;
+    }
+
+    .call-main-div .call-information .call-title .call-p1 {
+        font-size: 19px;
+    }
+
+    .call-main-div .call-information .call-title .call-p2 {
+        line-height: 3;
+        font-size: 14px;
+    }
+
+    .call-main-div .call-information .call-title {
+        padding: 55px 0 0 60px;
+    }
+
+    .call-main-div .man-call img {
+        width: 106px;
+        height: 100px;
+        margin-left: -55px;
+    }
+
+    .call-main-div .call-information .form-div {
+        width: 260px;
+    }
+
+    .accordion .accordion-item a {
+        padding: 15px 30px;
+        margin-top: 13px;
+    }
+
+    .how-work ol li {
+        width: 205px;
+    }
+
+    .how-work ol li p {
+        font-size: 13px;
+    }
+
+    .how-work ol li h4 {
+        font-size: 22px;
+        margin: 13px 0;
+    }
+
+    .bg-prices .price-cards .price-card {
+        width: 19%;
+    }
+
+    .bg-prices .price-cards .price-card-main .left-price h3,
+    .bg-prices .price-cards .price-card h3 {
+        font-size: 19px;
+    }
+
+    .bg-prices ul li,
+    .maps .contact-div p,
+    .bg-prices .price-cards .price-card p.price-last-text,
+    .bg-prices .price-cards .price-card a,
+    .remont .prof-text .prof ul li div,
+    .review .review-slider .rev-text {
+        font-size: 14px;
+    }
+
+    .bg-prices .price-cards .price-card h3.last-h3 {
+        font-size: 24px;
+    }
+
+    .bg-prices .price-cards .price-card,
+    .bg-prices .price-cards .price-card-main {
+        height: 215px;
+    }
+
+    .bg-prices .price-cards .price-card-main {
+        width: 47%;
+    }
+
+    .remont .prof-text .prof h3,
+    .maps .contact-div h2 {
+        font-size: 23px;
+    }
+
+    .review .review-slider .rev-name {
+        font-size: 16px;
+    }
+
+    .review .review-slider li {
+        height: 175px;
+    }
+
+    .maps .contact-div h3 {
+        font-size: 20px;
+    }
+
+    .policy-mobile-last-form {
+        display: none;
+    }
+
+    .policy-text-last,
+    .policy-text-2-last {
+        display: none;
+    }
+    .telephone span{
+        font-size: 20px;
+    }
+    .d-service{
+        display: none !important;
+    }
+    .section-1 .form p{
+        width: 100%;
+    }
+    .maps{
+        background-position: 65%;
+    }
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1020px) {
+
+    body,
+    html {
+        overflow-x: hidden;
+    }
+
+    .maps{
+        background-position: 65%;
+    }
+
+    .container {
+        width: 768px;
+        margin: 0 auto;
+    }
+    .footer .tel-footer{
+        display: none;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .navigation,
+    .navbar,
+    .section-1 .header-image,
+    .bg-call-image,
+    .man-call,
+    .comp-photo,
+    .region {
+        display: none;
+    }
+
+    .footer .d-flex{
+        justify-content: left;
+    }
+
+    .to-top{
+      position: fixed;
+      right: 5px;
+      bottom: 15px;
+    }
+
+    .region {
+        display: none;
+    }
+
+    .section-1 .home-title {
+      width: 60%;
+      padding: 40px 0 40px 50px;
+    }
+
+    .form-div {
+        width: 35%;
+        margin: 30px 15px 20px 10px
+    }
+
+    .section-1 .home-title h1 {
+        font-size: 38px;
+    }
+
+    .section-2 li div {
+        font-size: 13px;
+    }
+
+    .section-2 li img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .section-3 p {
+        font-size: 15px;
+    }
+
+    .section-2 li {
+        width: 26%;
+    }
+
+    .section-3 .why-choose {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 45px;
+    }
+
+    .section-3 .why-choose li {
+        width: 35%;
+        margin: 35px 20px;
+        padding: 0 15px;
+    }
+
+    .slick-slide {
+        margin: 0 10px;
+    }
+
+    .slick-list {
+        margin: 0 45px;
+    }
+
+    .slick-next:before {
+        right: 45px;
+    }
+
+    .slick-prev:before {
+        left: 45px;
+    }
+
+    .accordion-my p,
+    .bg-prices p {
+        padding: 0 16px;
+    }
+
+    .accordion .accordion-item {
+        width: 95%;
+    }
+
+    .call-main-div .call-information .form-div,
+    .call-main-div .call-information .call-title {
+        width: 35%;
+    }
+
+    .call-main-div .call-information {
+        justify-content: space-between;
+    }
+
+    .how-work ol li {
+        width: 35%;
+        margin: 15px;
+    }
+
+    .how-work ol {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .how-work ol li span {
+        width: 36px;
+        font-size: 19px;
+        height: 29px;
+    }
+
+    .bg-prices .price-cards .price-card-main {
+        width: 80%;
+    }
+
+    .bg-prices .price-cards {
+        justify-content: center;
+    }
+
+    .bg-prices .price-cards .price-card {
+        width: 34.5%;
+        margin: 20px 15px 0;
+    }
+
+    .bg-prices .price-cards .price-card-main .right-price img {
+        float: right;
+        width: 82%;
+    }
+
+    .remont .prof-text .prof ul li {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .remont .prof-text .prof {
+        width: 49%;
+    }
+
+    .remont .prof-text .prof ul li div {
+        padding: 0 15px;
+    }
+
+    .remont .prof-text .prof h3 {
+        padding: 0 15px;
+        font-size: 23px;
+        height: 35px;
+    }
+
+    .green-text .container p,
+    .green-text h2 {
+        padding: 0 15px;
+    }
+
+    .green-text h3 {
+        padding: 0 15px;
+        font-size: 23px;
+    }
+
+    .review .review-slider li {
+        margin: 10px 40px;
+    }
+
+    .maps .contact-div {
+        margin: 30px 20px;
+        width: 45%;
+    }
+
+    .maps .contact-div h3 {
+        font-size: 24px;
+    }
+
+    .footer .policy,
+    .footer .tel-footer {
+        padding: 0 50px;
+    }
+
+    .mobile-menu {
+        display: inline-block;
+        width: 80px;
+    }
+
+    .logo {
+        padding: 0 0 0 20px;
+    }
+
+    .policy-mobile-last-form {
+        display: none;
+    }
+
+    .footer .logo {
+        padding: 0;
+    }
+
+    .policy-text-last,
+    .policy-text-2-last {
+        display: none;
+    }
+}
+
+/* Telephones (portrait and landscape) ----------- */
+@media only screen and (min-width : 300px) and (max-width : 767px) {
+    .container {
+        width: 100%;
+    }
+
+    .section-1 {
+        flex-wrap: wrap;
+    }
+
+    .tel-footer{
+        display: none;
+    }
+
+    .accordion-item h3 {
+        font-size: 20px;
+    }
+
+    .accordion .accordion-item ul.content li {
+        font-size: 15px;
+        padding: 12px 5px;
+        text-align: left;
+    }
+
+    .accordion .accordion-item a {
+        padding: 8px 10px;
+    }
+
+    .accordion .accordion-item span img {
+        width: 23px;
+        height: 23px;
+    }
+
+    .content .d-flex {
+        align-items: center;
+    }
+
+    body,
+    html {
+        overflow-x: hidden;
+    }
+
+    h2 {
+        font-size: 26px;
+        padding: 0 15px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    p {
+        padding: 0 15px;
+    }
+
+    .call-main-div .call-information .call-title .call-p2 {
+        padding: 0;
+    }
+
+    .navigation,
+    .navbar,
+    .section-1 .header-image,
+    .bg-call-image,
+    .man-call,
+    .comp-photo,
+    .region,
+    .telephone,
+    .bg-prices .price-cards .price-card-main .right-price,
+    .footer .tel-footer {
+        display: none;
+    }
+
+    .region {
+        display: none;
+    }
+
+    .section-1 .home-title {
+        width: 100%;
+        padding: 20px 0 0 40px;
+    }
+
+    .form-div .form .checkbox-container {
+        font-size: 12px;
+    }
+
+    .form-div {
+        width: 100%;
+        margin: 0 15px 15px 15px;
+    }
+
+    .form-div .form h2 {
+        padding: 0;
+        font-size: 22px;
+    }
+
+    .form-div .form h2 div {
+        font-size: 15px;
+    }
+
+    .section-1 .home-title h1 {
+        font-size: 30px;
+    }
+
+    .section-2 {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .section-2 li div {
+        font-size: 13px;
+    }
+
+    .section-2 li img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .section-3 p {
+        font-size: 15px;
+    }
+
+    .section-2 li {
+        width: 78%;
+        margin-top: 20px;
+    }
+
+    .section-3 .why-choose {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 45px;
+    }
+
+    .section-3 .why-choose li {
+        width: 88%;
+        margin: 35px 0;
+        padding: 0 5px;
+    }
+
+    .why-text p {
+        margin: 5px 0;
+    }
+
+    .slick-slide {
+        margin: 0 10px;
+    }
+
+    .slick-list {
+        margin: 0 30px;
+    }
+
+    .slick-next:before {
+        right: 35px;
+    }
+
+    .slick-prev:before {
+        left: 25px;
+    }
+
+    .accordion-my p,
+    .bg-prices p {
+        padding: 0 16px;
+    }
+
+    .accordion .accordion-item {
+        width: 93% !important;
+    }
+
+    .call-main-div .call-information .form-div,
+    .call-main-div .call-information .call-title {
+        width: 100%;
+    }
+
+    .call-main-div .call-information {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .call-main-div {
+        height: auto;
+    }
+
+    .call-main-div .call-information .call-title {
+        padding: 20px 40px 0;
+    }
+
+    .how-work ol li {
+        width: 100%;
+        margin: 15px;
+    }
+
+    .how-work ol {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .how-work ol li span {
+        width: 36px;
+        font-size: 19px;
+        height: 29px;
+    }
+
+    .how-work ol li h4 {
+        margin: 18px 0 10px 0;
+    }
+
+    .bg-prices .price-cards .price-card-main {
+        width: 100%;
+        margin: 20px 15px 0;
+    }
+
+    .bg-prices .price-cards {
+        justify-content: center;
+    }
+
+    .bg-prices .price-cards .price-card {
+        width: 100%;
+        margin: 20px 15px 0;
+        height: auto;
+    }
+
+    .bg-prices .price-cards .price-card-main .right-price img {
+        float: right;
+        width: 82%;
+    }
+
+    .remont .prof-text .prof ul li {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .remont .prof-text .prof {
+        width: 100%;
+    }
+
+    .remont .prof-text .prof ul li div {
+        padding: 15px;
+    }
+
+    .remont .prof-text .prof h3 {
+        padding: 0 15px;
+        font-size: 23px;
+        height: 35px;
+    }
+
+    .green-text .container p,
+    .green-text h2 {
+        padding: 0 15px;
+    }
+
+    .green-text h3 {
+        padding: 0 15px;
+        font-size: 23px;
+    }
+
+    .review .review-slider li {
+        margin: 8px;
+        height: auto;
+    }
+
+    .review .review-slider .rev-text {
+        font-size: 15px;
+    }
+
+    .maps .contact-div {
+        margin: 30px 15px;
+        width: 100%;
+        padding: 15px 0;
+    }
+
+    .maps .contact-div h3 {
+        font-size: 24px;
+    }
+
+    .footer .policy,
+    .footer .tel-footer {
+        padding: 0 50px;
+    }
+
+    .mobile-menu {
+        display: inline-block;
+        width: 80px;
+    }
+
+    .logo {
+        padding: 0 0 0 10px;
+    }
+
+    .logo p {
+        font-size: 18px;
+        padding: 0 5px;
+    }
+
+    .logo p span {
+        font-size: 13px
+    }
+
+    .uk-button img {
+        margin-right: 20px;
+    }
+
+    .accordion-my h2,
+    .bg-prices h2,
+    .bg-services h2,
+    .how-work h3 {
+        font-size: 24px;
+        padding: 0 10px;
+    }
+
+    .how-work p {
+        font-size: 15px;
+    }
+
+    .bg-prices .price-cards .price-card-main .left-price {
+        width: 100%;
+    }
+
+    .bg-prices .price-cards .price-card p.price-last-text {
+        padding: 0;
+    }
+
+    .remont .prof-text {
+        flex-wrap: wrap;
+    }
+
+    .remont .prof-text .prof ul {
+        margin-top: 10px;
+    }
+
+    .green-text h2 {
+        font-size: 24px;
+    }
+
+    .green-text h3 {
+        font-size: 21px;
+    }
+
+    .maps .contact-div {
+        position: relative;
+    }
+
+    .maps .contact-div h3 {
+        padding: 0 15px;
+    }
+
+    .maps .container {
+        display: flex;
+        justify-content: center;
+        background-color: #f1f1f3;
+    }
+
+    iframe {
+        display: none;
+    }
+
+    .form-last .form-last-p {
+        font-size: 20px;
+    }
+
+    .form-last .form {
+        flex-wrap: wrap;
+    }
+
+    .form-last {
+        width: 100%;
+    }
+
+    .form-last {
+        padding: 20px 15px;
+    }
+
+    .form-last .form .form-control {
+        width: 100%;
+        padding: 10px 15px;
+        margin: 25px 0px 0px;
+    }
+
+    .form-last .form2 button {
+        width: 100%;
+
+        margin: 10px 0px 0px;
+    }
+
+    .policy-mobile-last-form {
+        display: inline-block;
+    }
+
+    .form-last .form2 button {
+        background-color: #0067b4;
+        text-align: center;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        padding: 10px;
+        cursor: pointer;
+        border: 2px solid #0067b4;
+        transition: 300ms ease;
+    }
+
+    .mobile-policy-last-form {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .d-none-xs {
+        display: none;
+    }
+
+    .checkbox-container {
+        margin-top: 20px;
+    }
+
+    .footer .policy {
+        padding: 0 15px;
+        width: 100%;
+    }
+
+    footer .logo {
+        padding: 0;
+    }
+
+    .mobile-tel {
+        display: flex;
+    }
+
+    .mobile-tel img {
+        width: 25px;
+        height: 25px;
+    }
+
+    footer .policy {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .border-footer {
+        display: inline-block;
+    }
+
+    .footer .d-flex {
+        flex-wrap: wrap;
+    }
+
+    .footer .border-footer {
+        border: none;
+        padding: 15px;
+    }
+
+    .border-footer ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .border-footer ul li {
+        width: 48%;
+    }
+
+    .policy-text-2,
+    .policy-text {
+        display: none;
+    }
+
+    .policy-text-last {
+        margin: 20px 0 10px 0;
+        padding: 0;
+        color: #cfc5c5;
+        display: inline-block;
+    }
+
+    .policy-text-2-last {
+        display: inline-block;
+
+        color: #585959;
+
+    }
+
+    .footer {
+        padding: 20px 0;
+    }
+
+    .logo img {
+        width: 35px;
+        height: 35px;
+        bottom: 0;
+    }
+    h1{
+      padding: 0 15px;
+    }
+    .maps{
+        height: auto;
+    }
+
+
+}
+
+@media only screen and (min-width : 300px) and (max-width : 320px) {
+    .logo p {
+        font-size: 14px;
+        padding: 0 5px;
+    }
+
+    .logo img {
+        width: 38px;
+        height: 38px;
+    }
+    .maps{
+        height: auto;
+    }
+}

@@ -1,0 +1,1689 @@
+/* Monile and Ipad mini ( 7inc Screen ) */
+@media (min-width: 200px) and (max-width: 767px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  *:focus {
+    outline: none;
+    background-color: transparent;
+  }
+
+  a:focus {
+    background-color: transparent;
+    outline: none;
+    border: none;
+  }
+
+  .form-global h3, .service-list h3 {
+      font-size: 26px;
+  }
+  .price h2 {
+    margin-bottom: 20px;
+  }
+  .service-list {
+      padding: 20px 10px;
+  }
+  .service-list button {
+    font-size: 12px;
+  }
+
+  .service {
+        padding: 0px 15px;
+  }
+  h2, .h2 {
+    font-size: 28px;
+  }
+h2, h3  {
+    margin-top: 10px !important;
+}
+.text-section h3, .our-work h3 {
+    font-size: 26px;
+}
+.bread-crumb ol li a {
+    font-size: 11px;
+}
+.bread-crumb ol li {
+    padding: 0px 10px 5px;
+    font-size: 11px;
+}
+.h1 {
+    font-size: 32px!important;
+  }
+  .form-global h3, .h3 {
+    font-size: 28px;
+  }
+.h3 {
+    padding-top: 15px;
+  }
+
+  ul.service-cards {
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+  .price {
+    padding: 30px 15px 0 !important;
+  }
+
+  .benefits {
+    padding: 20px 15px 0 !important;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .uk-offcanvas-bar ul li {
+    position: relative;
+  }
+
+  .offcanvas-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #faf4e6;
+    border-bottom: 1px solid #073f6f;
+    border-right: 4px solid #073f6f;
+  }
+  .service-list ul li div:nth-child(2) {
+      width: 22%;
+  }
+  .service-list ul li div {
+      width: 77%;
+  }
+  .offcanvas-logo span {
+    font-size: 14px;
+    margin-right: 10px;
+    color: #dc6756;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #dc6756;
+  }
+
+  .offcanvas-logo img {
+    width: auto;
+    height: 45px;
+    margin: 0;
+  }
+
+  .our-work {
+    padding: 30px 15px 0px !important;
+  }
+
+  .form-global .form-text, .form-global .form-input {
+    width: 100%;
+  }
+
+  header .header-top .header-tel {
+    display: none !important;
+  }
+
+  header .header-top ul, .navigation, .our-work div.right .work-right-inside {
+    display: none;
+  }
+
+  .benefits ul {
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+
+  .benefits ul li, .how-work ol li {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .benefits ul li img {
+    margin: 0;
+  }
+
+  .benefits ul li div, .how-work ol li div {
+    width: 80%;
+  }
+
+  .benefits ul li h3 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .how-work ol li img {
+    margin: 0;
+    padding: 0;
+  }
+
+  .how-work ol li p {
+    padding: 0 0 0 15px;
+    margin: 0;
+  }
+
+  .how-work ol li span {
+  /*  display: none;*/
+  font-size: 100px;
+  padding: 0px 10px 15px 0;
+  }
+  .how-work ol li img {
+      width: 70px;
+      height: 70px;
+      margin-right: 5px;
+  }
+  footer {
+    flex-wrap: wrap;
+    padding: 15px 10px !important;
+  }
+
+  footer .tel a {
+    font-size: 15px;
+  }
+
+  footer .tel button {
+    font-size: 13px;
+  }
+
+  footer .copyright p {
+    font-size: 10px;
+    margin: 0 0 18px 0;
+    padding: 0;
+  }
+
+  footer .logo, footer .copyright {
+    width: 60%;
+  }
+
+  footer .tel, footer .social {
+    width: 40%;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  footer .logo, footer .tel {
+    margin-bottom: 20px;
+  }
+
+  footer .logo img {
+    width: 40px;
+    height: 40px;
+  }
+
+  footer .logo div {
+    font-size: 14.5px;
+    padding-left: 5px;
+  }
+
+  footer .logo div span {
+    font-size: 10px;
+  }
+
+  footer .social p {
+    font-size: 10px;
+  }
+  footer .social ul {
+    width: 100%;
+  }
+  footer .tel a {
+      margin-bottom: 6px;
+  }
+  .how-work ol {
+    flex-wrap: wrap;
+  }
+
+  .how-work ol li {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .service ul {
+    grid-template-columns: 1fr;
+    margin: 10px
+  }
+  .text-section {
+      padding: 40px 15px;
+  }
+  .service-list ul li {
+    font-size: 13px;
+  }
+
+  header .header-top ul, .navigation {
+    display: none;
+  }
+
+  .section-header {
+    margin-top: 10px;
+  }
+
+  .section-header h1 {
+    font-size: 32px;
+    padding: 20px 15px 0;
+  }
+  .section-header span {
+      font-size: 24px;
+  }
+  .section-header h2 {
+    font-size: 19px;
+    padding: 0 10px;
+  }
+
+  .section-header p {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+  .container-fluid .section-1 .p-zv {padding: 0px 0px 0px 15px;}
+  .our-work, .text-section, .how-work {font-size: 14px;}
+  .how-work {
+      padding: 20px 15px;
+  }
+  .how-work ol li {
+    padding: 0 60px 20px 0;
+}
+  .section-header div img {
+    height: 240px;
+  }
+
+  .section-header div:first-child {
+    width: 100%;
+  }
+
+  .section-header div:last-child {
+    display: none;
+  }
+  .section-header img {
+    display: none;
+  }
+
+
+
+  .left {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .right {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .uk-offcanvas-bar ul li a img {
+    position: absolute;
+    right: 23px;
+    width: 11px;
+    height: 11px;
+    top: 3px;
+    fill: white;
+  }
+
+  .dropdown-accordion li {
+    font-size: 12px;
+  }
+  .uk-offcanvas-bar ul:last-child {
+      padding: 0 0 0 5px;
+  }
+  header .header-top {
+    border-bottom: 1px solid #073f6f;
+    padding: 0;
+    align-items: inherit;
+  }
+
+  header .header-top .header-tel {
+    width: 45%;
+    flex-wrap: wrap;
+  }
+
+  header .header-top .header-tel a {
+    font-size: 22px;
+    padding-right: 10px;
+  }
+
+  header .header-top .header-tel span {
+    display: none;
+  }
+
+  header .header-top .logo {
+    width: 67%;
+  }
+
+  .hamburger {
+    width: 17%;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    background-color: #073f6f;
+    padding: 10px
+  }
+  .uk-offcanvas-bar {
+    width: 280px !important;
+}
+
+  header .header-top .hamburger * {
+    display: block;
+  }
+
+  .hamburger svg {
+    border: 1px solid white;
+    padding: 4px 4px 6px 4px;
+    border-radius: 4px;
+  }
+
+  header .header-top .header-mobile-tel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16%;
+    text-align: center;
+  }
+
+  header .header-top .logo img {
+    width: 50px;
+    height: 50px;
+  }
+
+  header .header-top .logo div {
+    font-size: 17px;
+    padding-left: 5px;
+  }
+
+  header .header-top .logo div span {
+    font-size: 8.2px;
+  }
+
+  .form-global {
+    flex-wrap: wrap;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .form-global .form-input .soglasie {
+    justify-content: center;
+  }
+
+  .form-global .form-text .form-text-image {
+    display: none;
+  }
+
+  /*section, article {
+    padding: 30px 15px !important;
+  }
+*/
+  footer .logo div span {
+    font-size: 7.4px;
+  }
+
+  footer .social {
+    padding: 0 0 0 5px;
+  }
+
+  footer .tel button span {
+    display: none;
+  }
+}
+
+/* Between Ipad pro and Ipad */
+@media (min-width: 768px) and (max-width: 992px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  .uk-offcanvas-bar ul li {
+    position: relative;
+  }
+
+  .offcanvas-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px 5px 5px;
+    background-color: #faf4e6;
+    border-bottom: 1px solid #073f6f;
+    border-right: 4px solid #073f6f;
+  }
+
+  .offcanvas-logo span {
+    font-size: 14px;
+    color: #dc6756;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #dc6756;
+  }
+
+  .offcanvas-logo img {
+    width: 48px;
+    height: 48px;
+    margin: 0;
+  }
+
+  .uk-offcanvas-bar ul li a img {
+    position: absolute;
+    right: 23px;
+    width: 11px;
+    height: 11px;
+    top: 3px;
+    fill: white;
+  }
+
+  .left, .right {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  .service-list h3 {
+      font-size: 28px;
+  }
+  .our-work {
+    padding: 20px 20px 10px;
+  }
+  main .cont-1 {
+    padding: 10px 20px 0px;
+}
+
+  header .header-top .logo {
+    width: 34% !important;
+    padding-left: 10px;
+  }
+  .how-work {
+      padding: 20px 20px;
+  }
+  .how-work ol li span {
+    font-size: 180px;
+}
+  header .header-top .logo img {
+    width: 50px;
+    height: 50px;
+  }
+
+  header .header-top .logo div {
+    padding-left: 10px;
+    font-size: 21px;
+  }
+
+  header .header-top .logo div span {
+    font-size:10.2px;
+  }
+
+  header .header-top .header-tel {
+    width: 50%;
+  }
+
+  header .header-top .header-tel a {
+    padding-right: 30px;
+  }
+  header .header-top .header-tel a {
+      font-size: 22px;
+  }
+  .benefits ul {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .header-mobile-tel {
+    display: none;
+  }
+
+  .benefits ul li {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .benefits ul li div {
+    padding-left: 30px;
+  }
+
+  .benefits ul li img {
+    padding: 0;
+    margin: 0;
+  }
+
+  .benefits ul li div h3 {
+    margin: 0;
+  }
+
+  .benefits ul li div p {
+    margin: 5px 0;
+  }
+
+  footer {
+    flex-wrap: wrap;
+  }
+
+ footer .copyright {
+    width: 36%;
+  }
+  footer .logo {
+      padding-left: 10px;
+      width: 34%;
+  }
+  footer .social {
+    width: 26%;
+    padding-left: 5px;
+  }
+
+  footer .copyright p {
+    font-size: 14px;
+  }
+
+  footer .logo img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .form-global {
+    margin: 30px;
+  }
+
+  footer .logo div {
+    font-size: 16px;
+  }
+
+  footer .logo div span {
+    font-size: 9px;
+  }
+
+  .how-work ol {
+    flex-wrap: wrap;
+  }
+
+  .how-work ol li {
+    width: 47%;
+  }
+
+  .price, .text-section {
+    padding: 20px;
+  }
+
+  .benefits {
+    padding: 0 25px;
+  }
+
+  .service ul {
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 20px 0;
+  }
+  ul.service-cards {
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+
+  .service h2 {
+    padding: 0 20px;
+  }
+
+  .container {
+    width: 768px;
+  }
+
+  header .header-top ul, .navigation, footer .tel {
+    display: none;
+  }
+
+  .section-header {
+    margin-top: 10px;
+  }
+
+  .section-header h1 {
+    font-size: 38px;
+    padding: 20px 0 0 20px;
+  }
+  .section-header .hh1 {
+    font-size: 30px;
+  }
+
+  .section-header span {
+    font-size: 29px;
+}
+
+  .section-header h2 {
+    font-size: 22px;
+    padding: 0 30px;
+  }
+
+  .section-header p {
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+  }
+  .container-fluid .section-1 .p-zv {padding: 0px 0px 0px 20px;}
+
+  .section-header div img {
+    height: 240px;
+  }
+
+  .section-header div:first-child {
+    width: 60%;
+  }
+
+  header .header-top {
+    border-bottom: 1px solid #073f6f;
+    padding: 0;
+    align-items: inherit;
+  }
+
+  header .header-top .header-tel {
+    flex-wrap: wrap;
+  }
+
+  header .header-top .header-tel span {
+    display: none;
+  }
+
+  .hamburger {
+    width: 10%;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    background-color: #073f6f;
+    padding: 10px
+  }
+
+  .hamburger svg {
+    border: 1px solid white;
+    padding: 4px 4px 6px 4px;
+    border-radius: 4px;
+  }
+
+  p {
+    margin: 10px 0;
+  }
+}
+
+/* NetBooks and Ipad Pro */
+@media (min-width: 993px) and (max-width: 1265px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  .header-mobile-tel {
+    display: none;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  header .header-top .header-tel {
+      padding-right: 5px;
+  }
+
+  .container {
+    width: 1020px;
+  }
+
+  .form-global .form-input button {
+    font-size: 10px;
+  }
+
+  .section-header h1 {
+    font-size: 46px;
+  }
+  .section-header span {font-size: 34.5px;}
+  .section-header p, .section-header ul {font-size: 18px; padding-bottom:35px;}
+  .container-fluid .section-1 .p-zv {padding: 0px 0px 0px 50px;}
+  .our-work, .text-section {font-size: 14px;}
+  .service-list h3 {font-size: 26px;}
+
+  footer .copyright {
+    width: 22%;
+}
+footer .social {
+    width: 22%;
+    padding-left: 0px;
+}
+footer .logo {
+    width: 28%;
+    padding-left: 10px;
+}
+.service {
+    padding: 10px 10px 0;
+}
+ul.service-cards li {
+    padding: 10px;
+    align-items: inherit;
+    flex-direction: column;
+}
+.how-work ol li span {
+    font-size: 180px;
+    line-height: 1.2;
+}
+  header .navigation ul.main-menu li a {
+    padding: 20px 19px;
+  }
+
+  header .navigation ul.main-menu li a svg {
+    right: 4px;
+  }
+
+  header .header-top .logo {
+    width: 33%;
+  }
+
+  header .header-top ul {
+    width: 47%;
+  }
+
+  header .header-top .header-tel {
+    width: 20%;
+  }
+
+  header .header-top ul li {
+    width: 33%;
+    padding-right: 0;
+    font-size: 12px;
+  }
+
+  .how-work ol li p {
+    padding: 0 60px 30px 0;
+  }
+
+  .our-work div.right h3 {
+    font-size: 22px;
+  }
+
+  .our-work .work-form button {
+    font-size: 13px;
+  }
+
+  .service ul {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+
+  footer .logo div {
+    font-size: 18px;
+  }
+
+  footer .logo div span {
+    font-size: 10px;
+  }
+
+  footer .tel a {
+    font-size: 22px;
+  }
+
+  footer .tel button {
+    font-size: 12.5px;
+  }
+
+  footer .copyright p {
+    font-size: 13px;
+    font-weight: normal !important;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
+
+/* Ofcanvas */
+.uk-offcanvas-bar {
+  padding: 0 !important;
+  margin: 0;
+}
+
+.uk-offcanvas-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 0 10px;
+}
+
+.uk-offcanvas-bar ul:first-child {
+  /*font-weight: bold;*/
+  font-size: 13px;
+}
+
+.uk-offcanvas-bar ul:first-child li.active {
+  background-color: #f1f1f3;
+  border-left: 4px solid #0067b4;
+}
+
+.uk-offcanvas-bar ul li {
+  border-left: 4px solid transparent;
+  padding: 12px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.uk-offcanvas-bar ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+.uk-accordion-content { padding: 5px 10px 5px 5px;}
+.uk-offcanvas-bar .offcanvas-tel {
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 1px solid #ccc;
+}
+
+.uk-offcanvas-bar .offcanvas-tel img {
+  width: auto;
+  height: 18px;
+  padding-right: 10px;
+}
+
+.uk-offcanvas-bar .offcanvas-region {
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.uk-offcanvas-bar .offcanvas-region img {
+  width: 16px;
+  height: 16px;
+  padding-right: 10px;
+}
+
+/* ========================================================================
+   Component: Off-canvas
+ ========================================================================== */
+/*
+ * 1. Hide by default
+ * 2. Set position
+ */
+.uk-offcanvas {
+  /* 1 */
+  display: none;
+  /* 2 */
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+/*
+ * Flip modifier
+ */
+.uk-offcanvas-flip .uk-offcanvas {
+  right: 0;
+  left: auto;
+}
+
+/* Bar
+ ========================================================================== */
+/*
+ * 1. Set position
+ * 2. Size and style
+ * 3. Allow scrolling
+ */
+.uk-offcanvas-bar {
+  /* 1 */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -270px;
+  /* 2 */
+  box-sizing: border-box;
+  width: 300px;
+  padding: 20px 20px;
+  background: white;
+  /* 3 */
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Tablet landscape and bigger */
+@media (min-width: 960px) {
+  .uk-offcanvas-bar {
+    left: -350px;
+    width: 350px;
+    padding: 40px 40px;
+  }
+}
+
+/* Flip modifier */
+.uk-offcanvas-flip .uk-offcanvas-bar {
+  left: auto;
+  right: -270px;
+}
+
+/* Tablet landscape and bigger */
+@media (min-width: 960px) {
+  .uk-offcanvas-flip .uk-offcanvas-bar {
+    right: -350px;
+  }
+}
+
+/*
+ * Open
+ */
+.uk-open>.uk-offcanvas-bar {
+  left: 0;
+}
+
+.uk-offcanvas-flip .uk-open>.uk-offcanvas-bar {
+  left: auto;
+  right: 0;
+}
+
+/*
+ * Slide Animation (Used in slide and push mode)
+ */
+.uk-offcanvas-bar-animation {
+  transition: left 0.3s ease-out;
+}
+
+.uk-offcanvas-flip .uk-offcanvas-bar-animation {
+  transition-property: right;
+}
+
+/*
+ * Reveal Animation
+ * 1. Set position
+ * 2. Clip the bar
+ * 3. Animation
+ * 4. Reset position
+ */
+.uk-offcanvas-reveal {
+  /* 1 */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  /* 2 */
+  width: 0;
+  overflow: hidden;
+  /* 3 */
+  transition: width 0.3s ease-out;
+}
+
+.uk-offcanvas-reveal .uk-offcanvas-bar {
+  /* 4 */
+  left: 0;
+}
+
+.uk-offcanvas-flip .uk-offcanvas-reveal .uk-offcanvas-bar {
+  /* 4 */
+  left: auto;
+  right: 0;
+}
+
+.uk-open>.uk-offcanvas-reveal {
+  width: 270px;
+}
+
+/* Tablet landscape and bigger */
+@media (min-width: 960px) {
+  .uk-open>.uk-offcanvas-reveal {
+    width: 350px;
+  }
+}
+
+/*
+ * Flip modifier
+ */
+.uk-offcanvas-flip .uk-offcanvas-reveal {
+  right: 0;
+  left: auto;
+}
+
+/* Close
+ * Adopts `uk-close`
+ ========================================================================== */
+.uk-offcanvas-close {
+  /*position: absolute;
+  z-index: 1000;
+  top: 20px;
+  right: 20px;
+  padding: 5px;*/
+}
+
+/* Overlay
+ ========================================================================== */
+/*
+ * Overlay the whole page. Needed for the `::before`
+ * 1. Using `100vw` so no modification is needed when off-canvas is flipped
+ * 2. Allow for closing with swipe gesture on devices with pointer events.
+ */
+.uk-offcanvas-overlay {
+  /* 1 */
+  width: 100vw;
+  /* 2 */
+  touch-action: none;
+}
+
+/*
+ * 1. Mask the whole page
+ * 2. Fade-in transition
+ */
+.uk-offcanvas-overlay::before {
+  /* 1 */
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.1);
+  /* 2 */
+  opacity: 0;
+  transition: opacity 0.15s linear;
+}
+
+.uk-offcanvas-overlay.uk-open::before {
+  opacity: 1;
+}
+
+/* Prevent scrolling
+ ========================================================================== */
+/*
+ * Prevent horizontal scrollbar when the content is slide-out
+ * Has to be on the `html` element too to make it work on the `body`
+ */
+.uk-offcanvas-page,
+.uk-offcanvas-container {
+  overflow-x: hidden;
+}
+
+/* Container
+ ========================================================================== */
+/*
+ * Prepare slide-out animation (Used in reveal and push mode)
+ * Using `position: left` instead of `transform` because position `fixed` elements like sticky navbars
+ * lose their fixed state and behaves like `absolute` within a transformed container
+ * 1. Provide a fixed width and prevent shrinking
+ */
+.uk-offcanvas-container {
+  position: relative;
+  left: 0;
+  transition: left 0.3s ease-out;
+  /* 1 */
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/*
+ * Activate slide-out animation
+ */
+:not(.uk-offcanvas-flip).uk-offcanvas-container-animation {
+  left: 270px;
+}
+
+.uk-offcanvas-flip.uk-offcanvas-container-animation {
+  left: -270px;
+}
+
+/* Tablet landscape and bigger */
+@media (min-width: 960px) {
+  :not(.uk-offcanvas-flip).uk-offcanvas-container-animation {
+    left: 350px;
+  }
+
+  .uk-offcanvas-flip.uk-offcanvas-container-animation {
+    left: -350px;
+  }
+}
+
+/* Dropdown
+ ========================================================================== */
+/*
+ * Adopts `uk-dropdown`
+ * 1. Hide by default
+ * 2. Set position
+ * 3. Set a default width
+ * 4. Style
+ */
+.uk-navbar-dropdown {
+  /* 1 */
+  display: none;
+  /* 2 */
+  position: absolute;
+  z-index: 1020;
+  /* 3 */
+  box-sizing: border-box;
+  width: 200px;
+  /* 4 */
+  padding: 25px;
+  background: #fff;
+  color: #666;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Show */
+.uk-navbar-dropdown.uk-open {
+  display: block;
+}
+
+/*
+ * Direction / Alignment modifiers
+ */
+/* Direction */
+[class*='uk-navbar-dropdown-top'] {
+  margin-top: -15px;
+}
+
+[class*='uk-navbar-dropdown-bottom'] {
+  margin-top: 15px;
+}
+
+[class*='uk-navbar-dropdown-left'] {
+  margin-left: -15px;
+}
+
+[class*='uk-navbar-dropdown-right'] {
+  margin-left: 15px;
+}
+
+/*
+ * Grid
+ * Adopts `uk-grid`
+ */
+/* Gutter Horizontal */
+.uk-navbar-dropdown-grid {
+  margin-left: -50px;
+}
+
+.uk-navbar-dropdown-grid>* {
+  padding-left: 50px;
+}
+
+/* Gutter Vertical */
+.uk-navbar-dropdown-grid>.uk-grid-margin {
+  margin-top: 50px;
+}
+
+/* Stack */
+.uk-navbar-dropdown-stack .uk-navbar-dropdown-grid>* {
+  width: 100% !important;
+}
+
+/*
+ * Width modifier
+ */
+.uk-navbar-dropdown-width-2:not(.uk-navbar-dropdown-stack) {
+  width: 400px;
+}
+
+.uk-navbar-dropdown-width-3:not(.uk-navbar-dropdown-stack) {
+  width: 600px;
+}
+
+.uk-navbar-dropdown-width-4:not(.uk-navbar-dropdown-stack) {
+  width: 800px;
+}
+
+.uk-navbar-dropdown-width-5:not(.uk-navbar-dropdown-stack) {
+  width: 1000px;
+}
+
+/*
+ * Dropbar modifier
+ */
+.uk-navbar-dropdown-dropbar {
+  margin-top: 0;
+  margin-bottom: 0;
+  box-shadow: none;
+}
+
+/* Dropdown Nav
+ * Adopts `uk-nav`
+ ========================================================================== */
+.uk-navbar-dropdown-nav {
+  font-size: 0.875rem;
+}
+
+/*
+ * Items
+ */
+.uk-navbar-dropdown-nav>li>a {
+  color: #999;
+}
+
+/* Hover + Focus */
+.uk-navbar-dropdown-nav>li>a:hover,
+.uk-navbar-dropdown-nav>li>a:focus {
+  color: #666;
+}
+
+/* Active */
+.uk-navbar-dropdown-nav>li.uk-active>a {
+  color: #333;
+}
+
+/*
+ * Header
+ */
+.uk-navbar-dropdown-nav .uk-nav-header {
+  color: #333;
+}
+
+/*
+ * Divider
+ */
+.uk-navbar-dropdown-nav .uk-nav-divider {
+  border-top: 1px solid #e5e5e5;
+}
+
+/*
+ * Sublists
+ */
+.uk-navbar-dropdown-nav .uk-nav-sub a {
+  color: #999;
+}
+
+.uk-navbar-dropdown-nav .uk-nav-sub a:hover,
+.uk-navbar-dropdown-nav .uk-nav-sub a:focus {
+  color: #666;
+}
+
+.uk-navbar-dropdown-nav .uk-nav-sub li.uk-active>a {
+  color: #333;
+}
+
+/* Dropbar
+ ========================================================================== */
+.uk-navbar-dropbar {
+  background: #fff;
+}
+
+/*
+ * Slide modifier
+ */
+.uk-navbar-dropbar-slide {
+  position: absolute;
+  z-index: 980;
+  left: 0;
+  right: 0;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.05);
+}
+
+/*
+     * Navbar
+     */
+.uk-navbar-container>.uk-container .uk-navbar-left {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.uk-navbar-container>.uk-container .uk-navbar-right {
+  margin-right: -15px;
+}
+
+/*
+     * Grid Divider
+     */
+.uk-navbar-dropdown-grid>* {
+  position: relative;
+}
+
+.uk-navbar-dropdown-grid> :not(.uk-first-column)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 25px;
+  border-left: 1px solid #e5e5e5;
+}
+
+/* Vertical */
+.uk-navbar-dropdown-grid.uk-grid-stack>.uk-grid-margin::before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: 50px;
+  right: 0;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* ========================================================================
+   Component: Dropdown
+ ========================================================================== */
+/*
+ * 1. Hide by default
+ * 2. Set position
+ * 3. Set a default width
+ * 4. Style
+ */
+.uk-dropdown {
+  /* 1 */
+  display: none;
+  /* 2 */
+  position: absolute;
+  z-index: 1020;
+  /* 3 */
+  box-sizing: border-box;
+  min-width: 200px;
+  /* 4 */
+  padding: 25px;
+  background: #fff;
+  color: #666;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Show */
+.uk-dropdown.uk-open {
+  display: block;
+}
+
+/* Nav
+ * Adopts `uk-nav`
+ ========================================================================== */
+.uk-dropdown-nav {
+  white-space: nowrap;
+  font-size: 0.875rem;
+}
+
+/*
+ * Items
+ */
+.uk-dropdown-nav>li>a {
+  color: #999;
+}
+
+/* Hover + Focus + Active */
+.uk-dropdown-nav>li>a:hover,
+.uk-dropdown-nav>li>a:focus,
+.uk-dropdown-nav>li.uk-active>a {
+  color: #666;
+}
+
+/*
+ * Header
+ */
+.uk-dropdown-nav .uk-nav-header {
+  color: #333;
+}
+
+/*
+ * Divider
+ */
+.uk-dropdown-nav .uk-nav-divider {
+  border-top: 1px solid #e5e5e5;
+}
+
+/*
+ * Sublists
+ */
+.uk-dropdown-nav .uk-nav-sub a {
+  color: #999;
+}
+
+.uk-dropdown-nav .uk-nav-sub a:hover,
+.uk-dropdown-nav .uk-nav-sub a:focus,
+.uk-dropdown-nav .uk-nav-sub li.uk-active>a {
+  color: #666;
+}
+
+/* Direction / Alignment modifiers
+ ========================================================================== */
+/* Direction */
+[class*='uk-dropdown-top'] {
+  margin-top: -10px;
+}
+
+[class*='uk-dropdown-bottom'] {
+  margin-top: 10px;
+}
+
+[class*='uk-dropdown-left'] {
+  margin-left: -10px;
+}
+
+[class*='uk-dropdown-right'] {
+  margin-left: 10px;
+}
+
+/* Grid modifiers
+ ========================================================================== */
+.uk-dropdown-stack .uk-dropdown-grid>* {
+  width: 100% !important;
+}
+
+/* ========================================================================
+   Component: Modal
+ ========================================================================== */
+/*
+ * 1. Hide by default
+ * 2. Set position
+ * 3. Allow scrolling for the modal dialog
+ * 4. Horizontal padding
+ * 5. Mask the background page
+ * 6. Fade-in transition
+ */
+.uk-modal {
+  /* 1 */
+  display: none;
+  /* 2 */
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1010;
+  /* 3 */
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  /* 4 */
+  padding: 15px 15px;
+  /* 5 */
+  background: rgba(0, 0, 0, 0.6);
+  /* 6 */
+  opacity: 0;
+  transition: opacity 0.15s linear;
+}
+
+/* Phone landscape and bigger */
+@media (min-width: 640px) {
+  .uk-modal {
+    padding: 50px 30px;
+  }
+}
+
+/* Tablet landscape and bigger */
+@media (min-width: 960px) {
+  .uk-modal {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+/*
+ * Open
+ */
+.uk-modal.uk-open {
+  opacity: 1;
+}
+
+/* Page
+ ========================================================================== */
+/*
+ * Prevent scrollbars
+ */
+.uk-modal-page {
+  overflow: hidden;
+}
+
+/* Dialog
+ ========================================================================== */
+/*
+ * 1. Create position context for spinner and close button
+ * 2. Dimensions
+ * 3. Fix `max-width: 100%` not working in combination with flex and responsive images in IE11
+ *    `!important` needed to overwrite `uk-width-auto`. See `#modal-media-image` in tests
+ * 4. Style
+ * 5. Slide-in transition
+ */
+.uk-modal-dialog {
+  /* 1 */
+  position: relative;
+  /* 2 */
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 400px;
+  background-color: #fbfbef;
+  border: 3px solid #ffdc76;
+  /* 3 */
+  max-width: calc(100% - 0.01px) !important;
+  /* 4 */
+  /* 5 */
+  opacity: 0;
+  transform: translateY(-100px);
+  transition: 0.3s linear;
+  transition-property: opacity, transform;
+}
+
+/*
+ * Open
+ */
+.uk-open>.uk-modal-dialog {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Size modifier
+ ========================================================================== */
+/*
+ * Container size
+ * Take the same size as the Container component
+ */
+.uk-modal-container .uk-modal-dialog {
+  width: 1200px;
+}
+
+/*
+ * Full size
+ * 1. Remove padding and background from modal
+ * 2. Reset all default declarations from modal dialog
+ */
+/* 1 */
+.uk-modal-full {
+  padding: 0;
+  background: none;
+}
+
+/* 2 */
+.uk-modal-full .uk-modal-dialog {
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+  transform: translateY(0);
+}
+
+/* Sections
+ ========================================================================== */
+.uk-modal-body {
+  padding: 30px 30px;
+}
+
+.uk-modal-header {
+  padding: 15px 30px;
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.uk-modal-footer {
+  padding: 15px 30px;
+  background: #fff;
+  border-top: 1px solid #e5e5e5;
+}
+
+/*
+ * Micro clearfix
+ */
+.uk-modal-body::before,
+.uk-modal-body::after,
+.uk-modal-header::before,
+.uk-modal-header::after,
+.uk-modal-footer::before,
+.uk-modal-footer::after {
+  content: "";
+  display: table;
+}
+
+.uk-modal-body::after,
+.uk-modal-header::after,
+.uk-modal-footer::after {
+  clear: both;
+}
+
+/*
+ * Remove margin from the last-child
+ */
+.uk-modal-body> :last-child,
+.uk-modal-header> :last-child,
+.uk-modal-footer> :last-child {
+  margin-bottom: 0;
+}
+
+/* Title
+ ========================================================================== */
+.uk-modal-title {
+  font-size: 2rem;
+  line-height: 1.3;
+}
+
+/* Close
+ * Adopts `uk-close`
+ ========================================================================== */
+[class*='uk-modal-close-'] {
+  position: absolute;
+  z-index: 1010;
+  top: 10px;
+  right: 10px;
+  padding: 5px;
+}
+
+/*
+ * Remove margin from adjacent element
+ */
+[class*='uk-modal-close-']:first-child+* {
+  margin-top: 0;
+}
+
+/*
+ * Hover
+ */
+/*
+ * Default
+ */
+/*
+ * Outside
+ * 1. Prevent scrollbar on small devices
+ */
+.uk-modal-close-outside {
+  top: 0;
+  /* 1 */
+  right: -5px;
+  transform: translate(0, -100%);
+  color: #ffffff;
+}
+
+.uk-modal-close-outside:hover {
+  color: #fff;
+}
+
+/* Tablet landscape and bigger */
+@media (min-width: 960px) {
+
+  /* 1 */
+  .uk-modal-close-outside {
+    right: 0;
+    transform: translate(100%, -100%);
+  }
+}
+
+/*
+ * Full
+ */
+.uk-modal-close-full {
+  top: 0;
+  right: 0;
+  padding: 20px;
+  background: #fff;
+}
+
+@media (max-width: 767px) {
+    .section-1 {
+       background-image: none;
+    }
+    .cont-1 {
+       display: none;
+    }
+}

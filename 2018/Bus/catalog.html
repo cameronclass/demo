@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>АвтобусМАЗ</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/uikit.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap&subset=cyrillic" rel="stylesheet" />
+    <script src="assets/js/uikit.js"></script>
+</head>
+<body>
+
+    <header>
+            <div class="hidden-xs">
+                <div class="row header">
+                    <div class="wrapper">
+                        <a href="index.html" class="hidden-sm"><img src="assets/img/large-logo.png" alt="АвтобусМАЗ" class="logo"></a>
+                        <div class="header-phone">
+                            <img src="assets/img/icons/phone.png" alt="">
+                            <a href="">(495) 506-21-74</a>
+                            <a href="">(967) 104-18-47</a>
+                        </div>
+                        <div class="header-messenger">
+                            <a href=""><img src="assets/img/icons/skype.png" alt=""> АвтобусМАЗ</a>
+                            <a href=""><img src="assets/img/icons/icq.png" alt=""> 239-874-006</a>
+                        </div>
+                        <div class="user-block">
+                            <a href="">Регистрация</a>
+                            <a href="">Вход на сайт</a>
+                            <div class="cart">
+                                <p>0 товаров</p>
+                                <p>на сумму 0 рублей</p>
+                                <a href="#modal-center" uk-toggle><img src="assets/img/icons/cart.png" alt="Корзина" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row header-image">
+                    <div class="wrapper"></div>
+                </div>
+                <div class="row header-menu-section hidden-sm">
+                    <div class="wrapper">
+                        <nav class="main-menu">
+                            <ul>
+                                <a href="index.html">
+                                    <li>Главная</li>
+                                </a>
+                                <a href="about.html">
+                                    <li>О компании</li>
+                                </a>
+                                <a href="catalog.html">
+                                    <li>Каталог</li>
+                                </a>
+                                <a href="prices.html">
+                                    <li>Цены</li>
+                                </a>
+                                <a href="news.html">
+                                    <li>Новости</li>
+                                </a>
+                                <a href="posts.html">
+                                    <li>Статьи</li>
+                                </a>
+                                <a href="contacts.html">
+                                    <li>Контакты</li>
+                                </a>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile-apple hidden-lg hidden-md">
+                <div class="window">
+                    <div class="header-mobile-menu">
+                        <div class="burger-container click-burger">
+                            <div id="burger">
+                                <div class="bar topBar"></div>
+                                <div class="bar btmBar"></div>
+                            </div>
+                        </div>
+                        <div class="icon icon-apple">
+                            <a class="navbar-brand logo" href="index.html">
+                                <img src="assets/img/large-logo.png" class="logo-mobile" alt="">
+                            </a>
+                        </div>
+                        <ul class="menu">
+                            <li class="menu-item"><a href="index.html">Главная</a></li>
+                            <li class="menu-item"><a href="about.html">О компании</a></li>
+                            <li class="menu-item"><a href="catalog.html">Каталог</a></li>
+                            <li class="menu-item"><a href="prices.html">Цены</a></li>
+                            <li class="menu-item"><a href="news.html">Новости</a></li>
+                            <li class="menu-item"><a href="posts.html">Статьи</a></li>
+                            <li class="menu-item"><a href="contacts.html">Контакты</a></li>
+                            <li class="menu-item mt-2"><a href="#" class="register">Регистрация</a></li>
+                            <li class="menu-item"><a href="#" class="register">Вход на сайт</a></li>
+                        </ul>
+                        <div class="shop icon icon-bag">
+                            <a href="#"><img src="assets/img/icons/cart.png" class="mobile-cart-icon" alt="Корзина" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid my-main-img hidden-lg hidden-md hidden-sm">
+                <a href="#"><img src="assets/img/header-image.png" class="img-responsive" alt=""></a>
+            </div>
+        </header>
+
+        
+
+
+        <div class="container py-action-text">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <a href="#" class="announce">Только до 30 июня специальная цена на Гидромоторы системы охлаждения автобуса.</a>
+                </div>
+            </div>
+        </div>
+        <div class="row container part-search hidden-xs">
+            <div class="wrapper">
+                <p>Подбор по номеру запчасти:</p>
+                <input type="search" placeholder="PML00" />
+                <button class="accept-part-search"></button>
+            </div>
+        </div>
+        <!-- Mobile Search -->
+        <div class="container hidden-lg hidden-md hidden-sm p-main">
+            <p class="search-p">Подбор по номеру запчасти:</p>
+            <div>
+                <input type="search" class="search-input" placeholder="PML00" />
+                <button class="search-button"></button>
+            </div>
+        </div>
+
+        <div class="container mt-catalog">
+            <div class="row">
+                <div class="col-md-3 col-sm-4 col-xs-12 left-catalog-div p-main">
+                    <h5 class="left-catalog-h5">Навигация по каталогу</h5>
+                    <ul class="left-catalog">
+                        <li><a href="#">Запчасти к автобусам МАЗ</a></li>
+                        <li><a href="#">Dana</a></li>
+                        <li><a href="#">Raba</a></li>
+                        <li><a href="#">ZF Group</a></li>
+                        <li><a href="#">Гибкие сочленения (Гармошки)</a></li>
+                        <li><a href="#">Запчасти к TRANS-ALFA</a></li>
+                        <li><a href="#">Запчасти к автобусам Fiat</a></li>
+                        <li><a href="#">Запчасти к автобусам Hyundai</a></li>
+                        <li><a href="#">Запчасти к автобусам Karosa</a></li>
+                        <li><a href="#">Запчасти к автобусам SOR</a></li>
+                        <li><a href="#">Запчасти к автобусам Богдан</a></li>
+                        <li><a href="#">Запчасти к автобусам Волжанин</a></li>
+                        <li><a href="#">Запчасти к автобусам ГолАЗ</a></li>
+                        <li><a href="#">Запчасти к автобусам ЛиАЗ</a></li>
+                        <li><a href="#">Запчасти к автобусам ПАЗ</a></li>
+                        <li><a href="#">Запчасти к автобусам МАЗ</a></li>
+                        <li><a href="#">Запчасти к Белкоммунмаш</a></li>
+                        <li><a href="#">Запчасти к троллейбусам СВАРЗ</a></li>
+                        <li><a href="#">Каталог mercedes</a></li>
+                        <li><a href="#">Bosch-Rexton</a></li>
+                        <li><a href="#">CAT</a></li>
+                        <li><a href="#">Bosch-Rexton</a></li>
+                        <li><a href="#">Csepel</a></li>
+                        <li><a href="#">Deutz</a></li>
+                        <li><a href="#">HELLA</a></li>
+                        <li><a href="#">KNORR-BREMSE</a></li>
+                        <li><a href="#">Man</a></li>
+                        <li><a href="#">Praga</a></li>
+                        <li><a href="#">PRVA PETOLETKA</a></li>
+                        <li><a href="#">RENAULT</a></li>
+                        <li><a href="#">SACHS</a></li>
+                        <li><a href="#">Shaanxi</a></li>
+                        <li><a href="#">VOITH</a></li>
+                        <li><a href="#">WABCO</a></li>
+                        <li><a href="#">Webasto</a></li>
+                        <li><a href="#">БААЗ</a></li>
+                        <li><a href="#">КУВО</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-9 col-sm-8 col-xs-12 p-catalog-search">
+                    <div class="right-catalog-search row">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <h4 class="right-catalog-h4">Каталог</h4>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12 float-left">
+                            <input type="search" class="part-search-small">
+                            <button class="search-button-catalog"></button>
+                        </div>                        
+                    </div>
+                    <div class="row catalog-sort mt-1">
+                        <div class="col-md-4 col-sm-4 col-xs-12 d-flex uk-flex-middle">
+                            <p>15 категорий</p>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12 d-flex uk-flex-middle">
+                            <p>Марка:</p>
+                            
+                                <select class="uk-select">
+                                    <option>Все</option>
+                                    <option>Option 02</option>
+                                </select>
+                            
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12 d-flex uk-flex-middle">
+                            <p>Модель:</p>
+                            <select class="uk-select">
+                                <option>Все</option>
+                                <option>Option 02</option>
+                            </select>
+                            
+                        </div>
+                    </div>
+                    <div class="row mt-1">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-catalog">
+                            <div class="parts-block">
+                                <a href="#"><img src="assets/img/icons/main-page-brand/1.png"  class="mx-auto"  alt=""></a>
+                                <a href="#" class="part-header">Гибкие сочленения (Гармошки)</a>
+                                <p class="parts-description">Tatra KT4 , TROLZA ,
+                                    Белкоммунмаш 213 ,
+                                    МАЗ 105</p>
+                                <div class="btn-card">
+                                <a href="#" class="parts-button">Все модели</a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-catalog">
+                            <div class="parts-block">
+                                <a href="#"><img src="assets/img/icons/main-page-brand/2.png"  class="mx-auto"  alt=""></a>
+                                <a href="#" class="part-header">Запчасти к TRANS-ALFA</a>
+                                <p class="parts-description">Авангард 5298-01,
+                                    Премьер 62151</p>
+                                <div class="btn-card">
+                                <a href="#" class="parts-button">Все модели</a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-catalog">
+                            <div class="parts-block">
+                                <a href="#"><img src="assets/img/icons/main-page-brand/3.png"  class="mx-auto"  alt=""></a>
+                                <a href="#" class="part-header">Запчасти к автобусам
+                                    Fiat</a>
+                                <p class="parts-description">Авангард 5298-01,
+                                    Премьер 62151</p>
+                                <div class="btn-card">
+                                <a href="#" class="parts-button">Все модели</a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-catalog">
+                            <div class="parts-block">
+                                <a href="#"><img src="assets/img/icons/main-page-brand/4.png"  class="mx-auto"  alt=""></a>
+                                <a href="#" class="part-header">Запчасти к автобусам
+                                    Hyundai</a>
+                                <p class="parts-description">UNIVERSE SPACE (2007-) ,
+                                    UNIVERSE XPRESS (2007-)</p>
+                                <div class="btn-card">
+                                <a href="#" class="parts-button">Все модели</a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-catalog">
+                            <div class="parts-block">
+                                <a href="#"><img src="assets/img/icons/main-page-brand/5.png"  class="mx-auto"  alt=""></a>
+                                <a href="#" class="part-header">Запчасти к автобусам
+                                    Karosa</a>
+                                <p class="parts-description">Karosa серии 700.800.900 ,
+                                    Автобус Karosa</p>
+                                <div class="btn-card">
+                                <a href="#" class="parts-button">Все модели</a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-catalog">
+                            <div class="parts-block">
+                                <a href="#"><img src="assets/img/icons/main-page-brand/6.png"  class="mx-auto"  alt=""></a>
+                                <a href="#" class="part-header">Запчасти к автобусам
+                                    SOR</a>
+                                <p class="parts-description">Автобус SOR</p>
+                                <div class="btn-card">
+                                <a href="#" class="parts-button">Все модели</a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-catalog">
+                            <div class="parts-block">
+                                <a href="#"><img src="assets/img/icons/main-page-brand/7.png"  class="mx-auto"  alt=""></a>
+                                <a href="#" class="part-header">Гибкие сочленения (Гармошки)</a>
+                                <p class="parts-description">Tatra KT4 , TROLZA ,
+                                    Белкоммунмаш 213 ,
+                                    МАЗ 105</p>
+                                <div class="btn-card">
+                                <a href="#" class="parts-button">Все модели</a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-catalog">
+                            <div class="parts-block">
+                                <a href="#"><img src="assets/img/icons/main-page-brand/8.png"  class="mx-auto"  alt=""></a>
+                                <a href="#" class="part-header">Гибкие сочленения (Гармошки)</a>
+                                <p class="parts-description">Tatra KT4 , TROLZA ,
+                                    Белкоммунмаш 213 ,
+                                    МАЗ 105</p>
+                                <div class="btn-card">
+                                <a href="#" class="parts-button">Все модели</a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-catalog">
+                            <div class="parts-block">
+                                <a href="#"><img src="assets/img/icons/main-page-brand/9.png"  class="mx-auto"  alt=""></a>
+                                <a href="#" class="part-header">Гибкие сочленения (Гармошки)</a>
+                                <p class="parts-description">Tatra KT4 , TROLZA ,
+                                    Белкоммунмаш 213 ,
+                                    МАЗ 105</p>
+                                <div class="btn-card">
+                                <a href="#" class="parts-button">Все модели</a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-catalog">
+                            <div class="parts-block">
+                                <a href="#"><img src="assets/img/icons/main-page-brand/10.png" class="mx-auto"   alt=""></a>
+                                <a href="#" class="part-header">Гибкие сочленения (Гармошки)</a>
+                                <p class="parts-description">Tatra KT4 , TROLZA ,
+                                    Белкоммунмаш 213 ,
+                                    МАЗ 105</p>
+                                <div class="btn-card">
+                                <a href="#" class="parts-button">Все модели</a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-catalog">
+                            <div class="parts-block">
+                                <a href="#"><img src="assets/img/icons/main-page-brand/11.png" class="mx-auto"   alt=""></a>
+                                <a href="#" class="part-header">Гибкие сочленения (Гармошки)</a>
+                                <p class="parts-description">Tatra KT4 , TROLZA ,
+                                    Белкоммунмаш 213 ,
+                                    МАЗ 105</p>
+                                <div class="btn-card">
+                                <a href="#" class="parts-button">Все модели</a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-catalog">
+                            <div class="parts-block">
+                                <a href="#"><img src="assets/img/icons/main-page-brand/12.png" class="mx-auto"   alt=""></a>
+                                <a href="#" class="part-header">Гибкие сочленения (Гармошки)</a>
+                                <p class="parts-description">Tatra KT4 , TROLZA ,
+                                    Белкоммунмаш 213 ,
+                                    МАЗ 105</p>
+                                <div class="btn-card">
+                                <a href="#" class="parts-button">Все модели</a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-catalog">
+                            <div class="parts-block">
+                                <a href="#"><img src="assets/img/icons/main-page-brand/13.png" class="mx-auto"   alt=""></a>
+                                <a href="#" class="part-header">Гибкие сочленения (Гармошки)</a>
+                                <p class="parts-description">Tatra KT4 , TROLZA ,
+                                    Белкоммунмаш 213 ,
+                                    МАЗ 105</p>
+                                <div class="btn-card">
+                                <a href="#" class="parts-button">Все модели</a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-catalog">
+                            <div class="parts-block">
+                                <a href="#"><img src="assets/img/icons/main-page-brand/14.png" class="mx-auto"   alt=""></a>
+                                <a href="#" class="part-header">Гибкие сочленения (Гармошки)</a>
+                                <p class="parts-description">Tatra KT4 , TROLZA ,
+                                    Белкоммунмаш 213 ,
+                                    МАЗ 105</p>
+                                <div class="btn-card">
+                                <a href="#" class="parts-button">Все модели</a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-catalog">
+                            <div class="parts-block">
+                                <a href="#"><img src="assets/img/icons/main-page-brand/15.png" class="mx-auto"   alt=""></a>
+                                <a href="#" class="part-header">Гибкие сочленения (Гармошки)</a>
+                                <p class="parts-description">Tatra KT4 , TROLZA ,
+                                    Белкоммунмаш 213 ,
+                                    МАЗ 105</p>
+                                <div class="btn-card">
+                                <a href="#" class="parts-button">Все модели</a>
+                            </div>
+                            </div>
+                        </div>
+                        <a href="#"><img src="content/img/banner2.png" class="img-responsive mb-3" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <div class="container p-main uk-position-relative uk-visible-toggle mt-2" tabindex="-1" uk-slider>
+        <div class="wide-header">
+            <h1>Популярные товары</h1>
+            <button class="nav-button left-active" href="#" uk-slider-item="previous"></button>
+            <button class="nav-button right-active" href="#" uk-slider-item="next"></button>
+        </div>
+
+        <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-3@s uk-child-width-1-4@m">
+            <li>
+                <div class="product">
+                    <img src="content/img/product1.png" class="img-responsive" alt="">
+                    <h2>Гидромотор вентилятора (CASAPPA)</h2>
+                    <p>Кол-во</p>
+                    <input type="number" />
+                    <a href="#" class="add-to-cart button">В корзину</a>
+                </div>
+            </li>
+            <li>
+                <div class="product">
+                    <img src="content/img/product2.png" class="img-responsive" alt="">
+                    <h2>Гидромотор вентилятора (CASAPPA)</h2>
+                    <p>Кол-во</p>
+                    <input type="number" />
+                    <a href="#" class="add-to-cart button">В корзину</a>
+                </div>
+            </li>
+            <li>
+                <div class="product">
+                    <img src="content/img/product3.png" class="img-responsive" alt="">
+                    <h2>Гидромотор вентилятора (CASAPPA)</h2>
+                    <p>Кол-во</p>
+                    <input type="number" />
+                    <a href="#" class="add-to-cart button">В корзину</a>
+                </div>
+            </li>
+            <li>
+                <div class="product">
+                    <img src="content/img/product4.png" class="img-responsive" alt="">
+                    <h2>Гидромотор вентилятора (CASAPPA)</h2>
+                    <p>Кол-во</p>
+                    <input type="number" />
+                    <a href="#" class="add-to-cart button">В корзину</a>
+                </div>
+            </li>
+            <li>
+                <div class="product">
+                    <img src="content/img/product4.png" class="img-responsive" alt="">
+                    <h2>Гидромотор вентилятора (CASAPPA)</h2>
+                    <p>Кол-во</p>
+                    <input type="number" />
+                    <a href="#" class="add-to-cart button">В корзину</a>
+                </div>
+            </li>
+        </ul>
+
+        <!-- <a class="uk-position-center-left uk-position-small uk-hidden-hover" ></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" ></a> -->
+        
+
+    </div>
+
+    <div class="container p-main uk-position-relative uk-visible-toggle hidden-lg hidden-md hidden-sm" tabindex="-1" uk-slider>
+        <div class="wide-header">
+            <h1>Отзывы</h1>
+            <button class="nav-button left-active" href="#" uk-slider-item="previous"></button>
+            <button class="nav-button right-active" href="#" uk-slider-item="next"></button>
+        </div>
+        <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-1@s uk-child-width-1-1@m">
+            <li>
+                <div class="callback">
+                    <img src="content/img/ava1.png" alt="">
+                    <div class="callback-content">
+                        <h3>АНТОН СЕРГЕЕВИЧ</h3>
+                        <p>Задача организации, в особенности же
+                            рамки и место обучения кадров требуют
+                            от нас анализа направлений
+                            развития. Таким образом укрепление и
+                            развитие структуры обеспечивает участие в
+                            формировании новых предложений.</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+               <div class="callback">
+                    <img src="content/img/ava2.png" alt="">
+                    <div class="callback-content">
+                        <h3>ПАВЕЛ ВАЛЕРЬЕВ</h3>
+                        <p>Задача организации, в особенности же
+                            рамки и место обучения кадров требуют
+                            от нас анализа дальнейших направлений
+                            развития. Таким образом укрепление и
+                            развитие структуры обеспечивает
+                            широкому кругу (специалистов) участие в
+                            формировании новых предложений.</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="callback">
+                    <img src="content/img/ava3.png" alt="">
+                    <div class="callback-content">
+                        <h3>СЕРГЕЙ СЕРЕБРЕННИКОВ</h3>
+                        <p>Задача организации, в особенности же
+                            рамки и место обучения кадров требуют
+                            от нас анализа дальнейших направлений
+                            развития. Таким образом укрепление и
+                            развитие структуры обеспечивает
+                            широкому кругу (специалистов) участие в
+                            формировании новых предложений.</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+               <div class="callback">
+                    <img src="content/img/ava4.png" alt="">
+                    <div class="callback-content">
+                        <h3>ГЛЕБ ЛЕТЯГИН</h3>
+                        <p>Задача организации, в особенности же
+                            рамки и место обучения кадров требуют
+                            от нас анализа дальнейших направлений
+                            развития. Таким образом укрепление и
+                            развитие структуры обеспечивает
+                            широкому кругу (специалистов) участие в
+                            формировании новых предложений.</p>
+                    </div>
+                </div>
+            </li>
+            
+            
+        </ul>
+        <div class="btn-card">
+            <a href="#" class="parts-button mb-1 mt-1">Все Отзывы</a>
+        </div>
+        <!-- <a class="uk-position-center-left uk-position-small uk-hidden-hover" ></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" ></a> -->
+    </div>
+    <div class="row callback-section hidden-xs">
+        <div class="container p-main">
+            <div class="wide-header">
+                <h1>Отзывы</h1>
+                <div class="hidden">
+                    <button class="nav-button left-inactive"></button>
+                    <button class="nav-button right-active"></button>
+                </div>
+            </div>
+            <div class="container d-flex-cards mt-1">
+                <div class="callback">
+                    <img src="content/img/ava1.png" alt="">
+                    <div class="callback-content">
+                        <h3>АНТОН СЕРГЕЕВИЧ</h3>
+                        <p>Задача организации, в особенности же
+                            рамки и место обучения кадров требуют
+                            от нас анализа направлений
+                            развития. Таким образом укрепление и
+                            развитие структуры обеспечивает участие в
+                            формировании новых предложений.</p>
+                    </div>
+                </div>
+                <div class="callback">
+                    <img src="content/img/ava2.png" alt="">
+                    <div class="callback-content">
+                        <h3>ПАВЕЛ ВАЛЕРЬЕВ</h3>
+                        <p>Задача организации, в особенности же
+                            рамки и место обучения кадров требуют
+                            от нас анализа дальнейших направлений
+                            развития. Таким образом укрепление и
+                            развитие структуры обеспечивает
+                            широкому кругу (специалистов) участие в
+                            формировании новых предложений.</p>
+                    </div>
+                </div>
+                <div class="callback">
+                    <img src="content/img/ava3.png" alt="">
+                    <div class="callback-content">
+                        <h3>СЕРГЕЙ СЕРЕБРЕННИКОВ</h3>
+                        <p>Задача организации, в особенности же
+                            рамки и место обучения кадров требуют
+                            от нас анализа дальнейших направлений
+                            развития. Таким образом укрепление и
+                            развитие структуры обеспечивает
+                            широкому кругу (специалистов) участие в
+                            формировании новых предложений.</p>
+                    </div>
+                </div>
+                <div class="callback">
+                    <img src="content/img/ava4.png" alt="">
+                    <div class="callback-content">
+                        <h3>ГЛЕБ ЛЕТЯГИН</h3>
+                        <p>Задача организации, в особенности же
+                            рамки и место обучения кадров требуют
+                            от нас анализа дальнейших направлений
+                            развития. Таким образом укрепление и
+                            развитие структуры обеспечивает
+                            широкому кругу (специалистов) участие в
+                            формировании новых предложений.</p>
+                    </div>
+                </div>
+                <a href="#" class="button mx-auto mt-1">Смотреть все</a>
+            </div>
+        </div>
+    </div>
+
+
+        <footer class="footer container-fluid py-2">
+            <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
+                            <div class="footer-left">
+                                <div class="copyright">
+                                    <a href="/"><img src="assets/img/small-logo.png" alt="" class="img-responsive" /></a>
+                                    <p class="copyright-p">© 2011-2019 <a href="/">Avtobusmaz.ru</a><br />
+                                        ООО "Автобусмаз" г. Москва</p>
+                                </div>
+                                <div class="exchange-rate">
+                                    <a href="#">USD = 63.79</a>
+                                    <a href="#">EUR = 71.67</a>
+                                    <p> </p>
+                                    <a href="#">Курсы валют ЦБ РФ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1 col-sm-1"></div>
+                        <div class="col-md-3 col-sm-5 col-xs-12 mb-3">
+                            <nav class="main-menu">
+                                <ul>
+                                    <li><a href="#">Главная</a></li>
+                                    <li><a href="#">О компании</a></li>
+                                    <li><a href="#">Каталог</a></li>
+                                    <li><a href="#">Цены</a></li>
+                                    <li><a href="#">Новостьи</a></li>
+                                    <li><a href="#">Статьи</a></li>
+                                    <li><a href="#">Контакты</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-md-1 col-sm-1"></div>
+                        <div class="col-md-3 col-sm-5 col-xs-12 mb-3">
+                            <div class="footer-contacts">
+                                <div class="footer-nav-phone footer-nav">
+                                    <img src="assets/img/icons/footer-icon-phone.png" alt="">
+                                    <a href="tel:+74955062174">+7 (495) 506-21-74</a><br />
+                                    <a href="tel:+79671041847">+7 (967) 104-18-47</a>
+                                </div>
+                                <div class="footer-nav-mobile footer-nav">
+                                    <img src="assets/img/icons/footer-icon-mobile.png" alt="">
+                                    <a href="tel:+74955062174">+7 (495) 506-21-74</a><br />
+                                    <a href="tel:+79671041847">+7 (967) 104-18-47</a>
+                                </div>
+                                <div class="footer-nav-email footer-nav">
+                                    <img src="assets/img/icons/footer-icon-mail.png" alt="">
+                                    <a href="mailto:info@avtobusmaz.ru">info@avtobusmaz.ru</a>
+                                </div>
+                                <div class="footer-nav-website footer-nav">
+                                    <img src="assets/img/icons/footer-icon-website.png" alt="">
+                                    <a href="http://avtobusmaz.ru/">www.avtobusmaz.ru</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+                <div id="modal-center" class="uk-flex-top" uk-modal>
+                    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+                        <h4 class="d-in-block">Корзина</h4>
+                        <a class="back-link" href="#">Вернуться к заказам</a>
+
+                            <div class="product-block">
+                                <a href="#"><img src="content/img/product1.png" alt=""></a>
+                                <a href="#" class="cart-close hidden-sm hidden-md hidden-lg">x</a>
+                                <a href="#" class="product-name">Гидромотор вентилятора
+                                    (CASAPPA)</a>
+                                <div class="calc">
+                                    <button class="minus">-</button>
+                                    <p class="product-counter inline">1</p>
+                                    <button class="plus">+</button>
+                                </div>
+                                <p class="price">57 800  ₽</p>
+                                <a href="#" class="cart-close hidden-xs">x</a>
+                            </div>
+
+                            <div class="product-block">
+                                <a href="#"><img src="content/img/product2.png" alt=""></a>
+                                <a href="#" class="cart-close hidden-sm hidden-md hidden-lg">x</a>
+                                <a href="#" class="product-name">Гидромотор</a>
+                                <div class="calc">
+                                    <button class="minus">-</button>
+                                    <p class="product-counter inline">1</p>
+                                    <button class="plus">+</button>
+                                </div>
+                                <p class="price">57 800  ₽</p>
+                                <a href="#" class="cart-close hidden-xs">x</a>
+                            </div>
+
+                            <div class="d-flex space-between">
+                                <a href="product-card.html" class="button">Оформить заказ</a>
+                                <p class="inline price final-price">Итого: 115 600 ₽</p>
+                            </div>
+
+                    </div>
+                </div>
+
+                <script src="assets/js/main.js"></script>
+
+                <div class="hidden-lg hidden-md hidden-sm">
+                    <!-- WhatsHelp.io widget -->
+                    <script type="text/javascript">
+                        (function () {
+                            var options = {
+                                whatsapp: "+905050691109", // WhatsApp number
+                                call_to_action: "Напишите нам", // Call to action
+                                position: "right", // Position may be 'right' or 'left'
+                            };
+                            var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+                            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+                            s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+                            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+                        })();
+                    </script>
+                    <!-- /WhatsHelp.io widget -->
+                </div>
+                
+    </body>
+
+    </html>

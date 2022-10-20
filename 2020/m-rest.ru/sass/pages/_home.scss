@@ -1,0 +1,1058 @@
+/* Первый Экран */
+.first-offer {
+  background-image: url(../img/home-first-bg.png);
+  width: 100%;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  padding-top: 140px;
+  padding-bottom: 140px;
+  margin-bottom: 80px;
+
+  @include laptop {
+    padding-bottom: 100px;
+  }
+
+  @include netbook {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 60px;
+    height: auto;
+  }
+
+  @include mobile {
+    padding: 30px 0;
+    margin-bottom: 40px;
+  }
+
+  &__container {
+    height: 100%;
+  }
+
+  &__block {
+  }
+
+  &__title {
+    margin-bottom: 20px;
+  }
+  &__text {
+    font-size: 18px;
+
+    @include netbook {
+      line-height: 1.25;
+    }
+  }
+  &__btn {
+    margin-top: 20px;
+
+    @include mobile {
+      font-size: 18px;
+    }
+  }
+}
+
+/* Услуги */
+.home-services {
+  margin-bottom: 80px;
+
+  @include netbook {
+    margin-bottom: 40px;
+  }
+
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &__title {
+    width: 28%;
+
+    @include laptop {
+      width: 38%;
+    }
+
+    @include netbook {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+
+    @include mobile {
+      flex-wrap: wrap;
+    }
+
+    p {
+      font-family: $font-mont;
+    }
+
+    &_slider {
+      display: flex;
+      position: relative;
+      left: -280px;
+      margin-top: 30px;
+
+      @include mobile {
+        display: none;
+      }
+
+      img {
+        border-radius: 4px;
+        margin-left: 10px;
+        object-fit: cover;
+
+        @include laptop {
+          max-width: 430px;
+          height: 430px;
+        }
+      }
+
+      @include netbook {
+        left: 0;
+
+        img {
+          height: 250px;
+        }
+      }
+    }
+  }
+
+  &__list {
+    width: 68%;
+
+    @include laptop {
+      width: 60%;
+    }
+
+    @include netbook {
+      width: 100%;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 15px;
+
+      @include laptop {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+
+      @include mobile {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      li {
+        a {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+          padding: 30px 15px;
+          background-color: $light-grey;
+          border-radius: 4px;
+          text-align: center;
+          color: black;
+          font-family: $font-mont;
+          font-weight: 500;
+          transition: 250ms ease;
+          height: 168px;
+
+          &:hover {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            background-color: $red;
+
+            span {
+              color: white;
+
+              img {
+                filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(169deg) brightness(103%) contrast(101%);
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &_title {
+      margin: 15px 0 0;
+    }
+
+    &_number {
+      color: #b1b1b1;
+      font-weight: bold;
+      font-family: $font;
+      font-size: 24px;
+
+      img {
+        filter: invert(70%) sepia(24%) saturate(8%) hue-rotate(345deg) brightness(96%) contrast(93%);
+      }
+    }
+  }
+}
+
+/* Эксперт */
+.home-expert {
+  margin-bottom: 80px;
+
+  @include netbook {
+    margin-bottom: 40px;
+  }
+
+  &__img {
+    border-radius: 6px;
+    position: relative;
+    z-index: 2;
+
+    img {
+      border-radius: 6px;
+      object-fit: cover;
+    }
+
+    @include netbook {
+      margin-top: 30px;
+    }
+
+    &_small {
+      img {
+        height: 335px;
+        object-fit: cover;
+      }
+
+      a {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+    }
+
+    &_big-laptop {
+      @include laptop {
+        img:first-child {
+          height: 430px;
+          position: relative;
+          z-index: 2;
+        }
+      }
+
+      @include mobile {
+        img:first-child {
+          height: 320px;
+        }
+      }
+    }
+
+    &_dots {
+      position: absolute;
+      right: -120px;
+      top: 120px;
+      width: 322px;
+      z-index: -1;
+
+      @include laptop {
+        width: 400px;
+        top: 30px;
+        right: -70px;
+      }
+    }
+
+    &_2 {
+      display: flex;
+      position: relative;
+      left: -440px;
+
+      @include laptop {
+        width: 500px;
+        left: -700px;
+      }
+      img {
+        margin-left: 30px;
+      }
+
+      @include netbook {
+        width: 100%;
+        left: 0;
+
+        img {
+          margin-left: 0;
+          margin-right: 30px;
+        }
+      }
+
+      &_right {
+        display: flex;
+        position: relative;
+
+        img {
+          margin-left: 30px;
+        }
+
+        @include laptop {
+          width: 500px;
+        }
+
+        @include netbook {
+          img {
+            margin-left: 0;
+            margin-right: 30px;
+          }
+        }
+
+        @include mobile {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  &__block {
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    @include netbook {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
+
+  &__content {
+    p {
+      margin-top: 25px;
+      line-height: 1.3;
+      font-weight: 500;
+    }
+  }
+
+  &__offer {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $light-grey2;
+    padding: 16px;
+    border-radius: 4px;
+
+    @include mobile {
+      flex-direction: column;
+    }
+
+    p {
+      max-width: 180px;
+      margin: 0;
+      margin-right: 25px;
+      line-height: 1.3;
+      font-weight: 500;
+
+      @include mobile {
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 15px;
+      }
+    }
+
+    &_column {
+      flex-direction: column;
+      p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 0;
+        text-align: center;
+      }
+    }
+  }
+}
+
+/* Операционный консалтинг */
+.home-operate-cons {
+  margin-bottom: 80px;
+
+  @include netbook {
+    margin-bottom: 40px;
+  }
+
+  &__img {
+    position: relative;
+    left: -90px;
+    z-index: 2;
+
+    img {
+      width: 560px;
+      height: 540px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    @include netbook {
+      left: 0;
+      margin-top: 20px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    @include mobile {
+      img {
+        height: 340px;
+      }
+    }
+
+    &_left {
+      left: 0;
+
+      @include laptop {
+        left: -260px;
+      }
+
+      @include netbook {
+        left: 0;
+      }
+    }
+  }
+  &__block {
+    padding: 45px 130px 45px 40px;
+    border-radius: 6px;
+    border: 18px solid $red;
+
+    @include mobile {
+      padding: 20px;
+      border-width: 10px;
+    }
+
+    p {
+      line-height: 1.3;
+      font-weight: 500;
+      margin-top: 20px;
+    }
+
+    &_right {
+      padding: 45px 40px 45px 80px;
+
+      @include mobile {
+        padding: 20px;
+      }
+    }
+  }
+}
+
+/* Какие проблемы мы решаем? */
+.home-problems {
+  margin-bottom: 80px;
+
+  @include netbook {
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 30px;
+
+    @include mobile {
+      font-size: 30px;
+    }
+  }
+
+  &__card {
+    padding: 15px 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    transition: 150ms ease;
+
+    &:hover {
+      background-color: $red;
+      cursor: pointer;
+      box-shadow: none;
+
+      * {
+        color: white;
+      }
+    }
+
+    &_number {
+      font-size: 60px;
+      color: $light-grey2;
+      font-family: $font-mont;
+      font-weight: bold;
+      width: 83px;
+      min-width: 83px;
+      line-height: 1.3;
+    }
+    &_text {
+      padding-right: 10px;
+      margin-left: 10px;
+      font-family: $font-mont;
+      font-weight: 500;
+      line-height: 1.3;
+
+      .red {
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+/* Дизайн проекты */
+.home-design {
+  padding-bottom: 50px;
+  margin-bottom: 80px;
+  position: relative;
+
+  @include netbook {
+    margin-bottom: 40px;
+  }
+
+  .home-title__text {
+    max-width: 550px;
+    width: 100%;
+  }
+
+  &__dots {
+    width: 332px;
+    position: absolute;
+    left: -100px;
+    bottom: -50px;
+  }
+
+  &__img {
+    display: flex;
+    position: relative;
+    z-index: 2;
+
+    img {
+      border-radius: 6px;
+      margin-right: 25px;
+      height: 422px;
+      object-fit: cover;
+    }
+
+    @include laptop {
+      width: 1000px;
+    }
+
+    @include netbook {
+      margin-top: 30px;
+    }
+
+    @include mobile {
+      width: 100%;
+
+      img {
+        height: 340px;
+      }
+    }
+  }
+}
+
+/* Комплексное проектирование */
+.home-complex {
+  margin-bottom: 120px;
+
+  @include netbook {
+    margin-bottom: 100px;
+  }
+
+  &__steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      width: 31.5%;
+      background-color: $light-grey;
+      display: flex;
+      align-items: center;
+      border-radius: 4px;
+      margin-bottom: 20px;
+      text-align: center;
+      padding: 15px;
+      font-weight: 600;
+      line-height: 1.25;
+      position: relative;
+
+      /* &::after {
+        content: "";
+        position: absolute;
+        width: 3px;
+        height: 10px;
+        background-color: #ffacac;
+      } */
+
+      &:first-child {
+        &::before {
+          content: "";
+          position: absolute;
+          display: inline-block;
+          background-image: url(../img/icons/steps.svg);
+          background-repeat: repeat;
+          width: 480px;
+          height: 8px;
+          z-index: -1;
+        }
+      }
+
+      &:nth-child(3) {
+        &::before {
+          content: "";
+          position: absolute;
+          left: 30%;
+          bottom: 0px;
+          display: inline-block;
+          background-image: url(../img/icons/steps.svg);
+          background-repeat: no-repeat;
+          transform: rotate(90deg) translateY(-50%);
+          width: 75px;
+          height: 8px;
+          z-index: -1;
+        }
+      }
+      &:nth-child(4) {
+        &::after {
+          content: "";
+          position: absolute;
+          display: inline-block;
+          background-image: url(../img/icons/steps.svg);
+          background-repeat: repeat;
+          width: 480px;
+          height: 8px;
+          z-index: -1;
+        }
+      }
+      @include mobile {
+        &:nth-child(2), &:nth-child(4) {
+          &::before {
+            content: "";
+            position: absolute;
+            left: 30%;
+            bottom: 0px;
+            display: inline-block;
+            background-image: url(../img/icons/steps.svg);
+            background-repeat: no-repeat;
+            transform: rotate(90deg) translateY(-50%);
+            width: 75px;
+            height: 8px;
+            z-index: -1;
+          }
+        }
+        &:nth-child(3) {
+          &::before {
+            display: none;
+          }
+        }
+        &:nth-child(5) {
+          &::before {
+            content: "";
+            position: absolute;
+            display: inline-block;
+            background-image: url(../img/icons/steps.svg);
+            background-repeat: repeat;
+            width: 480px;
+            height: 8px;
+            z-index: -1;
+          }
+        }
+      }
+
+      @include mobile {
+        width: 48%;
+      }
+    }
+  }
+
+  &__img {
+    @include laptop {
+      width: 550px;
+
+      position: relative;
+      left: -270px;
+    }
+
+    @include netbook {
+      left: 0;
+      width: 100%;
+      max-width: 500px;
+      margin: 30px auto 0;
+    }
+  }
+}
+
+/* Главная страница форма */
+.home-main-form {
+  margin-bottom: 80px;
+
+  @include netbook {
+    margin-bottom: 40px;
+  }
+
+  @include mobile {
+    background-color: $red;
+  }
+
+  &-title {
+    &__title {
+      text-align: center;
+      font-weight: 600;
+      font-size: 36px;
+      margin: auto;
+
+      @include laptop {
+        max-width: 600px;
+        width: 100%;
+      }
+    }
+
+    &__text {
+      text-align: center;
+      font-weight: 600;
+      font-size: 20px;
+      margin: 25px auto 70px;
+      width: 100%;
+      max-width: 730px;
+    }
+  }
+}
+
+/* Технологическое проектирование */
+.home-tech-project {
+  margin-bottom: 40px;
+  &__card {
+    &_img {
+      max-width: 138px;
+      width: 100%;
+      height: 90px;
+      object-fit: contain;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+    &_text {
+      text-align: center;
+      font-size: 20px;
+      width: 100%;
+      max-width: 300px;
+      margin: 0 auto 40px;
+      line-height: 1.3;
+    }
+  }
+}
+
+/* Грамотный Старт */
+.home-smart-start {
+  background-color: $red;
+  color: white;
+  padding: 40px 0;
+  margin-bottom: 80px;
+  position: relative;
+  z-index: 2;
+
+  @include netbook {
+    margin-bottom: 40px;
+  }
+
+  .home-title {
+    color: white;
+  }
+
+  &__title-text {
+    color: #ffc9c9;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 330px;
+
+    @include netbook {
+      max-width: 100%;
+    }
+  }
+}
+
+/* Выполенные проекты: */
+.home-finished {
+  padding: 50px 0;
+  background-color: $light-grey2;
+
+  div {
+    height: auto !important;
+  }
+
+  .home-title {
+    margin-top: 0;
+    width: 100%;
+    max-width: 500px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  &__text {
+    width: 100%;
+    max-width: 460px;
+  }
+
+  &__block {
+    padding-bottom: 60px;
+
+    @include laptop {
+      margin-top: 30px;
+    }
+
+    @include mobile {
+      padding-bottom: 150px;
+    }
+
+    &_rating {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px 0;
+      padding: 0;
+      list-style: none;
+
+      li {
+        max-width: 124px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 14px;
+        color: #9d9d9d;
+        line-height: 1.25;
+        text-align: center;
+        font-family: $font-mont;
+
+        @include mobile {
+          font-size: 13px;
+        }
+
+        .rating-red {
+          color: $red;
+          font-size: 20px;
+          font-weight: bold;
+          font-family: $font-mont;
+          margin-bottom: 6px;
+
+          @include mobile {
+            font-size: 17px;
+          }
+        }
+      }
+    }
+
+    &_btn {
+      display: flex;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+
+      @include mobile {
+        bottom: 70px;
+        width: 100%;
+      }
+
+      .home-main-btn__bordered_black {
+        color: black;
+        background-color: transparent;
+        padding: 10px 50px;
+
+        &:hover {
+          text-decoration: none;
+          color: black;
+        }
+
+        @include mobile {
+          width: 90%;
+          margin: auto;
+        }
+      }
+    }
+  }
+
+  &__dots {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0 0 0 15px;
+
+      li {
+        position: relative;
+        &::before {
+          content: "";
+          display: inline-block;
+          width: 4px;
+          height: 4px;
+          border-radius: 50%;
+          background-color: $red;
+          position: absolute;
+          top: 50%;
+          left: -15px;
+          transform: translateY(-50%);
+        }
+      }
+    }
+  }
+
+  .swiper-container-upside {
+    &__controls {
+      display: flex;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      z-index: 2;
+
+      @include mobile {
+        right: inherit;
+        /* transform: translateX(10px); */
+      }
+    }
+  }
+
+  .swiper-pagination {
+    position: absolute;
+    top: 7px;
+    width: auto;
+    height: 20px;
+    right: 0;
+    left: inherit;
+    color: $red;
+    font-size: 20px;
+    font-family: $font-mont;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+
+    @include laptop {
+      top: inherit;
+      bottom: 100px;
+    }
+
+    @include netbook {
+      display: none;
+    }
+  }
+
+  .swiper-button-red {
+    position: relative;
+    left: inherit;
+    right: inherit;
+    background-color: $red;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 8px;
+
+    &__left {
+      img {
+        transform: rotate(180deg);
+      }
+    }
+
+    @include mobile {
+      padding: 20px 60px;
+    }
+  }
+
+  .swiper-button-disabled {
+    opacity: 0.7;
+  }
+
+  .swiper-slide {
+    .home-container {
+      padding: 0;
+    }
+  }
+}
+
+/* Последние посты */
+.home-last-posts {
+  padding: 70px 0;
+
+  &__list {
+    margin: 30px 0 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+
+    li {
+      a {
+        display: block;
+        position: relative;
+        color: white;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 1.25;
+        overflow: hidden;
+
+        span {
+          position: absolute;
+          bottom: 0;
+          padding: 20px;
+          display: block;
+          z-index: 1;
+        }
+
+        &::after {
+          content: "";
+          display: block;
+          width: 100%;
+          height: 200px;
+          position: absolute;
+          bottom: -200px;
+          box-shadow: 0px 7px 137px 70px #000000;
+          transition: 250ms ease;
+        }
+
+        img {
+          height: 278px;
+          object-fit: cover;
+          transition: 250ms ease;
+          object-position: center;
+        }
+
+        &:hover {
+          img {
+            width: 110%;
+            object-position: center;
+          }
+
+          &:after {
+            box-shadow: 0px 7px 100px 120px #000000;
+          }
+        }
+
+        @include laptop {
+          font-size: 24px;
+
+          span {
+            padding: 10px;
+          }
+        }
+      }
+    }
+
+    @include netbook {
+      flex-wrap: wrap;
+
+      li {
+        width: 50%;
+      }
+    }
+
+    @include mobile {
+      li {
+        width: 100%;
+      }
+    }
+  }
+}

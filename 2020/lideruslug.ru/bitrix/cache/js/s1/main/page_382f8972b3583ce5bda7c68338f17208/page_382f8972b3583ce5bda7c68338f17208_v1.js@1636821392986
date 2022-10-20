@@ -1,0 +1,28 @@
+
+; /* Start:"a:4:{s:4:"full";s:97:"/local/templates/main/components/bitrix/catalog.section.list/services_all/script.js?1620910108592";s:6:"source";s:83:"/local/templates/main/components/bitrix/catalog.section.list/services_all/script.js";s:3:"min";s:0:"";s:3:"map";s:0:"";}"*/
+$(document).ready(function () {
+
+   //Выбираем услугу
+   $(document).on("click", ".select-service", function(){
+      let section_id = $(this).data("section-id");
+      if(section_id != "all")
+      {
+         $(".block-service").hide();
+         $(".block-service[data-section-id='"+section_id+"']").show();
+      }
+      else
+      {
+         $(".block-service").show();
+      }
+   });
+
+   //Перехода вверх списка
+   $(".select-service").on('click', function(e)
+   {
+      e.preventDefault();
+      $('html, body').animate({scrollTop:0}, '300');
+   });
+
+});
+/* End */
+;; /* /local/templates/main/components/bitrix/catalog.section.list/services_all/script.js?1620910108592*/

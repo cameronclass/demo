@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/favicon.ico">
+
+    <title>Отправка формы на почту </title>
+
+    <!-- Bootstrap core CSS -->
+
+  </head>
+
+  <body>
+
+  <form  action="mail.php" method="POST">
+            
+                   
+                            <input id="first-color" value="color1" type="radio" name="appleWatch" data-watch-id="1" checked />
+
+                  
+                     
+                            <input id="second-color" value="color2" type="radio" name="appleWatch" data-watch-id="2" />
+                             
+                      
+                            <input id="third-color" value="color3" type="radio" name="appleWatch" data-watch-id="3" />
+                             
+                      
+                            <input id="4-color" value="color4" type="radio" name="appleWatch" data-watch-id="4" />
+                            
+                        
+                            <input id="5-color" value="color5" type="radio" name="appleWatch" data-watch-id="5" />
+                             
+                        
+                            <input id="6-color" value="color6" type="radio" name="appleWatch" data-watch-id="6" />
+                            
+                        
+                            <input id="7-color" value="color7" type="radio" name="appleWatch" data-watch-id="7" />
+                            
+                      
+
+                <br /><br /><br />
+     
+           
+
+                            <input id="first-size" value="40mm" name="size" class="product-options" type="radio" data-price="-30" data-changed="false" data-connectivity-1-amount="699" data-connectivity-2-amount="749" />
+
+                      
+                    
+                            <input id="second-size" value="44mm" name="size" class="product-options" type="radio" data-case-type="44" data-price="+40" data-connectivity-1-amount="749" data-connectivity-2-amount="749" />
+
+                           
+                           
+                      </label> 
+
+
+
+                <div class="connectivity-div disabled">
+                    <h5 class="h6 sf-bold">Connectivity</h5>
+                    <p class="h5 sf-normal">GPS + Cellular</p>
+                    <hr>
+                    <br>
+                    <h5 class="h6 sf-bold">Band Size</h5>
+
+                    <ul class="size-list">
+                        <li>
+                            <input value="Regular" id="first-connectivity" name="connectivity" type="radio" />
+                            <label for="first-connectivity">
+                        <div class="row">
+                          <div class="col-12">
+                            <span class="sf-bold font-weight-bold">Regular</span>
+                            <span class="sf-normal size-detail">Band fits 145–220mm wrists.</span>
+                          </div>
+                        </div>
+                      </label>
+                        </li>
+                        <li>
+                            <input value="Extra Large" id="second-connectivity" name="connectivity" type="radio" />
+
+                            <label for="second-connectivity">
+                        <div class="row">
+                          <div class="col-12">
+                            <span class="sf-bold font-weight-bold">Extra Large</span>
+                            <span class="sf-normal size-detail">Band fits 170–245mm wrists.</span>
+                          </div>
+                        </div>
+                      </label>
+                        </li>
+                    </ul>
+
+                </div> -->
+
+                <br>
+                <div class="buy-div disabled p-4">
+
+                    <input id="first-connectivity" name="connectivity" type="radio" selected />
+                    <label for="first-connectivity">
+                        <div class="row">
+                          <div class="col-12 d-flex align-items-center h1">
+                              <span class="sf-bold">$</span><span class="connectivity-price sf-bold" data-amount="699">699</span>
+                          </div>
+                          <div class="col-12 mt-3">
+                              <a class="btn btn-buy w-100 sf-normal"  data-toggle="modal" data-target="#buy-information">Быстрый Заказ</a>
+                          </div>
+                        </div>
+                      </label>
+
+
+
+                 
+                    <div class="modal fade" id="buy-information" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content p-4">
+
+                                <div class="form-group">
+                                    <label for="name" class="sf-normal">Имя Фамилия</label>
+                                    <input name="user_name" class="form-control" id="name" type="text" class="sf-normal">
+                                </div>
+                                <div class="form-group">
+                                    <label for="name" class="sf-normal">Номер Телефона</label>
+                                    <input name="user_phone" class="form-control" id="name"  type="tel" class="sf-normal">
+                                </div>
+                                <button type="submit" class="btn btn-buy w-50 float-right">Быстрый Заказ</button>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+</form>
+
+
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
+	

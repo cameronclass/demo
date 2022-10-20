@@ -1,0 +1,56 @@
+
+; /* Start:"a:4:{s:4:"full";s:93:"/local/templates/main/components/bitrix/catalog.section.list/service/script.js?16154663441378";s:6:"source";s:78:"/local/templates/main/components/bitrix/catalog.section.list/service/script.js";s:3:"min";s:0:"";s:3:"map";s:0:"";}"*/
+$(document).ready(function (){
+
+    //Выбираем изображение для фона
+    let image_bg = $(".main-image-bg").data("image-bg");
+    if(image_bg != "")
+    {
+        $("main").css("background-image","url('"+image_bg+"')");
+    }
+
+
+    //Проверяем количество отзывов, если их нет скрываем блок
+    let count_reviews = parseInt($(".count-reviews").data("count-reviews"));
+    if(count_reviews == 0 || count_reviews == 1)
+    {
+        $("article[class='reviews']").remove();
+    }
+
+
+    //Модифицируем кнопку
+    $(".all-reviews").text("Показать еще").attr("href","javascript:void(0)");
+
+
+    //Скрываем кнопку еще, если отзывов не больше 8
+    if($(".reviews .borone").length <= 8)
+    {
+        $(".all-reviews").hide();
+    }
+
+
+    //Показываем еще отзывы по клику на кнопку
+    $(".all-reviews").on("click", function () {
+
+        let show_reviews = 4;
+        let i = 0;
+
+        $(".reviews .borone").each(function (){
+            if($(this).hasClass("d-none") && i < show_reviews)
+            {
+                $(this).removeClass("d-none");
+                i++;
+            }
+        });
+
+        if($(".reviews .borone:hidden").length == 0)
+        {
+            $(this).hide();
+        }
+    });
+
+
+
+});
+/* End */
+;; /* /local/templates/main/components/bitrix/catalog.section.list/service/script.js?16154663441378*/

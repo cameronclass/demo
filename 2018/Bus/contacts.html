@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>АвтобусМАЗ</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/uikit.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap&subset=cyrillic" rel="stylesheet" />
+    <script src="assets/js/uikit.js"></script>
+</head>
+
+<body>
+    <header>
+            <div class="hidden-xs">
+                <div class="row header">
+                    <div class="wrapper">
+                        <a href="index.html" class="hidden-sm"><img src="assets/img/large-logo.png" alt="АвтобусМАЗ" class="logo"></a>
+                        <div class="header-phone">
+                            <img src="assets/img/icons/phone.png" alt="">
+                            <a href="">(495) 506-21-74</a>
+                            <a href="">(967) 104-18-47</a>
+                        </div>
+                        <div class="header-messenger">
+                            <a href=""><img src="assets/img/icons/skype.png" alt=""> АвтобусМАЗ</a>
+                            <a href=""><img src="assets/img/icons/icq.png" alt=""> 239-874-006</a>
+                        </div>
+                        <div class="user-block">
+                            <a href="">Регистрация</a>
+                            <a href="">Вход на сайт</a>
+                            <div class="cart">
+                                <p>0 товаров</p>
+                                <p>на сумму 0 рублей</p>
+                                <a href="#modal-center" uk-toggle><img src="assets/img/icons/cart.png" alt="Корзина" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row header-image">
+                    <div class="wrapper"></div>
+                </div>
+                <div class="row header-menu-section hidden-sm">
+                    <div class="wrapper">
+                        <nav class="main-menu">
+                            <ul>
+                                <a href="index.html">
+                                    <li>Главная</li>
+                                </a>
+                                <a href="about.html">
+                                    <li>О компании</li>
+                                </a>
+                                <a href="catalog.html">
+                                    <li>Каталог</li>
+                                </a>
+                                <a href="prices.html">
+                                    <li>Цены</li>
+                                </a>
+                                <a href="news.html">
+                                    <li>Новости</li>
+                                </a>
+                                <a href="posts.html">
+                                    <li>Статьи</li>
+                                </a>
+                                <a href="contacts.html">
+                                    <li>Контакты</li>
+                                </a>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile-apple hidden-lg hidden-md">
+                <div class="window">
+                    <div class="header-mobile-menu">
+                        <div class="burger-container click-burger">
+                            <div id="burger">
+                                <div class="bar topBar"></div>
+                                <div class="bar btmBar"></div>
+                            </div>
+                        </div>
+                        <div class="icon icon-apple">
+                            <a class="navbar-brand logo" href="index.html">
+                                <img src="assets/img/large-logo.png" class="logo-mobile" alt="">
+                            </a>
+                        </div>
+                        <ul class="menu">
+                            <li class="menu-item"><a href="index.html">Главная</a></li>
+                            <li class="menu-item"><a href="about.html">О компании</a></li>
+                            <li class="menu-item"><a href="catalog.html">Каталог</a></li>
+                            <li class="menu-item"><a href="prices.html">Цены</a></li>
+                            <li class="menu-item"><a href="news.html">Новости</a></li>
+                            <li class="menu-item"><a href="posts.html">Статьи</a></li>
+                            <li class="menu-item"><a href="contacts.html">Контакты</a></li>
+                            <li class="menu-item mt-2"><a href="#" class="register">Регистрация</a></li>
+                            <li class="menu-item"><a href="#" class="register">Вход на сайт</a></li>
+                        </ul>
+                        <div class="shop icon icon-bag">
+                            <a href="#"><img src="assets/img/icons/cart.png" class="mobile-cart-icon" alt="Корзина" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid my-main-img hidden-lg hidden-md hidden-sm">
+                <a href="#"><img src="assets/img/header-image.png" class="img-responsive" alt=""></a>
+            </div>
+        </header>
+    <div class="container py-action-text">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <a href="#" class="announce">Только до 30 июня специальная цена на Гидромоторы системы охлаждения автобуса.</a>
+            </div>
+        </div>
+    </div>
+    <div class="row container part-search hidden-xs">
+        <div class="wrapper">
+            <p>Подбор по номеру запчасти:</p>
+            <input type="search" placeholder="PML00" />
+            <button class="accept-part-search"></button>
+        </div>
+    </div>
+    <!-- Mobile Search -->
+    <div class="container hidden-lg hidden-md hidden-sm p-main">
+        <p class="search-p">Подбор по номеру запчасти:</p>
+        <div>
+            <input type="search" class="search-input" placeholder="PML00" />
+            <button class="search-button"></button>
+        </div>
+    </div>
+    <div class="container mt-2">
+        <div class="row">
+            <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 p-main mb-2">
+                <div class="main-content-section">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <h4 class="d-block">Контакты</h4>
+                                <div class="d-flex-contact uk-flex-middle">
+                                    <div class="tel-icon"><img src="assets/img/icons/contacts_icon_phone.png" alt=""></div>
+                                    <div class="tel-number">
+                                        <a href="#">(495) 506-21-74</a> <br>
+                                        <a href="#">(967) 104-18-47</a> <br>
+                                        <a href="#">(967) 104-18-47 </a>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex-contact uk-flex-middle">
+                                    <div class="tel-icon"><img src="assets/img/icons/contacts_icon_mail.png" alt=""></div>
+                                    <div class="tel-number">
+                                        <a href="#">info@avtobusmaz.ru</a></td>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex-contact uk-flex-middle">
+                                    <div class="tel-icon"><img src="assets/img/icons/contacts_icon_skype.png" alt=""></div>
+                                    <div class="tel-number">
+                                        <a href="#">АвтобусМАЗ</a>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex-contact uk-flex-middle">
+                                    <div class="tel-icon"><img src="assets/img/icons/contacts_icon_icq.png" alt=""></div>
+                                    <div class="tel-number">
+                                        <a href="#">239-874-006</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-8 col-sm-6 col-xs-12">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30321.680143733967!2d37.618775865817874!3d55.60771565863036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab2473335d681%3A0xa0d131aa81284e83!2s6-th%20Radial&#39;naya%20St%2C%2017%2C%20Moskva%2C%20Russia%2C%20115404!5e0!3m2!1sen!2str!4v1573773880361!5m2!1sen!2str" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 copyright-addres">
+                                <p>Юридический адрес:<br>115597, г. Москва, ул. Ясеневая, д. 36/2</p>
+                                <p>Почтовый адрес:<br>115304, г. Москва, ул. Ереванская 26-1-157</p>
+                                <p>р/с<br>40702810502290000009</p>
+                                <p>БИК:<br>044525593</p>
+                                <p>Генеральный директор и главный бухгалтер:</p>
+                                <p>Акулич О.М. , действует на основании Устава</p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 copyright-addres">
+                                <p>Фактический адрес:<br>115597, г. Москва, ул. Ясеневая, д. 36/2</p>
+                                <p>ИНН/КПП:<br>7724908752/772401001</p>
+                                <p>ИНН/КПП:<br>7724908752/772401001</p>
+                                <p>ОГРН:<br>1147746112238</p>
+                            </div>
+                            
+                        </div>
+
+                            <h4 class="questions">Остались вопросы?</h4>
+                            <p>Вы можете отправить нам сообщение через форму обратной связи</p>
+                            <div class="post-form">
+                                <div class="row">
+                                    <div class="col-md-6 col-xs-12 mb-1">
+                                        <p>Контактное лицо: <span class="red-star">*</span> </p><input type="text" required>
+                                    </div>
+                                    <div class="col-md-6 col-xs-12 mb-1">
+                                        <p>Контактный телефон:<span class="red-star">*</span> </p><input type="tel" required>
+                                    </div>
+                                    <div class="col-md-6 col-xs-12 mb-1">
+                                        <p>Организация: </p><input type="text">
+                                    </div>
+                                    <div class="col-md-6 col-xs-12 mb-1">
+                                        <p>Email: </p><input type="email">
+                                    </div>
+
+                                </div>
+                            </div>
+                            <p>Сообщение:</p>
+                            <textarea class="post-area" type="text"></textarea>
+                            <p class="warning">Поля отмеченные <span class="red-star">*</span>, являются обязательными для заполнения</p>
+                            <p class="add-file">Прикрепить файл</p>
+                            <button class="select-file">Обзор...</button>
+                            <div class="captcha"></div>
+                            <p class="warning">Введите символ с картинки: <span class="red-star">*</span></p>
+                            <input type="text" class="captcha-input" required><br>
+                            <button class="button mt-1 mb-3" type="submit">Отправить</button>
+                     
+                    </div>
+                </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 p-main">
+                            <div class="content-nav">
+                                <h1 class="nav-header">Каталог запчастей</h1>
+                                <div class="part-catalog-nav nav-content row">
+                                    <div class="col-xs-3 col-md-4 col-sm-4 logos"><a href=""><img src="assets/img/icons/nav-brand/1.png" alt=""></a></div>
+                                    <div class="col-xs-3 col-md-4 col-sm-4 logos"><a href=""><img src="assets/img/icons/nav-brand/2.png" alt=""></a></div>
+                                    <div class="col-xs-3 col-md-4 col-sm-4 logos"><a href=""><img src="assets/img/icons/nav-brand/3.png" alt=""></a></div>
+                                    <div class="col-xs-3 col-md-4 col-sm-4 logos"><a href=""><img src="assets/img/icons/nav-brand/4.png" alt=""></a></div>
+                                    <div class="col-xs-3 col-md-4 col-sm-4 logos"><a href=""><img src="assets/img/icons/nav-brand/5.png" alt=""></a></div>
+                                    <div class="col-xs-3 col-md-4 col-sm-4 logos"><a href=""><img src="assets/img/icons/nav-brand/6.png" alt=""></a></div>
+                                    <div class="col-xs-3 col-md-4 col-sm-4 logos"><a href=""><img src="assets/img/icons/nav-brand/7.png" alt=""></a></div>
+                                    <div class="col-xs-3 col-md-4 col-sm-4 logos"><a href=""><img src="assets/img/icons/nav-brand/8.png" alt=""></a></div>
+                                    <div class="col-xs-3 col-md-4 col-sm-4 logos"><a href=""><img src="assets/img/icons/nav-brand/9.png" alt=""></a></div>
+                                    <div class="col-xs-3 col-md-4 col-sm-4 logos"><a href=""><img src="assets/img/icons/nav-brand/10.png" alt=""></a></div>
+                                    <div class="col-xs-3 col-md-4 col-sm-4 logos"><a href=""><img src="assets/img/icons/nav-brand/11.png" alt=""></a></div>
+                                    <div class="col-xs-3 col-md-4 col-sm-4 logos"><a href=""><img src="assets/img/icons/nav-brand/12.png" alt=""></a></div>
+                                    <div class="col-xs-3 col-md-4 col-sm-4 logos"><a href=""><img src="assets/img/icons/nav-brand/13.png" alt=""></a></div>
+                                    <div class="col-xs-3 col-md-4 col-sm-4 logos"><a href=""><img src="assets/img/icons/nav-brand/14.png" alt=""></a></div>
+                                    <div class="col-xs-3 col-md-4 col-sm-4 logos"><a href=""><img src="assets/img/icons/nav-brand/15.png" alt=""></a></div>
+                                    <div class="col-xs-3 col-md-4 col-sm-4 logos"><a href=""><img src="assets/img/icons/nav-brand/16.png" alt=""></a></div>
+                                    <div class="col-xs-3 col-md-4 col-sm-4 logos"><a href=""><img src="assets/img/icons/nav-brand/17.png" alt=""></a></div>
+                                    <div class="col-xs-3 col-md-4 col-sm-4 logos"><a href=""><img src="assets/img/icons/nav-brand/18.png" alt=""></a></div>
+                                </div>
+                                <h1 class="nav-header">Продажа автобусов</h1>
+                                <div class="bus-sell-nav nav-content">
+                                    <a href="#"><img src="assets/img/bus_sell.png" alt=""></a>
+                                </div>
+                                <h1 class="nav-header hidden-xs">Новости</h1>
+                                <div class="news-nav nav-content hidden-xs">
+                                    <div class="news-nav-block">
+                                        <a href="#"><img src="content/img/news1.png" alt=""></a>
+                                        <p class="news-nav-date">03.07.2019</p>
+                                        <a href="#" class="news-nav-header">Новый маршрут
+                                            электробуса запустили
+                                            в «Сколкове»</a>
+                                    </div>
+                                    <div class="news-nav-block">
+                                        <a href="#"><img src="content/img/news2.png" alt=""></a>
+                                        <p class="news-nav-date">03.07.2019</p>
+                                        <a href="#" class="news-nav-header">МАЗ В ВОРОНЕЖЕ</a>
+                                    </div>
+                                    <div class="news-nav-block">
+                                        <a href="#"><img src="content/img/news3.png" alt=""></a>
+                                        <p class="news-nav-date">03.07.2019</p>
+                                        <a href="#" class="news-nav-header">МАЗ 216 НА ФЕСТИВАЛЕ
+                                            В САНКТ-ПЕТЕРБУРГЕ</a>
+                                    </div>
+                                </div>
+                                <h1 class="nav-header">Советы специалиста</h1>
+                                <div class="master-advice-nav nav-content">
+                                    <div class="advice-nav-block">
+                                        <a href="#"><img src="content/img/advice1.png" alt=""></a>
+                                        <p class="advice-nav-date">03.07.2019</p>
+                                        <a href="#" class="advice-nav-header">Утечка масла из
+                                            турбокомпрессора:
+                                            причины и способы
+                                            устранения</a>
+                                    </div>
+                                    <div class="advice-nav-block">
+                                        <a href="#"><img src="content/img/advice2.png" alt=""></a>
+                                        <p class="advice-nav-date">03.07.2019</p>
+                                        <a href="#" class="advice-nav-header">Руководство по
+                                            обслуживанию
+                                            и применению
+                                            турбокомпрессора</a>
+                                    </div>
+                                    <div class="advice-nav-block">
+                                        <a href="#"><img src="content/img/advice3.png" alt=""></a>
+                                        <p class="advice-nav-date">03.07.2019</p>
+                                        <a href="#" class="advice-nav-header">Подбор тяг рулевых
+                                            автобусов МАЗ и ЛиАЗ</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container p-main uk-position-relative uk-visible-toggle hidden-lg hidden-md hidden-sm" tabindex="-1" uk-slider>
+                    <div class="wide-header">
+                        <h1>Новости</h1>
+                        <button class="nav-button left-active" href="#" uk-slider-item="previous"></button>
+                        <button class="nav-button right-active" href="#" uk-slider-item="next"></button>
+                    </div>
+                    <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-3@s uk-child-width-1-4@m">
+                        <li>
+                            <div class="news-nav-block">
+                                <a href="#"><img src="content/img/news1.png" alt=""></a>
+                                <p class="news-nav-date">03.07.2019</p>
+                                <a href="#" class="news-nav-header">Новый маршрут
+                                    электробуса запустили
+                                    в «Сколкове»</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="news-nav-block">
+                                        <a href="#"><img src="content/img/news2.png" alt=""></a>
+                                        <p class="news-nav-date">03.07.2019</p>
+                                        <a href="#" class="news-nav-header">МАЗ В ВОРОНЕЖЕ</a>
+                                    </div>
+                                   
+                        </li>
+                        <li>
+                             <div class="news-nav-block">
+                                        <a href="#"><img src="content/img/news3.png" alt=""></a>
+                                        <p class="news-nav-date">03.07.2019</p>
+                                        <a href="#" class="news-nav-header">МАЗ 216 НА ФЕСТИВАЛЕ
+                                            В САНКТ-ПЕТЕРБУРГЕ</a>
+                                    </div>
+                        </li>
+                        
+                    </ul>
+                    <div class="btn-card">
+                        <a href="#" class="parts-button mb-1">Все Новости</a>
+                    </div>
+                    <!-- <a class="uk-position-center-left uk-position-small uk-hidden-hover" ></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" ></a> -->
+                </div>
+
+    <footer class="footer container-fluid py-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
+                    <div class="footer-left">
+                        <div class="copyright">
+                            <a href="/"><img src="assets/img/small-logo.png" alt="" class="img-responsive" /></a>
+                            <p class="copyright-p">© 2011-2019 <a href="/">Avtobusmaz.ru</a><br />
+                                ООО "Автобусмаз" г. Москва</p>
+                        </div>
+                        <div class="exchange-rate">
+                            <a href="#">USD = 63.79</a>
+                            <a href="#">EUR = 71.67</a>
+                            <p> </p>
+                            <a href="#">Курсы валют ЦБ РФ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 col-sm-1"></div>
+                <div class="col-md-3 col-sm-5 col-xs-12 mb-3">
+                    <nav class="main-menu">
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Каталог</a></li>
+                            <li><a href="#">Цены</a></li>
+                            <li><a href="#">Новостьи</a></li>
+                            <li><a href="#">Статьи</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-1 col-sm-1"></div>
+                <div class="col-md-3 col-sm-5 col-xs-12 mb-3">
+                    <div class="footer-contacts">
+                        <div class="footer-nav-phone footer-nav">
+                            <img src="assets/img/icons/footer-icon-phone.png" alt="">
+                            <a href="tel:+74955062174">+7 (495) 506-21-74</a><br />
+                            <a href="tel:+79671041847">+7 (967) 104-18-47</a>
+                        </div>
+                        <div class="footer-nav-mobile footer-nav">
+                            <img src="assets/img/icons/footer-icon-mobile.png" alt="">
+                            <a href="tel:+74955062174">+7 (495) 506-21-74</a><br />
+                            <a href="tel:+79671041847">+7 (967) 104-18-47</a>
+                        </div>
+                        <div class="footer-nav-email footer-nav">
+                            <img src="assets/img/icons/footer-icon-mail.png" alt="">
+                            <a href="mailto:info@avtobusmaz.ru">info@avtobusmaz.ru</a>
+                        </div>
+                        <div class="footer-nav-website footer-nav">
+                            <img src="assets/img/icons/footer-icon-website.png" alt="">
+                            <a href="http://avtobusmaz.ru/">www.avtobusmaz.ru</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+
+    <div id="modal-center" class="uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+            <h4 class="d-in-block">Корзина</h4>
+            <a class="back-link" href="#">Вернуться к заказам</a>
+
+                <div class="product-block">
+                    <a href="#"><img src="content/img/product1.png" alt=""></a>
+                    <a href="#" class="cart-close hidden-sm hidden-md hidden-lg">x</a>
+                    <a href="#" class="product-name">Гидромотор вентилятора
+                        (CASAPPA)</a>
+                    <div class="calc">
+                        <button class="minus">-</button>
+                        <p class="product-counter inline">1</p>
+                        <button class="plus">+</button>
+                    </div>
+                    <p class="price">57 800  ₽</p>
+                    <a href="#" class="cart-close hidden-xs">x</a>
+                </div>
+
+                <div class="product-block">
+                    <a href="#"><img src="content/img/product2.png" alt=""></a>
+                    <a href="#" class="cart-close hidden-sm hidden-md hidden-lg">x</a>
+                    <a href="#" class="product-name">Гидромотор</a>
+                    <div class="calc">
+                        <button class="minus">-</button>
+                        <p class="product-counter inline">1</p>
+                        <button class="plus">+</button>
+                    </div>
+                    <p class="price">57 800  ₽</p>
+                    <a href="#" class="cart-close hidden-xs">x</a>
+                </div>
+
+                <div class="d-flex space-between">
+                    <a href="product-card.html" class="button">Оформить заказ</a>
+                    <p class="inline price final-price">Итого: 115 600 ₽</p>
+                </div>
+
+        </div>
+    </div>
+    
+    <div class="hidden-lg hidden-md hidden-sm">
+        <!-- WhatsHelp.io widget -->
+        <script type="text/javascript">
+        (function() {
+            var options = {
+                whatsapp: "+905050691109", // WhatsApp number
+                call_to_action: "Напишите нам", // Call to action
+                position: "right", // Position may be 'right' or 'left'
+            };
+            var proto = document.location.protocol,
+                host = "getbutton.io",
+                url = proto + "//static." + host;
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function() { WhWidgetSendButton.init(host, proto, options); };
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+        })();
+        </script>
+        <!-- /WhatsHelp.io widget -->
+    </div>
+</body>
+
+</html>
