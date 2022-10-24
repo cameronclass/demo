@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+
+    <div class="container">
+        <div class="chart" id="chart"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+    <script>
+        // Chart
+
+        let options = {
+            series: [
+                {
+                    name: 'Заводская мощность (лс)',
+                    data: [0, 27, 74, 103, 131, 147, 159, 163, 147, 0]
+                }, {
+                    name: 'Заводской крутящий момент (Нм)',
+                    data: [0, 200, 360, 396, 400, 380, 340, 316, 268, 0]
+                },
+                {
+                    name: 'Stage 1 Мощность (лс)',
+                    data: [0, 33, 93, 130, 164, 185, 199, 205, 185, 0]
+                }, {
+                    name: 'Stage 1 Крутящий момент (Нм)',
+                    data: [0, 250, 450, 495, 500, 475, 425, 395, 333, 0]
+                }
+            ],
+            chart: {
+                height: 450,
+                type: 'area'
+            },
+            dataLabels: {
+                enabled: false
+            },
+            stroke: {
+                curve: 'smooth'
+            },
+            xaxis: {
+                /* type: 'numeric', */
+            },
+            tooltip: {
+                x: {
+                    format: 'dd/MM/yy HH:mm'
+                },
+            },
+            height: 450,
+            subtitle: {
+                text: "Мощность (лс)",
+                align: 'left',
+                margin: 10,
+                offsetX: 0,
+                offsetY: 0,
+                floating: false,
+                style: {
+                    fontSize: '14px',
+                    fontWeight: 'normal',
+                    color: '#000'
+                },
+            },
+            colors: ['#0961ad', '#e5240f', "#e5240f", "#0961ad"],
+            legend: {
+                show: true,
+                fontSize: '18px',
+                fontWeight: 500,
+                height: 150,
+                fontFamily: 'Roboto',
+                markers: {
+                    width: 14,
+                    height: 14,
+                },
+                itemMargin: {
+                    horizontal: 10,
+                    vertical: 3
+                },
+
+            },
+            fill: {
+                type: 'gradient',
+
+            }
+        };
+        let chartElement = document.querySelector("#chart");
+        if (chartElement) {
+            let chart = new ApexCharts(chartElement, options);
+
+            chart.render();
+        }
+    </script>
+</body>
+</html>
