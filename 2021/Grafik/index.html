@@ -166,8 +166,9 @@
                 enabled: false
             },
             stroke: {
-                curve: 'straight',
-                dashArray: 7,
+                curve: ['straight', 'straight', 'straight', 'straight'],
+                /* curve: 'straight', */
+                dashArray: [7, 0, 7, 0],
                 width: 4,
                 lineCap: "round",
             },
@@ -220,7 +221,6 @@
             },
             fill: {
                 type: 'gradient',
-
             },
 
         };
